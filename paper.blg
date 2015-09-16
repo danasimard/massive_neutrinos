@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: abbrvnat.bst
+Database file #1: report.bib
+Warning--empty journal in planck15
+Warning--empty journal in planck15nu
+Warning--empty year in baumann
+Warning--empty year in baumann3
+Warning--empty journal in class11
+Warning--empty journal in park15
+You've used 38 entries,
+            2773 wiz_defined-function locations,
+            832 strings with 11717 characters,
+and the built_in function-call counts, 18447 in all, are:
+= -- 1599
+> -- 1209
+< -- 22
++ -- 412
+- -- 372
+* -- 1567
+:= -- 2946
+add.period$ -- 145
+call.type$ -- 38
+change.case$ -- 234
+chr.to.int$ -- 36
+cite$ -- 82
+duplicate$ -- 774
+empty$ -- 1417
+format.name$ -- 429
+if$ -- 3815
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 38
+newline$ -- 229
+num.names$ -- 152
+pop$ -- 428
+preamble$ -- 1
+purify$ -- 197
+quote$ -- 0
+skip$ -- 590
+stack$ -- 0
+substring$ -- 559
+swap$ -- 42
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 408
+warning$ -- 6
+while$ -- 142
+width$ -- 0
+write$ -- 552
+(There were 6 warnings)

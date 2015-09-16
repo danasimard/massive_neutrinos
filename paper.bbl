@@ -1,0 +1,276 @@
+\begin{thebibliography}{38}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ade et~al.(2015{\natexlab{a}})]{planck15}
+P.~A.~R. Ade et~al.
+\newblock {Planck 2015 results. XIII. Cosmological parameters}.
+\newblock 2015{\natexlab{a}}.
+
+\bibitem[Ade et~al.(2015{\natexlab{b}})]{planck15nu}
+P.~A.~R. Ade et~al.
+\newblock {Planck 2015 results. XV. Gravitational lensing}.
+\newblock 2015{\natexlab{b}}.
+
+\bibitem[Ali-Ha{\"i}moud and Bird(2012)]{yacine12}
+Y.~Ali-Ha{\"i}moud and S.~Bird.
+\newblock {An efficient implementation of massive neutrinos in non-linear
+  structure formation simulations}.
+\newblock \emph{Mon. Not. Roy. Astron. Soc.}, 428:\penalty0 3375--3389, 2012.
+\newblock \doi{10.1093/mnras/sts286}.
+
+\bibitem[Baumann({\natexlab{a}})]{baumann}
+D.~Baumann.
+\newblock Lecture notes in cosmology, {\natexlab{a}}.
+\newblock URL
+  \url{http://www.damtp.cam.ac.uk/user/db275/Cosmology/Chapter4.pdf}.
+
+\bibitem[Baumann({\natexlab{b}})]{baumann3}
+D.~Baumann.
+\newblock Lecture notes in cosmology, {\natexlab{b}}.
+\newblock URL
+  \url{http://www.damtp.cam.ac.uk/user/db275/Cosmology/Chapter3.pdf}.
+
+\bibitem[Betts et~al.(2013)]{ptolemy}
+S.~Betts et~al.
+\newblock {Development of a Relic Neutrino Detection Experiment at PTOLEMY:
+  Princeton Tritium Observatory for Light, Early-Universe, Massive-Neutrino
+  Yield}.
+\newblock In \emph{{Community Summer Study 2013: Snowmass on the Mississippi
+  (CSS2013) Minneapolis, MN, USA, July 29-August 6, 2013}}, 2013.
+\newblock URL
+  \url{http://www.slac.stanford.edu/econf/C1307292/docs/submittedArxivFiles/1307.4738.pdf}.
+
+\bibitem[Bird et~al.(2012)Bird, Viel, and Haehnelt]{bird12}
+S.~Bird, M.~Viel, and M.~G. Haehnelt.
+\newblock {Massive Neutrinos and the Non-linear Matter Power Spectrum}.
+\newblock \emph{Mon. Not. Roy. Astron. Soc.}, 420:\penalty0 2551--2561, 2012.
+\newblock \doi{10.1111/j.1365-2966.2011.20222.x}.
+
+\bibitem[Bond and Szalay(1983)]{Bond83}
+J.~R. Bond and A.~S. Szalay.
+\newblock {The Collisionless Damping of Density Fluctuations in an Expanding
+  Universe}.
+\newblock \emph{Astrophys. J.}, 274:\penalty0 443--468, 1983.
+\newblock \doi{10.1086/161460}.
+
+\bibitem[Boylan-Kolchin et~al.(2009)Boylan-Kolchin, Springel, White, Jenkins,
+  and Lemson]{msII}
+M.~Boylan-Kolchin, V.~Springel, S.~D.~M. White, A.~Jenkins, and G.~Lemson.
+\newblock {Resolving Cosmic Structure Formation with the Millennium-II
+  Simulation}.
+\newblock \emph{Mon. Not. Roy. Astron. Soc.}, 398:\penalty0 1150, 2009.
+\newblock \doi{10.1111/j.1365-2966.2009.15191.x}.
+
+\bibitem[Brandbyge and Hannestad(2009)]{brandbyge08}
+J.~Brandbyge and S.~Hannestad.
+\newblock {Grid Based Linear Neutrino Perturbations in Cosmological N-body
+  Simulations}.
+\newblock \emph{JCAP}, 0905:\penalty0 002, 2009.
+\newblock \doi{10.1088/1475-7516/2009/05/002}.
+
+\bibitem[Brandbyge and Hannestad(2010)]{brandbyge09}
+J.~Brandbyge and S.~Hannestad.
+\newblock {Resolving Cosmic Neutrino Structure: A Hybrid Neutrino N-body
+  Scheme}.
+\newblock \emph{JCAP}, 1001:\penalty0 021, 2010.
+\newblock \doi{10.1088/1475-7516/2010/01/021}.
+
+\bibitem[Brandbyge et~al.(2008)Brandbyge, Hannestad, Haugbolle, and
+  Thomsen]{brandbyge082}
+J.~Brandbyge, S.~Hannestad, T.~Haugbolle, and B.~Thomsen.
+\newblock {The Effect of Thermal Neutrino Motion on the Non-linear Cosmological
+  Matter Power Spectrum}.
+\newblock \emph{JCAP}, 0808:\penalty0 020, 2008.
+\newblock \doi{10.1088/1475-7516/2008/08/020}.
+
+\bibitem[Guzowski(2015)]{guzowski15}
+P.~Guzowski.
+\newblock {A Combined Limit for Neutrinoless Double-Beta Decay}.
+\newblock In \emph{{Topical Research Meeting on Prospects in Neutrino Physics
+  (NuPhys2014) London, UK, United Kingdom, December 15-17, 2014}}, 2015.
+\newblock URL
+  \url{http://inspirehep.net/record/1365552/files/arXiv:1504.08285.pdf}.
+
+\bibitem[Harnois-D\'eraps et~al.(2013)Harnois-D\'eraps, Pen, Iliev, Merz,
+  Emberson, and Desjacques]{harnois12}
+J.~Harnois-D\'eraps, U.-L. Pen, I.~T. Iliev, H.~Merz, J.~D. Emberson, and
+  V.~Desjacques.
+\newblock {High Performance P3M N-body code: CUBEP3M}.
+\newblock \emph{Mon. Not. Roy. Astron. Soc.}, 436:\penalty0 540, 2013.
+\newblock \doi{10.1093/mnras/stt1591}.
+
+\bibitem[Holtzman(1989)]{Holtzman89}
+J.~A. Holtzman.
+\newblock {Microwave background anisotropies and large scale structure in
+  universes with cold dark matter, baryons, radiation, and massive and massless
+  neutrinos}.
+\newblock \emph{Astrophys. J. Suppl.}, 71:\penalty0 1--24, 1989.
+\newblock \doi{10.1086/191362}.
+
+\bibitem[Iliev et~al.(2014)Iliev, Mellema, Ahn, Shapiro, Mao, and Pen]{iliev14}
+I.~T. Iliev, G.~Mellema, K.~Ahn, P.~R. Shapiro, Y.~Mao, and U.-L. Pen.
+\newblock {Simulating cosmic reionization: How large a volume is large enough?}
+\newblock \emph{Mon. Not. Roy. Astron. Soc.}, 439\penalty0 (1):\penalty0
+  725--743, 2014.
+\newblock \doi{10.1093/mnras/stt2497}.
+
+\bibitem[Inman et~al.(2015)Inman, Emberson, Pen, Farchi, Yu, and
+  Harnois-D\'eraps]{inman15}
+D.~Inman, J.~Emberson, U.-L. Pen, A.~Farchi, H.-R. Yu, and J.~Harnois-D\'eraps.
+\newblock {Precision reconstruction of the cold dark matter-neutrino relative
+  velocity from $N$-body simulations}.
+\newblock \emph{Phys. Rev.}, D92\penalty0 (2):\penalty0 023502, 2015.
+\newblock \doi{10.1103/PhysRevD.92.023502}.
+
+\bibitem[Lesgourgues(2011)]{class11}
+J.~Lesgourgues.
+\newblock {The Cosmic Linear Anisotropy Solving System (CLASS) I: Overview}.
+\newblock 2011.
+
+\bibitem[Lesgourgues and Pastor(2006)]{lesgourgues06}
+J.~Lesgourgues and S.~Pastor.
+\newblock {Massive neutrinos and cosmology}.
+\newblock \emph{Phys. Rept.}, 429:\penalty0 307--379, 2006.
+\newblock \doi{10.1016/j.physrep.2006.04.001}.
+
+\bibitem[Lesgourgues and Tram(2011)]{lesgourgues11}
+J.~Lesgourgues and T.~Tram.
+\newblock {The Cosmic Linear Anisotropy Solving System (CLASS) IV: efficient
+  implementation of non-cold relics}.
+\newblock \emph{JCAP}, 1109:\penalty0 032, 2011.
+\newblock \doi{10.1088/1475-7516/2011/09/032}.
+
+\bibitem[Lewis(2013)]{lewis13}
+A.~Lewis.
+\newblock {Efficient sampling of fast and slow cosmological parameters}.
+\newblock \emph{Phys. Rev.}, D87\penalty0 (10):\penalty0 103529, 2013.
+\newblock \doi{10.1103/PhysRevD.87.103529}.
+
+\bibitem[Lewis et~al.(2000)Lewis, Challinor, and Lasenby]{lewis99}
+A.~Lewis, A.~Challinor, and A.~Lasenby.
+\newblock {Efficient computation of CMB anisotropies in closed FRW models}.
+\newblock \emph{Astrophys. J.}, 538:\penalty0 473--476, 2000.
+\newblock \doi{10.1086/309179}.
+
+\bibitem[Loken et~al.(2010)Loken, Gruner, Groer, Peltier, Bunn, Craig,
+  Henriques, Dempsey, Yu, Chen, Dursi, Chong, Northrup, Pinto, Knecht, and
+  Zon]{GPC}
+C.~Loken, D.~Gruner, L.~Groer, R.~Peltier, N.~Bunn, M.~Craig, T.~Henriques,
+  J.~Dempsey, C.-H. Yu, J.~Chen, L.~J. Dursi, J.~Chong, S.~Northrup, J.~Pinto,
+  N.~Knecht, and R.~V. Zon.
+\newblock Scinet: Lessons learned from building a power-efficient top-20 system
+  and data centre.
+\newblock \emph{Journal of Physics: Conference Series}, 256\penalty0
+  (1):\penalty0 012026, 2010.
+\newblock URL \url{http://stacks.iop.org/1742-6596/256/i=1/a=012026}.
+
+\bibitem[Majumdar et~al.(2014)Majumdar, Mellema, Datta, Jensen, Choudhury,
+  Bharadwaj, and Friedrich]{majumdar14}
+S.~Majumdar, G.~Mellema, K.~K. Datta, H.~Jensen, T.~R. Choudhury, S.~Bharadwaj,
+  and M.~M. Friedrich.
+\newblock {On the use of seminumerical simulations in predicting the 21-cm
+  signal from the epoch of reionization}.
+\newblock \emph{Mon. Not. Roy. Astron. Soc.}, 443\penalty0 (4):\penalty0
+  2843--2861, 2014.
+\newblock \doi{10.1093/mnras/stu1342}.
+
+\bibitem[Mangano et~al.(2005)Mangano, Miele, Pastor, Pinto, Pisanti, and
+  Serpico]{Mangano05}
+G.~Mangano, G.~Miele, S.~Pastor, T.~Pinto, O.~Pisanti, and P.~D. Serpico.
+\newblock {Relic neutrino decoupling including flavor oscillations}.
+\newblock \emph{Nucl. Phys.}, B729:\penalty0 221--234, 2005.
+\newblock \doi{10.1016/j.nuclphysb.2005.09.041}.
+
+\bibitem[Merz et~al.(2005)Merz, Pen, and Trac]{merz05}
+H.~Merz, U.-L. Pen, and H.~Trac.
+\newblock {Towards optimal parallel PM N-body codes: PMFAST}.
+\newblock \emph{New Astron.}, 10:\penalty0 393--407, 2005.
+\newblock \doi{10.1016/j.newast.2005.02.001}.
+
+\bibitem[Park et~al.(2013)Park, Shapiro, Komatsu, Iliev, Ahn, and
+  Mellema]{park13}
+H.~Park, P.~R. Shapiro, E.~Komatsu, I.~T. Iliev, K.~Ahn, and G.~Mellema.
+\newblock {The Kinetic Sunyaev-Zel'dovich effect as a probe of the physics of
+  cosmic reionization: the effect of self-regulated reionization}.
+\newblock \emph{Astrophys. J.}, 769:\penalty0 93, 2013.
+\newblock \doi{10.1088/0004-637X/769/2/93}.
+
+\bibitem[Park et~al.(2015)Park, Komatsu, Shapiro, Koda, and Mao]{park15}
+H.~Park, E.~Komatsu, P.~R. Shapiro, J.~Koda, and Y.~Mao.
+\newblock {The Impact of Nonlinear Structure Formation on the Power Spectrum of
+  Transverse Momentum Fluctuations and the Kinetic Sunyaev-Zel'dovich Effect}.
+\newblock 2015.
+
+\bibitem[Peebles(1993)]{peebles}
+P.~Peebles.
+\newblock \emph{Principles of Physical Cosmology}, chapter~5.
+\newblock Princeton University Press, 1993.
+
+\bibitem[Pen et~al.(1994)Pen, Spergel, and Turok]{pen94}
+U.-L. Pen, D.~N. Spergel, and N.~Turok.
+\newblock {Cosmic structure formation and microwave anisotropies from global
+  field ordering}.
+\newblock \emph{Phys. Rev.}, D49:\penalty0 692--729, 1994.
+\newblock \doi{10.1103/PhysRevD.49.692}.
+
+\bibitem[Pen et~al.(1997)Pen, Seljak, and Turok]{pen97}
+U.-L. Pen, U.~Seljak, and N.~Turok.
+\newblock {Power spectra in global defect theories of cosmic structure
+  formation}.
+\newblock \emph{Phys. Rev. Lett.}, 79:\penalty0 1611--1614, 1997.
+\newblock \doi{10.1103/PhysRevLett.79.1611}.
+
+\bibitem[Press and Schechter(1974)]{press74}
+W.~H. Press and P.~Schechter.
+\newblock {Formation of galaxies and clusters of galaxies by selfsimilar
+  gravitational condensation}.
+\newblock \emph{Astrophys. J.}, 187:\penalty0 425--438, 1974.
+\newblock \doi{10.1086/152650}.
+
+\bibitem[Riemer-S{\o}rensen et~al.(2014)Riemer-S{\o}rensen, Parkinson, and
+  Davis]{wigglez}
+S.~Riemer-S{\o}rensen, D.~Parkinson, and T.~M. Davis.
+\newblock {Combining Planck data with large scale structure information gives a
+  strong neutrino mass constraint}.
+\newblock \emph{Phys. Rev.}, D89:\penalty0 103505, 2014.
+\newblock \doi{10.1103/PhysRevD.89.103505}.
+
+\bibitem[Schneider(2015)]{schneider}
+P.~Schneider.
+\newblock \emph{Extragalactic Astronomy and Cosmology: An Introduction},
+  chapter~7.
+\newblock Springer, 2nd edition, 2015.
+
+\bibitem[Schwetz et~al.(2011)Schwetz, Tortola, and Valle]{schwetz11}
+T.~Schwetz, M.~Tortola, and J.~W.~F. Valle.
+\newblock {Global neutrino data and recent reactor fluxes: status of
+  three-flavour oscillation parameters}.
+\newblock \emph{New J. Phys.}, 13:\penalty0 063004, 2011.
+\newblock \doi{10.1088/1367-2630/13/6/063004}.
+
+\bibitem[Shoji and Komatsu(2010)]{shoji10}
+M.~Shoji and E.~Komatsu.
+\newblock {Massive Neutrinos in Cosmology: Analytic Solutions and Fluid
+  Approximation}.
+\newblock \emph{Phys. Rev.}, D81:\penalty0 123516, 2010.
+\newblock \doi{10.1103/PhysRevD.81.123516, 10.1103/PhysRevD.82.089901}.
+\newblock [Erratum: Phys. Rev.D82,089901(2010)].
+
+\bibitem[Takahashi et~al.(2012)Takahashi, Sato, Nishimichi, Taruya, and
+  Oguri]{takahashi12}
+R.~Takahashi, M.~Sato, T.~Nishimichi, A.~Taruya, and M.~Oguri.
+\newblock {Revising the Halofit Model for the Nonlinear Matter Power Spectrum}.
+\newblock \emph{Astrophys. J.}, 761:\penalty0 152, 2012.
+\newblock \doi{10.1088/0004-637X/761/2/152}.
+
+\bibitem[Wong(2011)]{wong11}
+Y.~Y.~Y. Wong.
+\newblock {Neutrino mass in cosmology: status and prospects}.
+\newblock \emph{Ann. Rev. Nucl. Part. Sci.}, 61:\penalty0 69--98, 2011.
+\newblock \doi{10.1146/annurev-nucl-102010-130252}.
+
+\end{thebibliography}

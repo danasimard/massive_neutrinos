@@ -1,0 +1,31 @@
+\select@language {english}
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{3}{}
+\contentsline {section}{\numberline {II}Theory}{4}{}
+\contentsline {subsection}{\numberline {A} Fluid approximation of cold dark matter }{4}{}
+\contentsline {subsection}{\numberline {B} Fluid approximation of massive neutrinos }{4}{}
+\contentsline {subsection}{\numberline {C}The fluid equations}{6}{}
+\contentsline {section}{\numberline {III}Methods}{8}{}
+\contentsline {subsection}{\numberline {A}Numerical simulations}{8}{}
+\contentsline {subsection}{\numberline {B}Unequal-time correlation coefficients}{10}{}
+\contentsline {section}{\numberline {IV}Simulation Results}{12}{}
+\contentsline {section}{\numberline {V}Density Power}{13}{}
+\contentsline {subsection}{\numberline {A} Cold dark matter }{14}{}
+\contentsline {subsection}{\numberline {B} Massive neutrinos }{14}{}
+\contentsline {subsection}{\numberline {C} The matter dominated regime}{15}{}
+\contentsline {subsubsection}{\numberline {1}Cold dark matter}{16}{}
+\contentsline {subsubsection}{\numberline {2}Massive neutrinos}{16}{}
+\contentsline {subsection}{\numberline {D} Density power results}{17}{}
+\contentsline {section}{\numberline {VI}Velocity Power}{18}{}
+\contentsline {subsection}{\numberline {A} Cold dark matter }{19}{}
+\contentsline {subsection}{\numberline {B} Massive neutrinos }{20}{}
+\contentsline {subsection}{\numberline {C} Velocity divergence results }{21}{}
+\contentsline {section}{\numberline {VII} Including Non-linearities in the Fluid Equations}{21}{}
+\contentsline {section}{\numberline {VIII}Conclusions and Future Work}{24}{}
+\contentsline {section}{\numberline {} Acknowledgments }{24}{}
+\contentsline {section}{\numberline {}References}{24}{}
+\appendix 
+\contentsline {section}{\numberline {A}Relating the Neutrino and Photon Temperatures}{26}{}
+\contentsline {section}{\numberline {B}Neutrino Velocity Dispersion}{27}{}
