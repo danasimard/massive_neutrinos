@@ -1,116 +1,73 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 SEP 2015 12:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  16 SEP 2015 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **\input paper.tex
-(./paper.tex (/usr/local/texlive/2012/texmf-dist/tex/latex/aastex/aastex.cls
-Document Class: aastex 2005/06/22 5.2/AAS markup document class
-Class aastex Info: Original \LaTeX2.09 style by Chris Biemesderfer (chris@seago
-at.com). Adapted to \LaTeXe by A. Ogawa (ogawa@teleport.com) on input line 83.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(./paper.tex (/usr/local/texlive/2012/texmf-dist/tex/latex/revtex4/revtex4.cls
+Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
+\@topmark@saved=\toks15
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen102
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latexsym.sty
-Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\c@figure=\count90
+\c@table=\count91
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
-))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\@emptytoks=\toks15
-\symAMSa=\mathgroup5
-\symAMSb=\mathgroup6
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
-))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count88
+\c@NAT@ctr=\count92
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks16
-\verbatim@line=\toks17
-\verbatim@in@stream=\read1
+\widetext@top=\box32
+\widetext@bot=\box33
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex4/revsymb.sty
+Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex4/aps.rtx
+File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
 )
-\@slugcmmntwidth=\dimen105
-\abstract@box=\box26
-\c@editornote=\count89
-\c@cureqno=\count90
-\tnotemarkskip=\skip45
-\@abovenoteskip=\dimen106
-\pt@box=\box27
-\pt@width=\dimen107
-\pt@line=\count91
-\pt@column=\count92
-\pt@nlines=\count93
-\pt@ncol=\count94
-\pt@page=\count95
-\tabbaseskip=\dimen108
-\pt@tmpcapwidth=\dimen109
-\spew@tblnotesbox=\box28
-\restof@tblnotesbox=\box29
-\noteheight=\dimen110
-\pt@tabnoteminht=\dimen111
-\firsttabskip=\dimen112
-\captionbox=\box30
-\pt@reduceline=\dimen113
-\extra@vspace=\dimen114
-\c@plate=\count96
-\my@footins=\box31
+(/usr/local/texlive/2012/texmf-dist/tex/latex/revtex4/10pt.rtx
+File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
@@ -120,17 +77,21 @@ Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count97
+\et@xins=\count93
 )
-\etb@tempcnta=\count98
+\etb@tempcnta=\count94
 )
-\csq@reset=\count99
-\csq@gtype=\count100
-\csq@glevel=\count101
-\csq@qlevel=\count102
-\csq@maxlvl=\count103
-\csq@tshold=\count104
-\csq@ltx@everypar=\toks18
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\csq@reset=\count95
+\csq@gtype=\count96
+\csq@glevel=\count97
+\csq@qlevel=\count98
+\csq@maxlvl=\count99
+\csq@tshold=\count100
+\csq@ltx@everypar=\toks17
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
@@ -147,12 +108,18 @@ Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
@@ -184,18 +151,12 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package epstopdf Warning: No graphics package `graphic{s,x}' loaded.
+
+)) (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip46
+\@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -203,88 +164,137 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks19
-\ex@=\dimen115
+\@emptytoks=\toks18
+\ex@=\dimen102
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen116
+\pmbraise@=\dimen103
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count105
+\inf@bad=\count101
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count106
-\leftroot@=\count107
+\uproot@=\count102
+\leftroot@=\count103
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count108
-\DOTSCASE@=\count109
+\classnum@=\count104
+\DOTSCASE@=\count105
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box32
-\strutbox@=\box33
-\big@size=\dimen117
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen104
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count110
-\c@MaxMatrixCols=\count111
-\dotsspace@=\muskip10
-\c@parentequation=\count112
-\dspbrk@lvl=\count113
-\tag@help=\toks20
-\row@=\count114
-\column@=\count115
-\maxfields@=\count116
-\andhelp@=\toks21
-\eqnshift@=\dimen118
-\alignsep@=\dimen119
-\tagshift@=\dimen120
-\tagwidth@=\dimen121
-\totwidth@=\dimen122
-\lineht@=\dimen123
-\@envbody=\toks22
-\multlinegap=\skip47
-\multlinetaggap=\skip48
-\mathdisplay@stack=\toks23
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
+\dotsspace@=\muskip11
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks19
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks20
+\eqnshift@=\dimen105
+\alignsep@=\dimen106
+\tagshift@=\dimen107
+\tagwidth@=\dimen108
+\totwidth@=\dimen109
+\lineht@=\dimen110
+\@envbody=\toks21
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen111
+\captionmargin@=\dimen112
+\captionwidth=\dimen113
+\caption@indent=\dimen114
+\caption@parindent=\dimen115
+\caption@hangindent=\dimen116
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+\c@KVtest=\count113
+\sf@farskip=\skip48
+\sf@captopadj=\dimen117
+\sf@capskip=\skip49
+\sf@nearskip=\skip50
+\c@subfigure=\count114
+\c@subfigure@save=\count115
+\c@lofdepth=\count116
+\c@subtable=\count117
+\c@subtable@save=\count118
+\c@lotdepth=\count119
+\sf@top=\skip51
+\sf@bottom=\skip52
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen124
+\bigstrutjot=\dimen118
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen125
-\lightrulewidth=\dimen126
-\cmidrulewidth=\dimen127
-\belowrulesep=\dimen128
-\belowbottomsep=\dimen129
-\aboverulesep=\dimen130
-\abovetopsep=\dimen131
-\cmidrulesep=\dimen132
-\cmidrulekern=\dimen133
-\defaultaddspace=\dimen134
-\@cmidla=\count117
-\@cmidlb=\count118
-\@aboverulesep=\dimen135
-\@belowrulesep=\dimen136
-\@thisruleclass=\count119
-\@lastruleclass=\count120
-\@thisrulewidth=\dimen137
+\heavyrulewidth=\dimen119
+\lightrulewidth=\dimen120
+\cmidrulewidth=\dimen121
+\belowrulesep=\dimen122
+\belowbottomsep=\dimen123
+\aboverulesep=\dimen124
+\abovetopsep=\dimen125
+\cmidrulesep=\dimen126
+\cmidrulekern=\dimen127
+\defaultaddspace=\dimen128
+\@cmidla=\count120
+\@cmidlb=\count121
+\@aboverulesep=\dimen129
+\@belowrulesep=\dimen130
+\@thisruleclass=\count122
+\@lastruleclass=\count123
+\@thisrulewidth=\dimen131
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count124
+))
+\Gin@req@height=\dimen132
+\Gin@req@width=\dimen133
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count121
-\rotFPtop=\skip49
-\rotFPbot=\skip50
-\rot@float@box=\box34
-\rot@mess@toks=\toks24
+\c@r@tfl@t=\count125
+\rotFPtop=\skip53
+\rotFPbot=\skip54
+\rot@float@box=\box36
+\rot@mess@toks=\toks23
 )
 (/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
@@ -294,195 +304,31 @@ Language: english 2005/03/30 v3.3o English support from the babel system
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2008/07/08 v3.8m Babel common definitions
-\babel@savecnt=\count122
-\U@D=\dimen138
+\babel@savecnt=\count126
+\U@D=\dimen134
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen139
-\WF@size=\dimen140
-\c@WF@wrappedlines=\count123
-\WF@box=\box35
-\WF@everypar=\toks25
+\wrapoverhang=\dimen135
+\WF@size=\dimen136
+\c@WF@wrappedlines=\count127
+\WF@box=\box37
+\WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-
-
-! LaTeX Error: Command \singlespace already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \doublespace already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.546 }
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/framed/framed.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip51
-\fb@frw=\dimen141
-\fb@frh=\dimen142
-\FrameRule=\dimen143
-\FrameSep=\dimen144
+\OuterFrameSep=\skip55
+\fb@frw=\dimen137
+\fb@frh=\dimen138
+\FrameRule=\dimen139
+\FrameSep=\dimen140
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-(./apjfonts.sty
-Package: apjfonts 1995/08/16{} Times + math package
- (/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-\symcmoperators=\mathgroup7
-\symcmitoperators=\mathgroup8
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 358.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ptm/m/n on input line 358.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/m/n on input line 358.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 358.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 358.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 358.
-\symptmletters=\mathgroup9
-\symcmletters=\mathgroup10
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 358.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/cmsy/m/n on input line 358.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/cmsy/m/n on input line 358.
-\symptmsymbols=\mathgroup11
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 358.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 358.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 358.
-\symbold=\mathgroup12
-\symitalic=\mathgroup13
-LaTeX Font Info:    Overwriting symbol font `cmoperators' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/b/n on input line 358.
-LaTeX Font Info:    Overwriting symbol font `cmitoperators' in version `bold'
-(Font)                  OT1/cmr/m/it --> OT1/cmr/bx/it on input line 358.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/ptm/m/n --> OT1/ptm/bx/n on input line 358.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/ptmcm/m/it --> OML/ptmCM/b/it on input line 358.
-LaTeX Font Info:    Overwriting symbol font `ptmletters' in version `bold'
-(Font)                  OML/ptmcm/m/it --> OML/ptmCM/b/it on input line 358.
-LaTeX Font Info:    Overwriting symbol font `cmletters' in version `bold'
-(Font)                  OML/cmm/m/it --> OML/cmm/b/it on input line 358.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/m/n --> OMS/cmsy/b/n on input line 358.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 358.
-LaTeX Font Info:    Overwriting symbol font `bold' in version `bold'
-(Font)                  OT1/ptm/bx/n --> OT1/ptm/bx/n on input line 358.
-LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
-(Font)                  OT1/ptm/m/it --> OT1/ptm/b/it on input line 358.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 358.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 358.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 358.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 358.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 358.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \alpha on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \beta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \gamma on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \delta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \epsilon on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \zeta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \eta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \theta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \iota on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \kappa on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \lambda on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \mu on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \nu on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \xi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \pi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \rho on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \sigma on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \tau on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \upsilon on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \phi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \chi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \psi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \omega on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varepsilon on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \vartheta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varrho on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varphi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \partial on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \ell on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \ell on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varGamma on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varDelta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varTheta on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varLambda on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varXi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varPi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varSigma on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varUpsilon on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varPhi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varPsi on input line 358.
-LaTeX Font Info:    Redeclaring math symbol \varOmega on input line 358.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 358.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 358.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 358.
-LaTeX Font Info:    Redeclaring math accent \check on input line 358.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 358.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 358.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 358.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 358.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 358.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -495,1053 +341,359 @@ LaTeX Warning: Label `eqn:euler3' multiply defined.
 )
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 170.
- (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)
-(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+Class revtex4 Info: Patching LaTeX tabular. on input line 173.
+Class revtex4 Info: cite was not loaded (OK!) on input line 173.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 173.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count124
-\scratchdimen=\dimen145
-\scratchbox=\box36
-\nofMPsegments=\count125
-\nofMParguments=\count126
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count127
-\MPscratchDim=\dimen146
-\MPnumerator=\count128
-\makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks27
-)
-AAS manuscript substyle, v5.2 <12 Dec 2003>.
-! Undefined control sequence.
-l.176 \affiliation
-                  {Canadian Institute for Theoretical Astrophysics, Universi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 176.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 176.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 17
-6.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlptmcm.fd
-File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
-)
-LaTeX Font Info:    Try loading font information for U+lasy on input line 176.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 176.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 176.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+psy on input line 176.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/upsy.fd
-File: upsy.fd 2001/06/04 font definitions for U/psy.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 176.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 176.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 176.
- [1
-
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-! Undefined control sequence.
-l.178 \affiliation
-                  {Department of Astronomy and Astrophysics, University of
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.183 \affiliation
-                  {Canadian Institute for Theoretical Astrophysics, Universi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.188 \affiliation
-                  { Canadian Institute for Theoretical Astrophysics, Univers...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 240.
-[2
-
-] [3] [4] [5] [6] [7] [8] [9] [10] [11]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no ˆ in font ptmr7t!
-Missing character: There is no ’ in font ptmr7t!
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1123.
- [12] [13] [14] [15]
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1394   \begin{subfigure}
-                          [t]{0.495\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.1394   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.1394   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/density_cdm.eps>
-(epstopdf)                    date: 2015-08-19 23:40:24
-(epstopdf)                    size: 56800 bytes
-(epstopdf)             Output file: <Figures/density_cdm-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-19 23:52:07
-(epstopdf)                    size: 18747 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/density_cdm-eps-co
-nverted-to.pdf Figures/density_cdm.eps>
-(epstopdf)             \includegraphics on input line 1395.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/density_cdm-eps-converted-to.pdf, id=65, 500.87125pt x 382.42876pt>
-File: Figures/density_cdm-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/density_cdm-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/density_cdm-eps-converted-to.pdf used on input
- line 1395.
-(pdftex.def)             Requested size: 469.75499pt x 358.68362pt.
-
-
-! LaTeX Error: \begin{figure*} on input line 1392 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1397   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1398   \begin{subfigure}
-                          [t]{0.495\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.1398   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.1398   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/density_nu.eps>
-(epstopdf)                    date: 2015-08-22 14:54:59
-(epstopdf)                    size: 52572 bytes
-(epstopdf)             Output file: <Figures/density_nu-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-09-15 11:46:41
-(epstopdf)                    size: 17875 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/density_nu-eps-con
-verted-to.pdf Figures/density_nu.eps>
-(epstopdf)             \includegraphics on input line 1400.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/density_nu-eps-converted-to.pdf, id=66, 706.64pt x 378.41376pt>
-File: Figures/density_nu-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/density_nu-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/density_nu-eps-converted-to.pdf used on input 
-line 1400.
-(pdftex.def)             Requested size: 469.75499pt x 251.56114pt.
-
-
-! LaTeX Error: \begin{figure*} on input line 1392 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1402   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Float too large for page by 240.66277pt on input line 1438.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16]
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1498   \begin{subfigure}
-                          [t]{0.495\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.1498   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.1498   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/vel_cdm.eps>
-(epstopdf)                    date: 2015-08-19 23:37:49
-(epstopdf)                    size: 75569 bytes
-(epstopdf)             Output file: <Figures/vel_cdm-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-19 23:39:01
-(epstopdf)                    size: 26830 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/vel_cdm-eps-conver
-ted-to.pdf Figures/vel_cdm.eps>
-(epstopdf)             \includegraphics on input line 1499.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/vel_cdm-eps-converted-to.pdf, id=70, 520.94624pt x 382.42876pt>
-File: Figures/vel_cdm-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/vel_cdm-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/vel_cdm-eps-converted-to.pdf used on input lin
-e 1499.
-(pdftex.def)             Requested size: 469.75499pt x 344.85376pt.
-
-
-! LaTeX Error: \begin{figure*} on input line 1496 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1501   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1502   \begin{subfigure}
-                          [t]{0.495\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.1502   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.1502   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/vel_nu.eps>
-(epstopdf)                    date: 2015-08-19 23:38:30
-(epstopdf)                    size: 66761 bytes
-(epstopdf)             Output file: <Figures/vel_nu-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-19 23:39:02
-(epstopdf)                    size: 23366 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/vel_nu-eps-convert
-ed-to.pdf Figures/vel_nu.eps>
-(epstopdf)             \includegraphics on input line 1504.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/vel_nu-eps-converted-to.pdf, id=71, 520.94624pt x 382.42876pt>
-File: Figures/vel_nu-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/vel_nu-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/vel_nu-eps-converted-to.pdf used on input line
- 1504.
-(pdftex.def)             Requested size: 469.75499pt x 344.85376pt.
-
-
-! LaTeX Error: \begin{figure*} on input line 1496 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1506   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Float too large for page by 276.62552pt on input line 1534.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1570   \begin{subfigure}
-                          [t]{0.495\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.1570   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.1570   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/correlators9_k0p1.eps>
-(epstopdf)                    date: 2015-08-10 13:44:18
-(epstopdf)                    size: 83495 bytes
-(epstopdf)             Output file: <Figures/correlators9_k0p1-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2015-08-10 13:45:25
-(epstopdf)                    size: 15866 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/correlators9_k0p1-
-eps-converted-to.pdf Figures/correlators9_k0p1.eps>
-(epstopdf)             \includegraphics on input line 1572.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/correlators9_k0p1-eps-converted-to.pdf, id=72, 433.62pt x 289.08pt>
-File: Figures/correlators9_k0p1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/correlators9_k0p1-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/correlators9_k0p1-eps-converted-to.pdf used on
- input line 1572.
-(pdftex.def)             Requested size: 469.75499pt x 313.1854pt.
-
-
-! LaTeX Error: \begin{figure*} on input line 1568 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1575   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1576   \begin{subfigure}
-                          [t]{0.495\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.1576   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.1576   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/correlators9_k1.eps>
-(epstopdf)                    date: 2015-08-23 11:31:26
-(epstopdf)                    size: 81954 bytes
-(epstopdf)             Output file: <Figures/correlators9_k1-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-09-15 11:46:42
-(epstopdf)                    size: 15773 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/correlators9_k1-ep
-s-converted-to.pdf Figures/correlators9_k1.eps>
-(epstopdf)             \includegraphics on input line 1578.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/correlators9_k1-eps-converted-to.pdf, id=73, 433.62pt x 289.08pt>
-File: Figures/correlators9_k1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/correlators9_k1-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/correlators9_k1-eps-converted-to.pdf used on i
-nput line 1578.
-(pdftex.def)             Requested size: 469.75499pt x 313.1854pt.
-
-
-! LaTeX Error: \begin{figure*} on input line 1568 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1581   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Float too large for page by 184.28879pt on input line 1592.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17] [18] [19] [20] [21] [22] [23]
-<Figures/density_cdm_0.pdf, id=96, 501.19432pt x 382.72986pt>
+\scratchcounter=\count128
+\scratchdimen=\dimen141
+\scratchbox=\box38
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen142
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks26
+) [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] [3] [4]
+Missing character: There is no â in font cmr6!
+Missing character: There is no ˆ in font cmr6!
+Missing character: There is no ’ in font cmr6!
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6] <Figures/density_cdm.pdf, id=47, 501.19432pt x 382.72986pt>
+File: Figures/density_cdm.pdf Graphic file (type pdf)
+
+<use Figures/density_cdm.pdf>
+Package pdftex.def Info: Figures/density_cdm.pdf used on input line 1394.
+(pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
+
+<Figures/density_nu.pdf, id=48, 501.19432pt x 372.69237pt>
+File: Figures/density_nu.pdf Graphic file (type pdf)
+
+<use Figures/density_nu.pdf>
+Package pdftex.def Info: Figures/density_nu.pdf used on input line 1396.
+(pdftex.def)             Requested size: 252.44751pt x 187.72192pt.
+
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 1394--1397
+ [][][] 
+ []
+
+
+Class revtex4 Warning: Float cannot be placed.
+
+<Figures/vel_cdm.pdf, id=49, 520.34402pt x 382.72986pt>
+File: Figures/vel_cdm.pdf Graphic file (type pdf)
+
+<use Figures/vel_cdm.pdf>
+Package pdftex.def Info: Figures/vel_cdm.pdf used on input line 1493.
+(pdftex.def)             Requested size: 252.44751pt x 185.68799pt.
+
+<Figures/vel_nu.pdf, id=50, 520.34402pt x 382.72986pt>
+File: Figures/vel_nu.pdf Graphic file (type pdf)
+
+<use Figures/vel_nu.pdf>
+Package pdftex.def Info: Figures/vel_nu.pdf used on input line 1494.
+(pdftex.def)             Requested size: 252.44751pt x 185.68799pt.
+
+
+Class revtex4 Warning: Float cannot be placed.
+
+<Figures/correlators9_k0p1.pdf, id=51, 433.62pt x 289.08pt>
+File: Figures/correlators9_k0p1.pdf Graphic file (type pdf)
+
+<use Figures/correlators9_k0p1.pdf>
+Package pdftex.def Info: Figures/correlators9_k0p1.pdf used on input line 1559.
+
+(pdftex.def)             Requested size: 252.44751pt x 168.3017pt.
+
+<Figures/correlators9_k1.pdf, id=52, 433.62pt x 289.08pt>
+File: Figures/correlators9_k1.pdf Graphic file (type pdf)
+
+<use Figures/correlators9_k1.pdf>
+Package pdftex.def Info: Figures/correlators9_k1.pdf used on input line 1561.
+(pdftex.def)             Requested size: 252.44751pt x 168.3017pt.
+
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 1559--1562
+ [][][] 
+ []
+
+
+Class revtex4 Warning: Float cannot be placed.
+
+[7]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 1597.
+
+
+Overfull \hbox (0.70544pt too wide) in paragraph at lines 1790--1790
+[] 
+ []
+
+[8]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 1798.
+
+[9]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 1946.
+
+
+LaTeX Warning: Reference `eqn:nuearly' on page 10 undefined on input line 1978.
+
+
+<Figures/density_cdm_0.pdf, id=64, 501.19432pt x 382.72986pt>
 File: Figures/density_cdm_0.pdf Graphic file (type pdf)
 
 <use Figures/density_cdm_0.pdf>
-Package pdftex.def Info: Figures/density_cdm_0.pdf used on input line 2012.
-(pdftex.def)             Requested size: 232.52641pt x 177.56459pt.
+Package pdftex.def Info: Figures/density_cdm_0.pdf used on input line 1986.
+(pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Class revtex4 Warning: Float cannot be placed.
 
+<Figures/density_nu0p2_0_pres.pdf, id=65, 501.19432pt x 382.72986pt>
+File: Figures/density_nu0p2_0_pres.pdf Graphic file (type pdf)
 
-! LaTeX Error: Environment subfigure undefined.
+<use Figures/density_nu0p2_0_pres.pdf>
+Package pdftex.def Info: Figures/density_nu0p2_0_pres.pdf used on input line 20
+25.
+(pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2050   \begin{subfigure}
-                          [t]{0.495\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<Figures/density_nu_0p1.pdf, id=66, 501.19432pt x 372.69237pt>
+File: Figures/density_nu_0p1.pdf Graphic file (type pdf)
 
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2050   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+<use Figures/density_nu_0p1.pdf>
+Package pdftex.def Info: Figures/density_nu_0p1.pdf used on input line 2027.
+(pdftex.def)             Requested size: 252.44751pt x 187.72192pt.
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.2050   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/density_nu0p2_0.eps>
-(epstopdf)                    date: 2015-08-19 22:30:54
-(epstopdf)                    size: 71856 bytes
-(epstopdf)             Output file: <Figures/density_nu0p2_0-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-08-19 23:20:29
-(epstopdf)                    size: 34630 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/density_nu0p2_0-ep
-s-converted-to.pdf Figures/density_nu0p2_0.eps>
-(epstopdf)             \includegraphics on input line 2052.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/density_nu0p2_0-eps-converted-to.pdf, id=97, 500.87125pt x 382.42876pt
->
-File: Figures/density_nu0p2_0-eps-converted-to.pdf Graphic file (type pdf)
- <use Figures/density_nu0p2_0-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/density_nu0p2_0-eps-converted-to.pdf used on i
-nput line 2052.
-(pdftex.def)             Requested size: 469.75499pt x 358.68362pt.
-
-
-! LaTeX Error: \begin{figure*} on input line 2048 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2055   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2056   \begin{subfigure}
-                          [t]{0.495\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2056   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.2056   \begin{subfigure}[t]{0.495\textwidth}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/density_nu_0p1.eps>
-(epstopdf)                    date: 2015-08-19 23:47:26
-(epstopdf)                    size: 70898 bytes
-(epstopdf)             Output file: <Figures/density_nu_0p1-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2015-08-19 23:52:08
-(epstopdf)                    size: 33625 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/density_nu_0p1-eps
--converted-to.pdf Figures/density_nu_0p1.eps>
-(epstopdf)             \includegraphics on input line 2058.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/density_nu_0p1-eps-converted-to.pdf, id=98, 500.87125pt x 372.39125pt>
-File: Figures/density_nu_0p1-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/density_nu_0p1-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/density_nu_0p1-eps-converted-to.pdf used on in
-put line 2058.
-(pdftex.def)             Requested size: 469.75499pt x 349.26935pt.
-
-
-! LaTeX Error: \begin{figure*} on input line 2048 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2061   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Float too large for page by 341.70709pt on input line 2080.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[24] [25]
-Overfull \hbox (25.54193pt too wide) detected at line 2231
-[]
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 2025--2028
+ [][][] 
  []
 
-[26] [27]
-Package epstopdf Info: Source file: <Figures/vel_cdm_0.eps>
-(epstopdf)                    date: 2015-08-19 23:15:45
-(epstopdf)                    size: 76385 bytes
-(epstopdf)             Output file: <Figures/vel_cdm_0-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-19 23:20:30
-(epstopdf)                    size: 33749 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/vel_cdm_0-eps-conv
-erted-to.pdf Figures/vel_cdm_0.eps>
-(epstopdf)             \includegraphics on input line 2386.
-Package epstopdf Info: Output file is already uptodate.
 
-<Figures/vel_cdm_0-eps-converted-to.pdf, id=112, 502.87875pt x 382.42876pt>
-File: Figures/vel_cdm_0-eps-converted-to.pdf Graphic file (type pdf)
+Class revtex4 Warning: Float cannot be placed.
 
-<use Figures/vel_cdm_0-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/vel_cdm_0-eps-converted-to.pdf used on input l
-ine 2386.
-(pdftex.def)             Requested size: 232.52641pt x 176.82967pt.
+[10]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 2114.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (4.50044pt too wide) in paragraph at lines 2182--2182
+[] 
+ []
 
 
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2435   \begin{subfigure}
-                          [t]{0.45\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2435   \begin{subfigure}[t]{0.45\textwidth}
-                                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.2435   \begin{subfigure}[t]{0.45\textwidth}
-                                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/vel_nu0p2_0.eps>
-(epstopdf)                    date: 2015-08-19 23:19:49
-(epstopdf)                    size: 74136 bytes
-(epstopdf)             Output file: <Figures/vel_nu0p2_0-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-19 23:20:31
-(epstopdf)                    size: 34789 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/vel_nu0p2_0-eps-co
-nverted-to.pdf Figures/vel_nu0p2_0.eps>
-(epstopdf)             \includegraphics on input line 2437.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/vel_nu0p2_0-eps-converted-to.pdf, id=113, 502.87875pt x 382.42876pt>
-File: Figures/vel_nu0p2_0-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/vel_nu0p2_0-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/vel_nu0p2_0-eps-converted-to.pdf used on input
- line 2437.
-(pdftex.def)             Requested size: 469.75499pt x 357.23645pt.
+Overfull \hbox (32.61586pt too wide) in paragraph at lines 2195--2195
+[] 
+ []
 
 
-! LaTeX Error: \begin{figure*} on input line 2433 ended by \end{subfigure}.
+Overfull \hbox (32.44113pt too wide) in paragraph at lines 2223--2223
+[] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2439   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[11]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 2255.
 
 
-! LaTeX Error: Environment subfigure undefined.
+Overfull \hbox (7.13742pt too wide) in paragraph at lines 2263--2263
+[] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2440   \begin{subfigure}
-                          [t]{0.45\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<Figures/vel_cdm_0.pdf, id=73, 502.77837pt x 382.72986pt>
+File: Figures/vel_cdm_0.pdf Graphic file (type pdf)
 
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2440   \begin{subfigure}[t]{0.45\textwidth}
-                                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.2440   \begin{subfigure}[t]{0.45\textwidth}
-                                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/vel_nu0p1_0.eps>
-(epstopdf)                    date: 2015-08-19 23:51:28
-(epstopdf)                    size: 75953 bytes
-(epstopdf)             Output file: <Figures/vel_nu0p1_0-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-19 23:52:09
-(epstopdf)                    size: 32066 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/vel_nu0p1_0-eps-co
-nverted-to.pdf Figures/vel_nu0p1_0.eps>
-(epstopdf)             \includegraphics on input line 2442.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/vel_nu0p1_0-eps-converted-to.pdf, id=114, 502.87875pt x 382.42876pt>
-File: Figures/vel_nu0p1_0-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/vel_nu0p1_0-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/vel_nu0p1_0-eps-converted-to.pdf used on input
- line 2442.
-(pdftex.def)             Requested size: 469.75499pt x 357.23645pt.
+<use Figures/vel_cdm_0.pdf>
+Package pdftex.def Info: Figures/vel_cdm_0.pdf used on input line 2344.
+(pdftex.def)             Requested size: 252.44751pt x 192.17038pt.
 
 
-! LaTeX Error: \begin{figure*} on input line 2433 ended by \end{subfigure}.
+Class revtex4 Warning: Float cannot be placed.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2444     \end{subfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<Figures/vel_nu0p2_0_pres.pdf, id=74, 502.77837pt x 382.72986pt>
+File: Figures/vel_nu0p2_0_pres.pdf Graphic file (type pdf)
 
+<use Figures/vel_nu0p2_0_pres.pdf>
+Package pdftex.def Info: Figures/vel_nu0p2_0_pres.pdf used on input line 2394.
+(pdftex.def)             Requested size: 252.44751pt x 192.17038pt.
 
-LaTeX Warning: Float too large for page by 319.22702pt on input line 2467.
+<Figures/vel_nu0p1_0.pdf, id=75, 502.77837pt x 382.72986pt>
+File: Figures/vel_nu0p1_0.pdf Graphic file (type pdf)
 
+<use Figures/vel_nu0p1_0.pdf>
+Package pdftex.def Info: Figures/vel_nu0p1_0.pdf used on input line 2396.
+(pdftex.def)             Requested size: 252.44751pt x 192.17038pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[28] [29]
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2639   \begin{subfigure}
-                          [t]{0.45\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2639   \begin{subfigure}[t]{0.45\textwidth}
-                                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.2639   \begin{subfigure}[t]{0.45\textwidth}
-                                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Package epstopdf Info: Source file: <Figures/density_cdm_nl_0.eps>
-(epstopdf)                    date: 2015-08-20 10:37:46
-(epstopdf)                    size: 57373 bytes
-(epstopdf)             Output file: <Figures/density_cdm_nl_0-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2015-08-20 10:44:01
-(epstopdf)                    size: 26542 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/density_cdm_nl_0-e
-ps-converted-to.pdf Figures/density_cdm_nl_0.eps>
-(epstopdf)             \includegraphics on input line 2641.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/density_cdm_nl_0-eps-converted-to.pdf, id=121, 500.87125pt x 382.42876
-pt>
-File: Figures/density_cdm_nl_0-eps-converted-to.pdf Graphic file (type pdf)
- <use Figures/density_cdm_nl_0-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/density_cdm_nl_0-eps-converted-to.pdf used on 
-input line 2641.
-(pdftex.def)             Requested size: 469.75499pt x 358.68362pt.
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 2394--2397
+ [][][] 
+ []
 
 
-! LaTeX Error: \begin{figure*} on input line 2637 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2643   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Class revtex4 Warning: Float cannot be placed.
 
 
-! LaTeX Error: Environment subfigure undefined.
+Overfull \hbox (12.02812pt too wide) detected at line 2514
+[] \OMS/cmsy/m/n/10 ^^@ []r[]\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 = \OML/cmm/m/it
+/10 a[]\OMS/cmsy/m/n/10 r\OT1/cmr/m/n/10 ((1 + \OML/cmm/m/it/10 ^^N[]\OT1/cmr/m
+/n/10 )\OMS/cmsy/m/n/10 r\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10
+ )) = []\OML/cmm/m/it/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/1
+0 )\OMS/cmsy/m/n/10 r\OT1/cmr/m/n/10 ((1 + \OML/cmm/m/it/10 ^^N[]\OT1/cmr/m/n/1
+0 )\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 ;
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2644   \begin{subfigure}
-                          [t]{0.45\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.2644   \begin{subfigure}[t]{0.45\textwidth}
-                                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+[12]
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.2644   \begin{subfigure}[t]{0.45\textwidth}
-                                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 2585.
 
-Package epstopdf Info: Source file: <Figures/density_nu_nl_0.eps>
-(epstopdf)                    date: 2015-08-20 10:39:42
-(epstopdf)                    size: 65287 bytes
-(epstopdf)             Output file: <Figures/density_nu_nl_0-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-08-20 10:44:02
-(epstopdf)                    size: 29656 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/density_nu_nl_0-ep
-s-converted-to.pdf Figures/density_nu_nl_0.eps>
-(epstopdf)             \includegraphics on input line 2646.
-Package epstopdf Info: Output file is already uptodate.
+<Figures/density_cdm_nl_0.pdf, id=79, 501.19432pt x 382.72986pt>
+File: Figures/density_cdm_nl_0.pdf Graphic file (type pdf)
 
-<Figures/density_nu_nl_0-eps-converted-to.pdf, id=122, 500.87125pt x 382.42876p
-t>
-File: Figures/density_nu_nl_0-eps-converted-to.pdf Graphic file (type pdf)
- <use Figures/density_nu_nl_0-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/density_nu_nl_0-eps-converted-to.pdf used on i
-nput line 2646.
-(pdftex.def)             Requested size: 469.75499pt x 358.68362pt.
+<use Figures/density_cdm_nl_0.pdf>
+Package pdftex.def Info: Figures/density_cdm_nl_0.pdf used on input line 2593.
+(pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
+
+<Figures/density_nu_nl_0.pdf, id=80, 501.19432pt x 382.72986pt>
+File: Figures/density_nu_nl_0.pdf Graphic file (type pdf)
+
+<use Figures/density_nu_nl_0.pdf>
+Package pdftex.def Info: Figures/density_nu_nl_0.pdf used on input line 2595.
+(pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
+
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 2593--2596
+ [][][] 
+ []
 
 
-! LaTeX Error: \begin{figure*} on input line 2637 ended by \end{subfigure}.
+Class revtex4 Warning: Float cannot be placed.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2648   \end{subfigure}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[13]
 
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 2877.
 
-LaTeX Warning: Float too large for page by 304.28525pt on input line 2669.
+(./paper.bbl) [14]
 
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 2934.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+[15] [16 <./Figures/density_cdm.pdf> <./Figures/density_nu.pdf
 
-[30] [31] [32] (./paper.bbl [33] [34 <./Figures/density_cdm-eps-converted-to.pd
-f> <./Figures/density_nu-eps-converted-to.pdf>] [35 <./Figures/vel_cdm-eps-conv
-erted-to.pdf> <./Figures/vel_nu-eps-converted-to.pdf>] [36 <./Figures/correlato
-rs9_k0p1-eps-converted-to.pdf> <./Figures/correlators9_k1-eps-converted-to.pdf>
-] [37 <./Figures/density_cdm_0.pdf>] [38 <./Figures/density_nu0p2_0-eps-convert
-ed-to.pdf> <./Figures/density_nu_0p1-eps-converted-to.pdf>] [39 <./Figures/vel_
-cdm_0-eps-converted-to.pdf>] [40 <./Figures/vel_nu0p2_0-eps-converted-to.pdf> <
-./Figures/vel_nu0p1_0-eps-converted-to.pdf>] [41 <./Figures/density_cdm_nl_0-ep
-s-converted-to.pdf> <./Figures/density_nu_nl_0-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 29.
+pdfTeX warning: pdflatex (file ./Figures/density_nu.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./Figures/vel_cdm.pdf
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [42
+pdfTeX warning: pdflatex (file ./Figures/vel_cdm.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./Figures/vel_nu.pdf
 
-] [43]
-[44]) [45] [46] [47] (./paper.aux
+pdfTeX warning: pdflatex (file ./Figures/vel_nu.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+>] [17 <./Figures/correlators9_k0p1.pdf> <./Figures/correlators9_k1.pdf
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
+pdfTeX warning: pdflatex (file ./Figures/correlators9_k1.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+> <./Figures/density_cdm_0.pdf
 
-)
+pdfTeX warning: pdflatex (file ./Figures/density_cdm_0.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] [18 <./Figures/density_nu0p2_0_pres.pdf> <./Figures/density_nu_0p1.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/density_nu_0p1.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./Figures/vel_cdm_0.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/vel_cdm_0.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] [19 <./Figures/vel_nu0p2_0_pres.pdf> <./Figures/vel_nu0p1_0.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/vel_nu0p1_0.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./Figures/density_cdm_nl_0.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/density_cdm_nl_0.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./Figures/density_nu_nl_0.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/density_nu_nl_0.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] (./paper.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5694 strings out of 493488
- 75509 string characters out of 3141326
- 163750 words of memory out of 3000000
- 8822 multiletter control sequences out of 15000+200000
- 62090 words of font info for 122 fonts, out of 3000000 for 9000
+ 6155 strings out of 493488
+ 86375 string characters out of 3141326
+ 221320 words of memory out of 3000000
+ 9349 multiletter control sequences out of 15000+200000
+ 12179 words of font info for 44 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,13n,26p,1367b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/texmf-
-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2012/texmf-dist/fon
-ts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ur
-w/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-
-Output written on paper.pdf (47 pages, 573789 bytes).
+ 42i,13n,46p,1368b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2012/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt9.pfb>
+Output written on paper.pdf (19 pages, 692864 bytes).
 PDF statistics:
- 902 PDF objects out of 1000 (max. 8388607)
- 301 compressed objects within 4 object streams
+ 911 PDF objects out of 1000 (max. 8388607)
+ 365 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

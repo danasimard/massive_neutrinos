@@ -6,8 +6,8 @@
 %                   M.Sc. Program, 2015                             %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\documentclass[ round]{revtex4}
-\documentclass{aastex}
+\documentclass[twocolumn,superscriptaddress,prd]{revtex4}
+%\documentclass{aastex}
 
 
 
@@ -15,14 +15,14 @@
 \usepackage{csquotes}
 \usepackage{epstopdf}
 \usepackage{amsmath}
-%\usepackage{subfig}
+%\usepackage{epstopdf}
+\usepackage[caption=false]{subfig}
 \usepackage{multirow}
 %\usepackage{multicol}
 \usepackage{booktabs}
 \usepackage{rotating}
 \usepackage[english]{babel}
 \usepackage{graphicx}
-%\usepackage{subcaption}
 \usepackage{wrapfig}
 %\makeatletter
 %\renewcommand\@biblabel[1]{}
@@ -30,17 +30,20 @@
 %\bibliographystyle{h-physrev} 
 %\usepackage[round]{natbib}
 %\bibliographystyle{plainnat}
-\bibliographystyle{abbrvnat}
+%\bibliographystyle{abbrvnat}
 %\citestyle{square}
 \usepackage{url}
-\usepackage{setspace}
-\linespread{1.3}
-\let\OLDthebibliography\thebibliography
-\renewcommand\thebibliography[1]{
-  \OLDthebibliography{#1}
-  \setlength{\parskip}{0pt}
-  \setlength{\itemsep}{0pt plus 0.3ex}
-}
+%\usepackage{setspace}
+%\linespread{1.3}
+%\let\OLDthebibliography\thebibliography
+%\renewcommand\thebibliography[1]{
+%  \OLDthebibliography{#1}
+%  \setlength{\parskip}{0pt}
+%  \setlength{\itemsep}{0pt plus 0.3ex}
+%}
+%\bibliographystyle{unsrtnat}
+% numbering with align
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
 
 \usepackage{framed} % For the "details" environment
 
@@ -91,7 +94,7 @@
 %disable underfull hbox warnings
 \hbadness=10000
 \usepackage{lscape}
-\usepackage{apjfonts}
+%\usepackage{apjfonts}
 
 \makeatletter
 \let\save@mathaccent\mathaccent
@@ -165,29 +168,25 @@
 
 %\shorttitle{Massive Neutrinos in $\Lambda$CDM}
 
-\everymath{\displaystyle} 
+%\everymath{\displaystyle} 
 
 \begin{document}
 
 \title{Massive Neutrinos in a $\Lambda$ Cold Dark Matter Cosmology}
-\date{today}
+\date{\today}
 
 \author{ Dana Simard }
-\affiliation{Canadian Institute for Theoretical Astrophysics, University of Toronto,
-60 St. George St., Toronto, ON M5S 3H8, Canada}
+\email{simard@cita.utoronto.ca}
 \affiliation{Department of Astronomy and Astrophysics, University of
   Toronto, 50 St. George St., Toronto, ON M5S3H8, Canada}
-\email{simard@cita.utoronto.ca}
 
 \author{ Ue-Li Pen }
-\affiliation{Canadian Institute for Theoretical Astrophysics, University of Toronto,
-60 St. George St., Toronto, ON M5S 3H8, Canada }
 \email{ pen@cita.utoronto.ca }
 
 \author{P. Daniel Meerburg}
+\email{meerburg@cita.utoronto.ca}
 \affiliation{ Canadian Institute for Theoretical Astrophysics, University of Toronto,
 60 St. George St., Toronto, ON M5S 3H8, Canada }
-\email{meerburg@cita.utoronto.ca}
 
 \begin{abstract}
 %Sentence One: Intro
@@ -226,10 +225,10 @@ behaviour will provide better predictions for relic neutrino
 direct detection experiments, 
 which may provide insight into both 
 neutrinos and the early universe they probe in the near future.
-\vspace{10cm}
+%\vspace{10cm}
 \end{abstract}
 
-%\maketitle
+\maketitle
 
 %\tableofcontents 
 
@@ -1090,11 +1089,11 @@ power spectra.
 See \cite{inman15} for a more detailed explanation of the
 treatment of neutrinos in CUBEP$^{3}$M.
 
-\begin{table}[h]
+\begin{table*}[t]
 \caption{The initial conditions adopted in
   the N-body simulations.  The cosmological parameters were chosen to
   be in fair agreement with the Planck 2015 data \citep{planck15}.}\label{tbl:initialconditions}
-\begin{center}
+\centering
 \begin{tabular}{llc}
 \toprule
 Parameter & Description & Value \\\hline\hline
@@ -1113,8 +1112,7 @@ $\Omega_\nu$ & Neutrino density & 0.0048 \footnotemark \\
 $N_{eff}$ & Effective number of neutrino species &
                                                         3.046 \\ \bottomrule
 \end{tabular}
-\end{center}
-\end{table}
+\end{table*}
 %If neutrinos decoupling was instantaneous then we have Neff =
 %3. However, neutrino decoupling was not quite complete when e+e-
 %annihilation began, so some of the energy and entropy did leak to the
@@ -1290,11 +1288,12 @@ fields at different redshifts.
 Throughout this work, we will compare our
 results to those obtained when this phase information is
 neglected and we approximate:
-\begin{equation}
-  <\delta_c(\mathbf{k},t ) \delta_c(\mathbf{k},t')> = \sqrt{
+\begin{align*}
+  <\delta_c&(\mathbf{k},t ) \delta_c(\mathbf{k},t')> \\
+&= \sqrt{
     <\delta_c(\mathbf{k},t) \delta_c(\mathbf{k},t)><\delta_c(\mathbf{k},t')
-    \delta_c(\mathbf{k},t')> } \;,
-\end{equation}
+    \delta_c(\mathbf{k},t')> } \;, \numberthis
+\end{align*}
 consistent with the assumption made by \cite{yacine12}.  In this
 approximation, all of the information on the gravitational potential
 is contained in the first eigenvector as only the first eigenvalue is
@@ -1391,15 +1390,10 @@ more rapidly.  %The results of this analysis are presented
 
 \begin{figure*}[h!]
   \centering
-  \begin{subfigure}[t]{0.495\textwidth}
-    \includegraphics[width=\textwidth]{Figures/density_cdm.eps}
-    \caption{CDM density power spectra}\label{fig:densitycdm}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.495\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Figures/density_nu.eps}
-    \caption{Neutrino density power spectra}\label{fig:densitynu}
-  \end{subfigure}
+  \subfloat[CDM density power spectra\label{fig:densitycdm}]{
+  \includegraphics[width=0.495\textwidth]{Figures/density_cdm.pdf}}
+ \subfloat[Neutrino density power spectra\label{fig:densitynu}]{
+    \includegraphics[width=0.495\textwidth]{Figures/density_nu.pdf}}
   \caption{
     The dimensionless CDM
     (\ref{fig:densitycdm}) and neutrino (\ref{fig:densitynu}) power
@@ -1495,15 +1489,9 @@ accounted for by simply scaling the linear result using \halofitns.
 
 \begin{figure*}[h!]
   \centering
-  \begin{subfigure}[t]{0.495\textwidth}
-    \includegraphics[width=\textwidth]{Figures/vel_cdm.eps}
-    \caption{CDM velocity divergence power}\label{fig:velcdm}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.495\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Figures/vel_nu.eps}
-    \caption{Neutrino velocity divergence power}\label{fig:velnu}
-  \end{subfigure}
+  \subfloat[CDM velocity divergence power\label{fig:velcdm}]{
+    \includegraphics[width=0.495\textwidth]{Figures/vel_cdm.pdf}}
+  \subfloat[Neutrino velocity divergence power\label{fig:velnu}]{\includegraphics[width=0.495\textwidth]{Figures/vel_nu.pdf}}
   \caption{The CDM
     (\ref{fig:velcdm}) and neutrino (\ref{fig:velnu}) velocity
       divergence power
@@ -1567,18 +1555,10 @@ Mpc$^{-1}$.
 
 \begin{figure*}[h!]
   \centering
-  \begin{subfigure}[t]{0.495\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Figures/correlators9_k0p1.eps}
-    \caption{$k=0.1$ h Mpc$^{-1}$}
-    \label{fig:correlators90p1}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.495\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Figures/correlators9_k1.eps}
-    \caption{ $k=1.0$ h Mpc$^{-1}$}
-    \label{fig:correlators91}
-  \end{subfigure}
+  \subfloat[$k=0.1$ h Mpc$^{-1}$\label{fig:correlators90p1}]{
+    \includegraphics[width=0.495\textwidth]{Figures/correlators9_k0p1.pdf}}
+  \subfloat[$k=1.0$ h Mpc$^{-1}$\label{fig:correlators91}]{
+    \includegraphics[width=0.495\textwidth]{Figures/correlators9_k1.pdf}}
   \caption{The cross-correlation matrix at $k=0.1$ h Mpc$^{-1}$
       (\ref{fig:correlators90p1}) and  $k=1$ h Mpc$^{-1}$
       (\ref{fig:correlators91}) when
@@ -1676,11 +1656,12 @@ a single equation for the density contrast in Fourier space:
 %\end{array}
 %\end{equation}
 %\end{aside}
-\begin{equation}\label{eqn:densitycontrast} 
-  \frac{1}{a^2(t)} \frac{d}{dt}\bigg( a^2(t) \frac{ d
+\begin{align*}\label{eqn:densitycontrast} 
+  \frac{1}{a^2(t)} &\frac{d}{dt}\bigg( a^2(t) \frac{ d
   }{dt}\delta_i(\mathbf{k},t) \bigg) - \frac{\nabla^2 P_i}{a^2(t)
-  \widebar{\rho_i}(t)} = \frac{1}{a^2(t)}\frac{3}{2} H^2(t) a^2(t) \delta_c(\mathbf{k},t) \;.
-\end{equation}
+  \widebar{\rho_i}(t)}\\ = 
+&\frac{1}{a^2(t)}\frac{3}{2} H^2(t) a^2(t) \delta_c(\mathbf{k},t) \;.\numberthis
+\end{align*}
 We change the coordinate $t$ to $\tau$ such that
 %$\frac{d}{d\tau} = \frac{1}{a^2} \frac{d}{dt}$, 
 $\frac{d}{d\tau} = a^2\frac{d}{dt}$,
@@ -1722,11 +1703,13 @@ A Green's function solution to Equation
   H^2(\tau) \delta_c(\mathbf{k},\tau')\;,
 \end{equation}
 so that we may write the density power:
-\begin{equation}\label{eqn:densitypowercdm}
-  P_c(\tau) = < \delta_c(\tau) \delta_c^*(\tau)> = \int_{-\infty}^\tau
- d\tau' (\tau-\tau') \frac{3}{2} H^2(\tau') \int_{-\infty}^\tau d\tau'' (\tau-\tau'') \frac{3}{2}
-  H^2(\tau'') <\delta_c(\tau') \delta_c^*(\tau'') > \;.
-\end{equation}
+\begin{align*}\label{eqn:densitypowercdm}
+  P_c(\tau) = &< \delta_c(\tau) \delta_c^*(\tau)>\\ 
+            =& \int_{-\infty}^\tau
+ d\tau' (\tau-\tau') \frac{3}{2} 
+H^2(\tau') \int_{-\infty}^\tau d\tau'' (\tau-\tau'') \\ &\frac{3}{2}
+  H^2(\tau'') <\delta_c(\tau') \delta_c^*(\tau'') > \;. \numberthis
+\end{align*}
 For convenience of notation, we will not explicitly indicate the
 dependence of the power spectra, $w$-vectors, and density fields on $\mathbf{k}$
 although it is implied.
@@ -1796,14 +1779,15 @@ $G_\nu(\tau,\tau')=\sin(\tau-\tau')$ exists:
 As we did for CDM in Section \ref{sec:densitycdm}, we can
 obtain an equation for the neutrino density power in terms of the
 $w$-vectors.  We start with:
-\begin{equation}\label{eqn:densitypowernu} 
-  P_\nu(\tau) = < \delta_\nu(\tau) \delta_\nu^*(\tau) > =
+\begin{align*}\label{eqn:densitypowernu} 
+  P_\nu(\tau) =& < \delta_\nu(\tau) \delta_\nu^*(\tau) >\\ =&
   \int_{-\infty}^\tau d\tau' \sin (\tau -
-    \tau') \frac{3}{2}
+    \tau')
+ \frac{3}{2}
   H^2(\tau')  \int_{-\infty }^\tau d\tau'' \sin
-   (\tau - \tau'')\frac{3}{2}
-  H^2(\tau'') <\delta_c(\tau') \delta_c^*(\tau'') > \;,
-\end{equation}
+   (\tau - \tau'')\\&\frac{3}{2}
+  H^2(\tau'') <\delta_c(\tau') \delta_c^*(\tau'') > \;, \numberthis
+\end{align*}
 where once again the dependence of the power, density and
 $w$-vectors on $\mathbf{k}$ is implied.
 Using Equation \eqref{eqn:unequaltime} we can write:
@@ -1879,46 +1863,41 @@ time $t$ by:
   \frac{ d t}{ d \tau} = a^2 \;,
 \end{equation}
 so that we can write:
-\begin{equation}
-\begin{array}{rcl}
-  H_M(\tau) &=& \frac{1}{a} \frac{d t}{ d \tau} \frac{da}{dt}\\[1em]
-  &=& a^2(\tau) H_0 \sqrt{ \frac{\Omega_M}{a^3(\tau)}} \;.
-\end{array}
-\end{equation}
+
+\begin{align*}
+  H_M(\tau) &= \frac{1}{a} \frac{d t}{ d \tau} \frac{da}{dt}\\
+  &= a^2(\tau) H_0 \sqrt{ \frac{\Omega_M}{a^3(\tau)}} \;. \numberthis
+\end{align*}
 This gives the following relationship between $\tau$ and the
 scalefactor, $a$:
 \begin{equation}
   \tau = \frac{-2}{H_0 \sqrt{\Omega_M} } \frac{1}{a^{1/2} } \;.
 \end{equation}
 Using these relations, we find that the integral over early times is:
-\begin{equation}\label{eqn:cdmearly}
-\begin{array}{rcl}
-  I_{c,M}(k,\tau,\tau_0) &=& \int_{-\infty}^{\tau_0}d\tau' (\tau-\tau') \frac{3}{2}
-              H^2(\tau') A(k) a(\tau')\\[1em]
+\begin{align*}\label{eqn:cdmearly}
+  I_{c,M}(k,\tau,\tau_0) &= \int_{-\infty}^{\tau_0}d\tau' (\tau-\tau') \frac{3}{2}
+              H^2(\tau') A(k) a(\tau')\\
 %          &=& \int_{-\infty}^{\tau_0} d\tau' (\tau-\tau') \frac{3}{2}
 %      a^4(\tau') H_0^2 \frac{ \Omega_M}{a^3(\tau') } A(k) a(\tau') \\[1em]
 %          &=& \frac{3}{2} H_0^2 \Omega_M A(k) \int_{-\infty}^{\tau_0} d \tau'
 %      (\tau - \tau') \bigg( \frac{-2}{ H_0 \sqrt{ \Omega_M} } \bigg)^4
 %      \frac{1}{\tau'^4} \\[1em]
-          &=& \frac{24 A(k)}{H_0^2 \Omega_M} \bigg( \frac{1}{2 \tau_0^2} - \frac{
-       \tau}{3 \tau_0^2} \bigg)\;,
-\end{array}
-\end{equation}
+          &= \frac{24 A(k)}{H_0^2 \Omega_M} \bigg( \frac{1}{2 \tau_0^2} - \frac{
+       \tau}{3 \tau_0^2} \bigg)\;, \numberthis
+\end{align*}
 where $\tau$ is the time at which the power is being calculated and
 $\tau_0$ is the earliest time at which we use the numerical potential
 in the integration.  The subscript $M$ indicates that the integral is
 calculated under the assumption of matter domination.  In
 order to calculate the fully analytic result, we simply set
 $\tau_0 = \tau$:
-\begin{equation}
-\begin{array}{rcl}
-  P_{c,M}(k,\tau) &=& \bigg|\int_{-\infty}^{\tau} d\tau' (\tau - \tau')\frac{3}{2} H^2(\tau') A(k)
-  a(\tau')\bigg|^2 \\[1em]
+\begin{align*}
+  P_{c,M}(k,\tau) &= \bigg|\int_{-\infty}^{\tau} d\tau' (\tau - \tau')\frac{3}{2} H^2(\tau') A(k)
+  a(\tau')\bigg|^2 \\
 %&=& \bigg|A(k) \frac{ 4 }{ H_0^2 \Omega_m \tau^2}\bigg|^2\\[1em]
-& = &A^2(k)
-    a^2(\tau) \;.
-\end{array}
-\end{equation}
+& = A^2(k)
+    a^2(\tau) \;. \numberthis
+\end{align*}
 Therefore, Equation \eqref{eqn:cdmearly} reduces to the
 correct expression for the CDM power spectrum in matter
 domination. 
@@ -1926,22 +1905,19 @@ domination.
 \subsubsection{Massive neutrinos}\label{sec:NUmatter}
 For neutrinos, the method is similar.  For the time coordinate $\tau$ in Equation
 \eqref{eqn:densitypowernu2}, we find:
-\begin{equation} 
-\begin{array}{rcl}
-  H_M(\tau) &=& \frac{1}{a} \frac{ d}{d \tau} \frac{da}{dt} \\[1em]
-  & = & \frac{a^2(\tau)}{k\widebar{c_s}} H_0 \sqrt{ \frac{\Omega_m}{a^3(\tau)}} 
-\end{array}
-\end{equation}
+\begin{align*}
+  H_M(\tau) &= \frac{1}{a} \frac{ d}{d \tau} \frac{da}{dt} \\
+  & =  \frac{a^2(\tau)}{k\widebar{c_s}} H_0 \sqrt{ \frac{\Omega_m}{a^3(\tau)}} \numberthis
+\end{align*}
 and 
 \begin{equation}
   \tau = \frac{ -2 k \widebar{c_s}}{ H_0 \sqrt{ \Omega_M } }
   \frac{1}{a^{1/2}} \;. 
 \end{equation}
 Therefore, the integral over early times is:
-\begin{equation}\label{eqn:nuearly}
-\begin{array}{rcl}
-  I_{\nu,M}(k,\tau, \tau_0) &=& \int_{-\infty}^{\tau_0} d \tau' \sin( \tau - \tau' ) \frac{3}{2}
-  H^2(\tau') A(k) a(\tau') \\[1em]
+\begin{align*}
+  I_{\nu,M}(k,\tau, \tau_0) =& \int_{-\infty}^{\tau_0} d \tau' \sin( \tau - \tau' ) \frac{3}{2}
+  H^2(\tau') A(k) a(\tau') \\
 %            &=& \int_{-\infty}^{\tau_0} d \tau' \sin(\tau
 %                            - \tau' ) \frac{3}{2} \frac{a^4(\tau')}{k^2
 %                            \widebar{c_s}^2 } H_0^2 \frac{
@@ -1950,19 +1926,20 @@ Therefore, the integral over early times is:
 %      \int_{-\infty}^{\tau_0} d \tau' sin( \tau - \tau' ) \bigg(
 %      \frac{-2 k \widebar{ c_s } }{ H_0 \sqrt{\Omega_M} } \bigg)^4
 %      \frac{1}{\tau'^4}  \\[1em]
-  & = &\frac{24 k^2 \widebar{c_s}^2 }{ H_0^2 \Omega_M} A(k)
+   =& \frac{24 k^2 \widebar{c_s}^2 }{ H_0^2 \Omega_M} A(k)
         \frac{1}{12 \tau_0^3} (2 \tau_0
-        \cos(\tau-\tau_0)+2 \tau_0^3
-        \cos(\tau) \text{Ci}(-\tau_0)+\\[1em]
-&&
+        \cos(\tau-\tau_0)+ \\
+  &2 \tau_0^3
+        \cos(\tau) \text{Ci}(-\tau_0)+ \\
+&
   \pi
         \tau_0^3 \sin(\tau)+2
         \left(-2+\tau_0^2\right)
-        \sin(\tau-\tau_0)+
+        \sin(\tau-\tau_0)+ \\
+&
                            2 \tau_0^3
-        \sin(\tau) \text{Si}(\tau_0) ) \;,
-\end{array}
-\end{equation}
+        \sin(\tau) \text{Si}(\tau_0) ) \;, \numberthis
+\end{align*}
 where Si and Ci are the sine integral and cosine integral functions,
 \begin{equation}
   \text{Si}(x) = \int_0^x \frac{\sin(y)}{y} dy 
@@ -1976,30 +1953,27 @@ Once again, we can obtain a purely analytic
 expression for the neutrino power spectrum in the matter dominated
 regime by setting $\tau_0=\tau$.  In this case, the expression above
 reduces to:
-\begin{equation}
-\begin{array}{rcl}
-P_{\nu,M}(k,\tau) &=& \bigg|\int_{-\infty}^{\tau} d \tau' \sin(\tau-\tau') \frac{3}{2} H^2{\tau'}
-A(k) a(\tau' ) \bigg|^2 \\[1em]
-&=& \bigg| \frac{24 k^2 \widebar{c_s}^2 A(k)}{ H_0^2 \Omega_M}
-\frac{1}{12} \bigg( \frac{2}{\tau^2} + 2 \cos( \tau ) \text{CI}( -
+\begin{align*}
+P_{\nu,M}(k,\tau) =& \bigg|\int_{-\infty}^{\tau} d \tau' \sin(\tau-\tau') \frac{3}{2} H^2{\tau'}
+A(k) a(\tau' ) \bigg|^2 \\
+=& \bigg| \frac{24 k^2 \widebar{c_s}^2 A(k)}{ H_0^2 \Omega_M}
+\frac{1}{12} \bigg( \frac{2}{\tau^2} + \\
+&2 \cos( \tau ) \text{CI}( -
 \tau ) + \sin( \tau ) \big( \pi + 2 \text{SI}(\tau) \big) \bigg)
-    \bigg|^2 \;.
-\end{array}
-\end{equation}
+    \bigg|^2 \;. \numberthis
+\end{align*}
  
 \subsection{ Density power results}
 We now have all of the information required to calculate the CDM
 and neutrino density powers.  We will break down Equations
 \eqref{eqn:densitypowercdm2} and \eqref{eqn:densitypowernu2} as follows:
-\begin{equation}
-  \label{eqn:densbymode}
-\begin{array}{rcl}
-  P_i(k,\tau) &=& \bigg| I_{i,M}(k,\tau, \tau_0) + \int_{\tau_0}^{\tau} d \tau'
-  G_i(\tau-\tau') \frac{3}{2} H^2(\tau') w^0(k,\tau') \bigg |^2 +\\[1em]
-&&  \sum_{m=1}^{m_{max}} \bigg| \int_{\tau_0}^\tau d\tau' G_i(\tau -
-  \tau' ) \frac{3}{2} H^2 (\tau') w^m(k,\tau') \bigg |^2 \;,
-\end{array}
-\end{equation}
+\begin{align*}\label{eqn:densbymode}
+  P_i(k,\tau) =& \bigg| I_{i,M}(k,\tau, \tau_0) +\\
+  &\int_{\tau_0}^{\tau} d \tau'
+  G_i(\tau-\tau') \frac{3}{2} H^2(\tau') w^0(k,\tau') \bigg |^2 +\\
+&  \sum_{m=1}^{m_{max}} \bigg| \int_{\tau_0}^\tau d\tau' G_i(\tau -
+  \tau' ) \frac{3}{2} H^2 (\tau') w^m(k,\tau') \bigg |^2 \;, \numberthis
+\end{align*}
 where we use the analytic integrals $I_{i,M}$ from Equations
 \eqref{eqn:cdmearly} and \eqref{eqn:nuearly}.
 The remaining integrals were calculated numerically using a trapezoidal
@@ -2047,18 +2021,10 @@ are in phase.
 
 \begin{figure*}[h!]
   \centering
-  \begin{subfigure}[t]{0.495\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Figures/density_nu0p2_0.eps}
-    \caption{$\sum m_\nu = 0.2$ eV}
-    \label{fig:delta_nu0p2_rec}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.495\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Figures/density_nu_0p1.eps}
-    \caption{$\sum m_\nu = 0.1$ eV }
-    \label{fig:delta_nu0p05_rec}
-  \end{subfigure}
+  \subfloat[$\sum m_\nu = 0.2$ eV\label{fig:delta_nu0p2_rec}]{
+    \includegraphics[width=0.495\textwidth]{Figures/density_nu0p2_0_pres.pdf}}
+  \subfloat[$\sum m_\nu = 0.1$ eV\label{fig:delta_nu0p05_rec}]{
+    \includegraphics[width=0.495\textwidth]{Figures/density_nu_0p1.pdf}}
   \caption{The semi-linear neutrino density power spectra at $z=0$ for
       $\textstyle\sum m_\nu =0.2$ eV (\ref{fig:delta_nu0p2_rec}) and $\textstyle\sum
       m_\nu = 0.1$ eV (\ref{fig:delta_nu0p05_rec}) compared to
@@ -2125,28 +2091,27 @@ and neutrinos in Sections \ref{sec:velcdm} and \ref{sec:velnu}.
 
 Using Equation \eqref{eqn:densitycdm} for the CDM density perturbation, we can expand
 Equation \eqref{eqn:veldivg} as follows:
-\begin{equation}\label{eqn:veldivgcdm}
-\begin{array}{rcl}
-  \Theta_c(\mathbf{k}, \tau) = \nabla \cdot \mathbf{u}_c(\mathbf{k},\tau) &=&-a(\tau) \frac{ \partial \tau }{ \partial t }
+\begin{align*}\label{eqn:veldivgcdm}
+  \Theta_c(\mathbf{k}, \tau) & = \nabla \cdot
+                                   \mathbf{u}_c(\mathbf{k},\tau) \\
+&=-a(\tau) \frac{ \partial \tau }{ \partial t }
                                 \frac{ \partial \delta_c (\mathbf{k},\tau)}{\partial
-                                \tau} \\[1em]
-  &=& -\frac{1}{a(\tau)} \frac{d}{d\tau} \int_{-\infty}^{\tau} d\tau' (\tau
-      - \tau') \frac{3}{2} H^2(\tau') \delta_c(\mathbf{k},\tau') \\[1em]
- &=& - \frac{1}{a(\tau)} \int_{-\infty}^{\tau} d\tau' \frac{3}{2} H^2(\tau')
-     \delta_c(\mathbf{k},\tau')\;.
-\end{array} 
-\end{equation} 
+                                \tau} \\
+  &= -\frac{1}{a(\tau)} \frac{d}{d\tau} \int_{-\infty}^{\tau} d\tau' (\tau
+      - \tau') \frac{3}{2} H^2(\tau') \delta_c(\mathbf{k},\tau') \\
+ &= - \frac{1}{a(\tau)} \int_{-\infty}^{\tau} d\tau' \frac{3}{2} H^2(\tau')
+     \delta_c(\mathbf{k},\tau')\;. \numberthis
+\end{align*} 
 We write the velocity divergence power in terms of the $w$-vectors as we did for the density power:
-\begin{equation} \label{eqn:veldivgcdm2}
-\begin{array}{rcl} 
-  P_{\Theta_c}( k,\tau ) &=& < \Theta_c(\mathbf{k},\tau) \Theta_c^*(\mathbf{k},\tau)>  \\[1em]
-  &=& \frac{1}{a^2(\tau)} \int_{-\infty}^{\tau} d\tau' \frac{3}{2}
-      H^2(\tau') \int_{-\infty}^{\tau} d\tau'' \frac{3}{2} H^2(\tau'')
-      < \delta_c(\mathbf{k},\tau') \delta_c^*(\mathbf{k},\tau'') >\\[1em]
-  &=& \frac{1}{a^2(\tau)} \sum_{m} \bigg| \int_{-\infty}^{\tau} d\tau'
-      \frac{3}{2} H^2(\tau') w^m(k, \tau') \bigg|^2\;.
-\end{array}
-\end{equation}
+\begin{align*} \label{eqn:veldivgcdm2}
+  P_{\Theta_c}( k,\tau ) =& < \Theta_c(\mathbf{k},\tau) \Theta_c^*(\mathbf{k},\tau)>  \\
+  =& \frac{1}{a^2(\tau)} \int_{-\infty}^{\tau} d\tau' \frac{3}{2}
+      H^2(\tau')\\
+& \int_{-\infty}^{\tau} d\tau'' \frac{3}{2} H^2(\tau'')
+      < \delta_c(\mathbf{k},\tau') \delta_c^*(\mathbf{k},\tau'') >\\
+  =& \frac{1}{a^2(\tau)} \sum_{m} \bigg| \int_{-\infty}^{\tau} d\tau'
+      \frac{3}{2} H^2(\tau') w^m(k, \tau') \bigg|^2\;. \numberthis
+\end{align*}
 %Using Equation \eqref{eqn:veldivgcdm2} we can calculate the velocity divergence power
 %from the $w$-vectors.  
 Note that integral in Equation
@@ -2168,18 +2133,17 @@ do not have numerical data from the simulation.  As in Section
 \ref{sec:Density}, we will calculate this integral at early times under 
 the assumption of matter domination using Equations \eqref{eqn:earlytimew} and \eqref{eqn:earlytimehubble} for the
 $w$-vectors and Hubble factor respectively, resulting in:
-\begin{equation}\label{eqn:intveldivgcdmmatter}
-\begin{array}{rcl}
+\begin{align*}\label{eqn:intveldivgcdmmatter}
   I_{{\Theta_c},M}(k,\tau,\tau_0) %&=&\int_{-\infty}^{\tau_0} d\tau' \frac{3}{2} H^2(\tau')
 %               w^0(\tau',k) \\[1em]
-           &=&
+           &=
   \int_{-\infty}^{\tau_0} d\tau' \frac{3}{2} a(\tau')^4 H_0^2 \Omega_M
-  A(k) a(\tau') \\[1em]
+  A(k) a(\tau') \\
 %  &=& \frac{3}{2} H_0^2 \Omega_M A(k) \int_{-\infty}^{\tau_0} d\tau' \bigg(
 %      \frac{ -2 }{ H_0 \sqrt{\Omega_M}} \bigg)^4 \frac{1}{\tau'^4}\\[1em]
-  &=& \frac{-1}{3} \frac{ 24 A(k) }{ H_0^2 \Omega_M} \frac{1}{\tau_0^3}\;.
-\end{array}
-\end{equation}
+  &= \frac{-1}{3} \frac{ 24 A(k) }{ H_0^2 \Omega_M}
+    \frac{1}{\tau_0^3}\;. \numberthis
+\end{align*}
 To obtain a purely analytic expression for the CDM velocity
 divergence power in the matter dominated era, we set $\tau_0 =
 \tau$ in Equation \eqref{eqn:intveldivgcdmmatter}:
@@ -2203,32 +2167,32 @@ Along the same lines as in Section \ref{sec:velcdm},
  we can
  expand Equation \eqref{eqn:veldivg} using Equation
  \eqref{eqn:densitycontrastnu4} for the neutrino density perturbation as follows:
-\begin{equation}\label{eqn:veldivgnu}
-\begin{array}{rcl} 
-  \Theta_\nu( \mathbf{k},\tau) = \nabla \cdot \mathbf{u}_\nu(\mathbf{k},\tau) &=& -a(\tau) \frac{ \partial \tau}{\partial t}
+\begin{align*}\label{eqn:veldivgnu}
+  \Theta_\nu( \mathbf{k},\tau) =& \nabla \cdot
+                                  \mathbf{u}_\nu(\mathbf{k},\tau) \\
+ =& -a(\tau) \frac{ \partial \tau}{\partial t}
                                   \frac{ \partial \delta_c(\mathbf{k},\tau)
-                                  }{\partial \tau} \\[1em]
-  &=& - \frac{k \widebar{c_s}}{a(\tau)} \frac{d}{d \tau}
+                                  }{\partial \tau} \\
+  =& - \frac{k \widebar{c_s}}{a(\tau)} \frac{d}{d \tau}
       \int_{-\infty}^{\tau} d\tau' \sin(\tau - \tau') \frac{3}{2}
-      H^2(\tau') \delta_c(\mathbf{k},\tau') \\[1em]
-  &=& - \frac{ k \widebar{c_s}}{a(\tau)} \int_{-\infty}^{\tau} d\tau'
-      \cos(\tau - \tau') \frac{3}{2} H^2(\tau') \delta_c(\mathbf{k},\tau') \;.
-\end{array}
-\end{equation}
+      H^2(\tau') \delta_c(\mathbf{k},\tau') \\
+  =& - \frac{ k \widebar{c_s}}{a(\tau)} \int_{-\infty}^{\tau} d\tau'
+      \cos(\tau - \tau') \frac{3}{2} H^2(\tau')
+    \delta_c(\mathbf{k},\tau') \;. \numberthis
+\end{align*}
 We can now express the neutrino velocity divergence power in terms of
 the $w$-vectors:
-\begin{equation}\label{eqn:veldivgnu2}
-\begin{array}{rcl}
-  P_{\Theta_\nu}(k,\tau) &=& < \Theta_\nu(\mathbf{k},\tau) \Theta^*_\nu(\mathbf{k},\tau) >  \\[1em]
-  &=& \bigg( \frac{k \widebar{c_s} }{a(\tau)} \bigg)^2 \int_{-\infty}^\tau d
+\begin{align*}\label{eqn:veldivgnu2}
+  P_{\Theta_\nu}(k,\tau) =& < \Theta_\nu(\mathbf{k},\tau) \Theta^*_\nu(\mathbf{k},\tau) >  \\
+  =& \bigg( \frac{k \widebar{c_s} }{a(\tau)} \bigg)^2 \int_{-\infty}^\tau d
       \tau' \cos( \tau-\tau') \frac{3}{2} H^2(\tau')
-      \int_{-\infty}^\tau d\tau'' \cos( \tau-\tau'') \frac{3}{2} H^2
-      (\tau'') <\delta_c(\mathbf{k},\tau')\delta^*_c(\mathbf{k},\tau'')>\\[1em]
-  &=& \bigg(\frac{k \widebar{c_s}}{a(\tau)} \bigg)^2 \sum_m \bigg|
-      \int_{-\infty}^\tau d\tau' \cos( \tau-\tau') \frac{3}{2}
-      H^2(\tau') w^m(k, \tau') \bigg|^2 \;.
-  \end{array}
-\end{equation}
+      \\ &\int_{-\infty}^\tau d\tau'' \cos( \tau-\tau'') \frac{3}{2} H^2
+      (\tau'') <\delta_c(\mathbf{k},\tau')\delta^*_c(\mathbf{k},\tau'')>\\
+  =& \bigg(\frac{k \widebar{c_s}}{a(\tau)} \bigg)^2 \sum_m \bigg|
+      \int_{-\infty}^\tau d\tau' \cos( \tau-\tau') \\ 
+                          &\frac{3}{2}
+      H^2(\tau') w^m(k, \tau') \bigg|^2 \;. \numberthis
+\end{align*}
 This is analogous to a Green's function solution with
 $G_{\Theta_\nu}(\tau,\tau') = \cos(\tau-\tau')$.
 
@@ -2238,50 +2202,45 @@ Under the assumption of
 matter domination, using equations \eqref{eqn:earlytimew} and
 \eqref{eqn:earlytimehubble} for the $w$-vectors and the Hubble factor, 
 we obtain:
-\begin{equation}\label{eqn:veldivgnu3} 
- \begin{array}{rcl}
+\begin{align*}\label{eqn:veldivgnu3} 
    I_{\Theta_\nu,M}(k,\tau,\tau_0) %&=& \int_{-\infty}^{\tau_0} d\tau' \cos(\tau-\tau') \frac{3}{2}
 %   H^2(\tau') w^0(k,\tau') \\[1em]
-               &=& \int_{-\infty}^{\tau_0} d \tau'
+               =& \int_{-\infty}^{\tau_0} d \tau'
                              \cos(\tau-\tau') \frac{3}{2}
                              \frac{a^4(\tau')}{k^2 \widebar{c_s}^2}
                              H_0^2 \frac{\Omega_M}{a^3(\tau')} A(k)
-                             a(\tau') \\[1em]
+                             a(\tau') \\
 %   &=&  \frac{3}{2} \frac{ H_0^2 \Omega_M A(k)}{k^2 \widebar{c_s}^2}
 %       \int_{-\infty}^{\tau_0} d \tau' \cos(\tau-\tau') \bigg( \frac{
 %       -2 k \widebar{c_s} }{ H_0 \sqrt{ \Omega_M}} \bigg)^4\frac{1}{\tau ^{4'} }
 %   \\[1em]
-    &=& \frac{24 k^2 \widebar{c_s}^2 A(k) }{H_0^2 \Omega_M} \frac{1}{12\tau_0^3}
-        \bigg( \pi \tau_0^3 \cos(\tau) + 2 ( \tau_0^2 - 2) \cos(
-        \tau-\tau_0) - \\[1em]
-&& 2 \tau_0 ( \sin( \tau-\tau_0) + \tau_0^2 (
-        \text{CI}(-\tau_0) \sin(\tau) - \cos( \tau) \text{SI}( \tau_0)
-        ) ) \bigg)
-\end{array}
-\end{equation}
+   =& \frac{24 k^2 \widebar{c_s}^2 A(k) }{H_0^2 \Omega_M} \frac{1}{12\tau_0^3}
+        \bigg( \pi \tau_0^3 \cos(\tau) +\\ & 2 ( \tau_0^2 - 2) \cos(
+        \tau-\tau_0) - \\
+& 2 \tau_0 ( \sin( \tau-\tau_0) + \tau_0^2 (
+        \text{CI}(-\tau_0) \sin(\tau) -\\ & \cos( \tau) \text{SI}( \tau_0)
+        ) ) \bigg) \numberthis
+\end{align*}
 We can find an analytic expression for the neutrino velocity
 divergence power by setting $\tau_0 = \tau$ in the above expression:
-\begin{equation} \label{eqn:veldivgnu4} 
-\begin{array}{rcl}
-  I_{\Theta_\nu,M}(k,\tau,\tau)&=& \frac{24 k^2 \widebar{c_s}^2 A(k)}{ H_0^2
-    \Omega_M} \frac{1}{12} \bigg( \frac{2 (\tau^2-2)}{ \tau^3} - 2
+\begin{align*} \label{eqn:veldivgnu4} 
+  I_{\Theta_\nu,M}(k,\tau,\tau)=& \frac{24 k^2 \widebar{c_s}^2 A(k)}{ H_0^2
+    \Omega_M} \frac{1}{12} \bigg( \frac{2 (\tau^2-2)}{ \tau^3} - \\ & 2
   \text{CI}(-\tau) \sin(\tau) + \cos( \tau) ( \pi + 2 \text{SI}(\tau)
-  ) \bigg) \;.
-\end{array}
-\end{equation}
+  ) \bigg) \;. \numberthis
+\end{align*}
 Substituting this into Equation \eqref{eqn:veldivgnu2} we find an
 expression for the neutrino velocity divergence power in matter domination:
-\begin{equation}\label{eqn:veldivgnu5} 
-\begin{array}{rcl}
-  P_{{\Theta_\nu,M}}(k,\tau) &=& \bigg( \frac{k
+\begin{align*}\label{eqn:veldivgnu5} 
+  P_{{\Theta_\nu,M}}(k,\tau) =& \bigg( \frac{k
     \widebar{c_s}}{a(\tau)}\bigg)^2 \bigg| \frac{ 24 k^2 \widebar{c_s}^2
-    A(k)}{H_0^2 \Omega_M} \frac{1}{12} \bigg( \pi \tau_0^3 \cos(\tau) + 2 ( \tau_0^2 - 2) \cos(
-        \tau-\tau_0) - \\[1em]
-&& 2 \tau_0 ( \sin( \tau-\tau_0) + \tau_0^2 (
+    A(k)}{H_0^2 \Omega_M} \frac{1}{12} \bigg( \pi \tau_0^3 \cos(\tau)
+                                +\\ & 2 ( \tau_0^2 - 2) \cos(
+        \tau-\tau_0) -
+ 2 \tau_0 ( \sin( \tau-\tau_0) + \\ & \tau_0^2 (
         \text{CI}(-\tau_0) \sin(\tau) - \cos( \tau) \text{SI}( \tau_0)
-        ) ) \bigg) \bigg|^2\;.
-\end{array}
-\end{equation}
+        ) ) \bigg) \bigg|^2\;. \numberthis
+\end{align*}
 %This can be compared to the semi-analytic velocity divergence power to
 %observe the discrepancies from the purely linear solution caused by
 %treating the dark matter nonlinearly.
@@ -2293,16 +2252,15 @@ the CDM or neutrino velocity divergence power using
 Equation \eqref{eqn:veldivgcdm2} or 
 \eqref{eqn:veldivgnu2} 
 respectively, we decompose the relevant integral as follows:
-\begin{equation}\label{eqn:veldecomp}
-\begin{array}{rcl}
-  P_{\Theta_i}( k, \tau) &=& \bigg| I_{\Theta_i,M}(k, \tau, \tau_0) +
+\begin{align*}\label{eqn:veldecomp}
+  P_{\Theta_i}( k, \tau) =& \bigg| I_{\Theta_i,M}(k, \tau, \tau_0) +
+  \\ &
   \int_{\tau_0}^\tau d\tau' G_{\Theta_i}(\tau-\tau') \frac{3}{2} H^2(\tau')
-  w^0(k,\tau') \bigg|^2 +\\[1em]
-&& \sum_{m=1}^{m_{max}} \bigg| \int_{\tau_0}^\tau d \tau'
+  w^0(k,\tau') \bigg|^2 +\\
+& \sum_{m=1}^{m_{max}} \bigg| \int_{\tau_0}^\tau d \tau'
   G_{\Theta_i}(\tau-\tau') \frac{3}{2} H^2(\tau') w^m(k,\tau')
-   \bigg|^2 \;.
-\end{array}
-\end{equation}
+   \bigg|^2 \;. \numberthis
+\end{align*}
 
 
 % In most cases, the integrals in Equation \ref{eqn:veldecomp}
@@ -2383,7 +2341,7 @@ respectively, we decompose the relevant integral as follows:
 %\begin{wrapfigure}{l}{0.5\linewidth}
 \begin{figure*}[h!]
   \centering
-    \includegraphics[width=0.495\textwidth]{Figures/vel_cdm_0.eps}
+    \includegraphics[width=0.495\textwidth]{Figures/vel_cdm_0.pdf}
     \caption{The semi-linear CDM velocity divergence
       power spectrum at $z=0$ along with 
       power spectra from the simulation (solid purple) and
@@ -2432,17 +2390,11 @@ from linearity.
 
 \begin{figure*}[h!]
   \centering
-  \begin{subfigure}[t]{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Figures/vel_nu0p2_0.eps}
-    \caption{$\sum m_\nu = 0.2$ eV}\label{fig:vel_nu0p2_rec}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.45\textwidth}
-  \centering
-    \includegraphics[width=\textwidth]{Figures/vel_nu0p1_0.eps}
-    \caption{$\sum m_\nu = 0.1$ eV}\label{fig:vel_nu0p05_rec}
-    \end{subfigure}
-    \caption{The semi-linear neutrino velocity divergence power
+  \subfloat[$\sum m_\nu = 0.2$ eV\label{fig:vel_nu0p2_rec}]{
+    \includegraphics[width=0.495\textwidth]{Figures/vel_nu0p2_0_pres.pdf}}
+  \subfloat[$\sum m_\nu = 0.1$ eV\label{fig:vel_nu0p05_rec}]{
+    \includegraphics[width=0.495\textwidth]{Figures/vel_nu0p1_0.pdf}}
+  \caption{The semi-linear neutrino velocity divergence power
       spectrum at $z=0$ for
      $\textstyle\sum m_\nu = 0.2$ eV (\ref{fig:vel_nu0p2_rec}) and $\textstyle\sum
      m_\nu = 0.1$ eV (\ref{fig:vel_nu0p05_rec}) along with the
@@ -2578,11 +2530,12 @@ spectra from Equation \eqref{eqn:nonlinear2}, we can use the same Green's functi
 in Section \ref{sec:Density}.  The change in the right hand side is
 accounted for by defining a new set of vectors, $z_i$, analogous
 to the $w$-vectors so that:
-\begin{equation}
-  <(\nabla ((1 + \delta_i(\tau)) \nabla \delta_c(\tau)) (\nabla
-  ((1+\delta_i(\tau')) \nabla \delta_c(\tau')))^*> = \sum_m
-  z_i^m(\tau) z_i^m(\tau')\;,
-\end{equation}
+\begin{align*}
+  <(\nabla& ((1 + \delta_i(\tau)) \nabla \delta_c(\tau)) (\nabla
+  ((1+\delta_i(\tau')) \nabla \delta_c(\tau')))^*> \\
+&= \sum_m
+  z_i^m(\tau) z_i^m(\tau')\;, \numberthis
+\end{align*}
 where we have suppressed the $k$ dependence of $\delta$ and $z$.  
 Note that we require a set of $z$-vectors for both neutrinos ($i=\nu$) and
 CDM ($i=c$), and that we need the neutrino density
@@ -2636,16 +2589,10 @@ below, only four iterations of this method were used.
 
 \begin{figure*}[h!]
   \centering
-  \begin{subfigure}[t]{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Figures/density_cdm_nl_0.eps}
-    \caption{CDM}\label{fig:nlcdm}
-  \end{subfigure}
-  \begin{subfigure}[t]{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Figures/density_nu_nl_0.eps}
-    \caption{Neutrinos}\label{fig:nlnu}
-  \end{subfigure}
+  \subfloat[CDM\label{fig:nlcdm}]{
+    \includegraphics[width=0.495\textwidth]{Figures/density_cdm_nl_0.pdf}}
+  \subfloat[Neutrinos\label{fig:nlnu}]{
+    \includegraphics[width=0.495\textwidth]{Figures/density_nu_nl_0.pdf}}
   \caption{The CDM (\ref{fig:nlcdm}) and neutrino
     (\ref{fig:nlnu}) density power spectra calculated from the
     $z$-vectors (solid orange), which are
@@ -2943,10 +2890,9 @@ neutrinos but also into the early universe they probe.
 
 \section*{ Acknowledgments }
 %\acknowledgments
-I would like to thank my advisor, Ue-Li Pen, for his guidance in this
-research, Daan Meerberg for many helpful discussions, and Derek Inman
+I would like to thank Derek Inman
 and J.D. Emberson for their support with
-the more computational aspects of this work.
+the CUBEP$^3$M simulations.
 Computations were performed on the GPC supercomputer at the SciNet HPC
 Consortium.  SciNet is funded by: the Canada Foundation for
 Innovation under the auspices of Compute Canada; the Government of
@@ -2954,10 +2900,7 @@ Ontario; Ontario Research Fund - Research Excellence; and the
 University of Toronto.
 
 \medskip
-%\bibliographystyle{unsrt}
-\bibliography{report}{}
-%\bibliographystyle{h-physrev}
-%\end{document}
+\bibliography{paper}{}
 
 %1003.0942 -> good information on why we can represent neutrinos as
 %fluids, and why we do it
@@ -3019,13 +2962,11 @@ of the cosmic photon and neutrino background temperatures is given by:
 
 \section{Neutrino Velocity Dispersion}\label{app:AppB}
 Recall the definition of the velocity dispersion:
-\begin{equation}\label{eqn:veldisp2}
-\begin{array}{rcl}
-  \sigma_v^2 &=& \frac{1}{a^2 m^2 } < q >^2\\[1em]
-  &=& \frac{1}{a^2\, m^2} \frac{ \int_0^\infty q^2 dq q^2 f_0(q) }{
-      \int_0^\infty q^2 dq f_0(q) } \;.
-\end{array}
-\end{equation}
+\begin{align*}\label{eqn:veldisp2}
+  \sigma_v^2 &= \frac{1}{a^2 m^2 } < q >^2\\
+  &= \frac{1}{a^2\, m^2} \frac{ \int_0^\infty q^2 dq q^2 f_0(q) }{
+      \int_0^\infty q^2 dq f_0(q) } \;.\numberthis
+\end{align*}
 Recall from Section \ref{sec:NuFluid} that neutrinos obey the
 relativistic Fermi-Dirac distribution, Equation \eqref{eqn:fermidirac} as they are relativistic at the
 time of decoupling.  Also recall that after decoupling, the neutrino
@@ -3034,24 +2975,20 @@ $aT$ remains constant and we can use the relation $a(t)T_\nu(t) = a_0T_{\nu,0}$,
 where the subscript $0$ denotes values today.  
 Using Equation \eqref{eqn:fermidirac}, 
 the integral in the denominator can be evaluated as follows:
-\begin{equation}\label{eqn:veldisp3}
-\begin{array}{rcl}
-  \int_0^\infty dq q^4 f_0(q) &=& \int_0^\infty dq q^4
-                                  \frac{1}{\me^{q/T_0} + 1} \\[1em]
-  &=& T_{nu,0}^5 \int_0^\infty dx \frac{ x^4 }{\me^x +1 } \\[1em]
-  &=& T_{nu,0}^5 \frac{45}{2} \zeta (5) \;,
-\end{array}
-\end{equation}
+\begin{align*}\label{eqn:veldisp3}
+  \int_0^\infty dq q^4 f_0(q) &= \int_0^\infty dq q^4
+                                  \frac{1}{\me^{q/T_0} + 1} \\
+  &= T_{nu,0}^5 \int_0^\infty dx \frac{ x^4 }{\me^x +1 } \\
+  &= T_{nu,0}^5 \frac{45}{2} \zeta (5) \;,\numberthis
+\end{align*}
 where the substitution $x=q/T_0$ was made and $\zeta(x)$ is the
 Riemann zeta function.  The integral in the numerator evaluates to:
-\begin{equation}\label{eqn:veldisp4}
-\begin{array}{rcl}
-  \int_0^{\infty} dq q^2 f_0(q) &=& \int_0^\infty dq q^2
-                                    \frac{1}{\me^{q/T_0}+1}\\[1em] 
- &=& T_{\nu,0}^3 \int_0^\infty dx \frac{x^2}{\me^x+1}\\[1em]
- &=& T_{\nu,0}^3 \frac{3}{2} \zeta(3) \;.
-\end{array}
-\end{equation}
+\begin{align*}\label{eqn:veldisp4}
+  \int_0^{\infty} dq q^2 f_0(q) &= \int_0^\infty dq q^2
+                                    \frac{1}{\me^{q/T_0}+1}\\
+ &= T_{\nu,0}^3 \int_0^\infty dx \frac{x^2}{\me^x+1}\\
+ &= T_{\nu,0}^3 \frac{3}{2} \zeta(3) \;.\numberthis
+\end{align*}
 Substituting these integrals into Equation \eqref{eqn:veldisp2} we find:
 \begin{equation}\label{eqn:veldisp52}
   \sigma_v^2(t) = \frac{1}{a^2(t)\,m^2_\nu} 15 \frac{ \zeta(5)
