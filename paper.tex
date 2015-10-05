@@ -244,13 +244,12 @@ standard model despite extensive research in both the particle and
 cosmological physics communities.  Neutrino oscillation experiments
 have determined the mass differences between species of
 neutrinos ($\Delta m_{21}^2 \approx 7.6~10^{-5} $ eV$^2$ and
-$\Delta m_{31}^2 \approx 2.4~10^{-3}$ eV$^2$) (see \cite{schwetz11} for
-a recent analysis), constraining the sum of the neutrino
-masses to $\sum m_\nu \gsim 0.05$ eV, while double-beta decay experiments
+$\Delta m_{31}^2 \approx 2.4~10^{-3}$ eV$^2$) (see \cite{schwetz11} 
+for a recent analysis), constraining the sum of the neutrino
+masses to $\sum m_\nu \gsim 0.06$ eV, while double-beta decay experiments
 provide a complimentary constraint of  $\sum m_\nu \lsim 0.2$ eV (see
 \cite{guzowski15} for a recent review). Meanwhile, since neutrinos affect
-structure formation (see, for example, \cite{lesgourgues06} and
-\cite{wong11}), cosmological observations can provide
+structure formation \cite{lesgourgues06,wong11}, cosmological observations can provide
  insight into neutrino properties.  
 %The 7-year Wilkinson Microwave
 %Anisotropies Probe (WMAP) observations of cosmic microwave background (CMB) lensing places a
@@ -260,10 +259,10 @@ structure formation (see, for example, \cite{lesgourgues06} and
 %\citep{putter12}.
 Cosmic microwave background (CMB) lensing observations from the Planck
 satellite have constrained the sum of the neutrino masses to $\sum
-m_\nu < 0.24$ eV (95\% confidence limits) \citep{planck15nu}.  When these observations are
+m_\nu < 0.24$ eV (95\% confidence limits) \cite{planck15nu}.  When these observations are
 combined with the matter power spectrum of large scale structure from
 the WiggleZ survey, an even lower limit of $\sum m_\nu < 0.18$ eV (95\%
-confidence) is obtained \citep{wigglez}. 
+confidence) is obtained \cite{wigglez}. 
 While these experiments and observations have placed constraints on
 the 
 masses of the neutrino species, many questions including the absolute masses and mass hierarchy of
@@ -272,7 +271,7 @@ particle,  remain unanswered.  In the future, some of these answers
 may be provided by direct detection of the cosmic neutrino
 background.  As the cosmic neutrino background is much older than the
 CMB (neutrinos and photons decoupled around 1 MeV
-and 0.25 eV respectively \citep{schneider}),
+and 0.25 eV respectively \cite{schneider}),
 % z = 6 *10^9 , T = 10^10 K for neutrinos, 1000 - 1200, T=3000K for photons
 observations of the cosmic neutrino background could also provide
 insight into the physics of the early universe.
@@ -283,7 +282,7 @@ tritium and thereby constrain the
 neutrino masses.  
 If neutrino
 clustering is ignored, 9 - 10 detections of relic neutrinos are
-expected from \ptolemy per year \citep{ptolemy}.  However, to better predict \ptolemy
+expected from \ptolemy per year \cite{ptolemy}.  However, to better predict \ptolemy
 results and their dependence on, for example, neutrino mass,
 we require an understanding of neutrino clustering, and how that might
 affect the neutrino sample available to \ptolemyns.
@@ -308,13 +307,13 @@ unable to resolve non-linear neutrino structure.
 %resolving the effects of linear neutrinos on CDM
 %structure formation.  
 An alternative is to include neutrinos as
-distinct particles in N-body simulations \citep{bird12,inman15}.
+distinct particles in N-body simulations \cite{bird12,inman15}.
 These particle-based simulations of neutrinos have
 indicated that a purely linear cosmology is insufficient to describe
 the evolution of the cosmic neutrino background: Both the neutrino
 matter 
 and velocity power spectra are underpredicted by linear
-  theory \citep{brandbyge09,inman15}.
+  theory \cite{brandbyge09,inman15}.
 However, because neutrinos have high
 velocity dispersions, N-body simulations including neutrinos as separate
 particles are hindered by high Poisson noise. The
@@ -322,7 +321,7 @@ common solution to high Poisson noise,  increasing the
 number 
 of particles simulated, greatly increases the computation
 time, which is already large due to the small time
-step required to resolve the rapidly moving neutrinos \citep{brandbyge082,brandbyge08,brandbyge09}.  This
+step required to resolve the rapidly moving neutrinos \cite{brandbyge082,brandbyge08,brandbyge09}.  This
 makes performing many of these simulations both costly and
 time-consuming. 
  Because of this, using N-body simulations to perform a parameter-space 
@@ -336,18 +335,18 @@ To improve upon hybrid N-body simulations of neutrinos,
 %\cite{shoji09} have built upon the
 %analytic approach by extending their analysis to high order in
 %perturbation theory.  On the other hand, 
-\cite{brandbyge09}
+Brandbyge \& Hannestad \cite{brandbyge09}
 initially evolve neutrinos
 in linear theory on a grid, and convert them to
 particles at a later time.  However, this method still fails to
 capture the neutrino response to a non-linear gravitational potential
-at early times. \cite{yacine12} take a different approach and include
+at early times. Ali-Ha\"imoud \& Bird \cite{yacine12} take a different approach and include
 the full non-linear gravitational potential contributed by 
 neutrinos and CDM when evolving the neutrino grid, 
 thereby including the linear neutrino response to the
 non-linear gravitational potential.  
 However, when they compute the gravitational
-potential, \cite{yacine12} neglect the temporally changing phase of the
+potential, Ali-Ha\"imoud \& Bird \cite{yacine12} neglect the temporally changing phase of the
 matter density field.
 % making the approximation:
 %\begin{equation}
@@ -373,10 +372,11 @@ As the physical
 density of neutrinos is only a fraction of that of CDM
 ($\Omega_\nu = 0.002$ for $\sum m_\nu = 0.2$ eV, $\Omega_{cdm} = 0.26$
 \citep{planck15}), this seems a reasonable approximation. 
-\cite{brandbyge08,brandbyge09} find that at wavenumbers $k\gsim 0.1$ h
+Brandbyge \& Hannestad \cite{brandbyge08,brandbyge09} find that at wavenumbers $k\gsim 0.1$ h
 Mpc$^{-1}$, the matter power spectrum is reduced by
-1.25\% when neutrinos with $\sum m_\nu =0.6$ eV are included in simulations.
-\cite{brandbyge09} 
+1.25\% when neutrinos with $\sum m_\nu =0.6$ eV are included in
+simulations.
+Brandbyge \& Hannestad \cite{brandbyge09} 
 note that
 this effect on the matter power spectrum scales with
 $\sum m_\nu$.  Therefore, at the neutrino masses considered in this
@@ -719,56 +719,85 @@ following expression for the sound speed:
 \label{sec:Fluids}
 
 Approximating neutrinos and CDM as fluids allows us to
-use the fluid equations.  In this work, the
-continuity equation \eqref{eqn:continuity}, the Euler
-equation \eqref{eqn:euler}, and Poisson's equation \eqref{eqn:poisson} 
-will be of particular importance.
-The continuity equation, an expression of mass conservation, may be written as:
-\begin{equation} \label{eqn:continuity}
-  \frac{\partial \rho }{\partial t} +\nabla \cdot ( \rho \mathbf{v} ) = 0 \;,
+use the fluid equations. We will use the forms of these
+equations in comoving coordinates, and under the simplifying
+assumption that the fluid flows are incompressible.  We also write the
+fluid density and velocity as perturbations about an isotropic and
+homogeneous solution.  In comoving coordinates, the velocity of the
+isotropic and homogeneous solution (the Hubble flow) is zero, so that
+the velocity perturbation is equivalent to the velocity,
+$\mathbf{u}_i$.  We can write the total density $\rho_i$ in terms of
+the spatially averaged density $\widebar{\rho_i}$ and the density
+perturbation, $\delta_i$ as 
+\begin{equation} 
+  \rho_i = \widebar{\rho_i} ( 1 + \delta_i) \; .
 \end{equation}
-where $\rho$ is the density of the fluid, $t$ is the physical time
-and $\mathbf{v}$ is the velocity of the fluid, $\frac{\partial
-  \mathbf{r}}{\partial t}$.  Both $\rho$ and $\mathbf{v}$ depend on
-position $\mathbf{r}$ and time $t$.  %4-vectors?
-The
-Euler velocity equation for momentum conservation has the form:
-\begin{equation}\label{eqn:euler}
-  \frac{ \partial \rho \mathbf{v} }{ \partial t} + 
-%\nabla \cdot ( \mathbf{v} \otimes ( \rho \mathbf{v} ) ) 
-  (\mathbf{v} \cdot \nabla ) \rho \mathbf{v}
-+ \nabla P_T = 0 \;,
+Note that we will use the subscript $i$ to label the species, $i=\nu$
+for neutrinos and $i=c$ for cold dark matter.  Finally, we will assume
+that the any terms of second order or higher in the perturbations are
+negligible and may be neglected.  With these simplifications, 
+we arrive at the following forms for the
+continuity equation \eqref{eqn:continuity} and the Euler
+equation \eqref{eqn:euler}:
+\begin{equation}\label{eqn:continuity}
+  \frac{ \partial \delta_i }{ \partial t } + \frac{ 1 }{a} \nabla \cdot
+  \mathbf{ u_i} = 0 \;,
 \end{equation}
-where $P_T$ is the total pressure experienced by the fluid, including
-both the gravitational pressure and the outward fluid pressure. 
-Finally, Poisson's equation for the gravitational potential, $\Phi$, may be written:
-\begin{equation}\label{eqn:poisson}
-  \nabla^2\Phi=4\pi G \rho \;,
+and
+\begin{equation}\label{eqn:euler} 
+  \frac{ \partial \mathbf{u_i} }{\partial t} +
+  \frac{\dot{a}}{a}\mathbf{u_i}  + \frac{ \nabla P}{ a
+    \widebar{\rho_i} }= \frac{1}{a} \nabla \phi_c \;.
 \end{equation}
-where $\rho$ is the total density and $G$ is the gravitational constant.  Note also that:
-\begin{equation}
-  \nabla P_g = \rho g = - \rho \nabla \Phi \;,
-\end{equation}
-where $P_g$ is the pressure due to gravity, so that we may rewrite Equation \eqref{eqn:euler} as:
-\begin{equation}\label{eqn:euler2}
-  \frac{ \partial \rho \mathbf{v} }{ \partial t} + 
-%\nabla \cdot ( \mathbf{v}  \otimes ( \rho \mathbf{v} ) ) 
-  (\mathbf{v} \cdot \nabla) \rho \mathbf{v}
-+ \nabla P = \rho \nabla \Phi \;,
-\end{equation}
-where $P$ now excludes the gravitational pressure.
+These are the forms of the fluid equations used in this work.
+
+
+% The continuity equation, an expression of mass conservation, may be written as:
+% \begin{equation} \label{eqn:continuity}
+%   \frac{\partial \rho }{\partial t} +\nabla \cdot ( \rho \mathbf{v} ) = 0 \;,
+% \end{equation}
+% where $\rho$ is the density of the fluid, $t$ is the physical time
+% and $\mathbf{v}$ is the velocity of the fluid, $\frac{\partial
+%   \mathbf{r}}{\partial t}$.  Both $\rho$ and $\mathbf{v}$ depend on
+% position $\mathbf{r}$ and time $t$.  %4-vectors?
+% The
+% Euler velocity equation for momentum conservation has the form:
+% \begin{equation}\label{eqn:euler}
+%   \frac{ \partial \rho \mathbf{v} }{ \partial t} + 
+% %\nabla \cdot ( \mathbf{v} \otimes ( \rho \mathbf{v} ) ) 
+%   (\mathbf{v} \cdot \nabla ) \rho \mathbf{v}
+% + \nabla P_T = 0 \;,
+% \end{equation}
+% where $P_T$ is the total pressure experienced by the fluid, including
+% both the gravitational pressure and the outward fluid pressure. 
+% Finally, Poisson's equation for the gravitational potential, $\Phi$, may be written:
+% \begin{equation}\label{eqn:poisson}
+%   \nabla^2\Phi=4\pi G \rho \;,
+% \end{equation}
+% where $\rho$ is the total density and $G$ is the gravitational constant.  Note also that:
+% \begin{equation}
+%   \nabla P_g = \rho g = - \rho \nabla \Phi \;,
+% \end{equation}
+% where $P_g$ is the pressure due to gravity, so that we may rewrite Equation \eqref{eqn:euler} as:
+% \begin{equation}\label{eqn:euler2}
+%   \frac{ \partial \rho \mathbf{v} }{ \partial t} + 
+% %\nabla \cdot ( \mathbf{v}  \otimes ( \rho \mathbf{v} ) ) 
+%   (\mathbf{v} \cdot \nabla) \rho \mathbf{v}
+% + \nabla P = \rho \nabla \Phi \;,
+% \end{equation}
+% where $P$ now excludes the gravitational pressure.
 
 %Note a comoving observer is one which moves with the hubble flow and
 %sees the universe as isotropic.  Comoving coordinates are those in
 %which the spatial coordinates of the comoving observer do not change
 %with time.
 
-To attain the form of these equations used in this work, some
-simplifying assumptions will be made.  
-First, we assume that
-the flows of interest are incompressible, or that the density of
-the fluid is constant within an infinitesimal
-volume element moving with the fluid.  
+% To attain the form of these equations used in this work, some
+% simplifying assumptions will be made.  
+% First, we assume that
+% the flows of interest are incompressible, or that the density of
+% the fluid is constant within an infinitesimal
+% volume element moving with the fluid.  
 %This allows us to write terms such as
 %$\frac{\partial \rho \mathbf{v} }{ \partial t}$ as $\rho \frac{\partial
 %  \mathbf{v}}{ \partial t }$.  
@@ -777,242 +806,242 @@ volume element moving with the fluid.
 %compressible flows, so that this assumption is valid in linear
 %theory.
 %CHECK TO SEE IF THIS AGREES WITH LINEAR THEORY
-Under this assumption, the continuity equation remains unchanged, but
-the Euler Equation, Equation \eqref{eqn:euler2}, simplifies to:
-\begin{equation}\label{eqn:euler3}
-  \frac{ \partial \mathbf{v} }{\partial t} + ( \mathbf{v} \cdot \nabla )
-  \mathbf{v} + \frac{ \nabla P }{\rho} = \nabla \Phi \;.
-\end{equation} 
+% Under this assumption, the continuity equation remains unchanged, but
+% the Euler Equation, Equation \eqref{eqn:euler2}, simplifies to:
+% \begin{equation}\label{eqn:euler3}
+%   \frac{ \partial \mathbf{v} }{\partial t} + ( \mathbf{v} \cdot \nabla )
+%   \mathbf{v} + \frac{ \nabla P }{\rho} = \nabla \Phi \;.
+% \end{equation} 
 
-For ease of interpretation and ease of integration with the N-body simulations
-used in this work, we desire equations in comoving spatial
-coordinates, $\mathbf{x}$, related to the physical coordinates, $\mathbf{r}$, by:
-\begin{equation}\label{eqn:comovingx}
-  \mathbf{r} = a(t) \mathbf{x} \;.
-\end{equation}
-In comoving coordinates, we may decompose the velocity field $\mathbf{v}$ 
-into the 
-Hubble flow and a peculiar velocity: %deviation from the hubble
-                                %(comoving) flow
-\begin{equation}\label{eqn:comovingv}
-  \mathbf{v}(\mathbf{r}(t),t)=H(t)\mathbf{r}(t) +
-  \mathbf{u}\bigg(\frac{\mathbf{r}}{a},t\bigg) \;,
-\end{equation}
-where $H(t) = \frac{\dot{a}}{{a}}$ is the Hubble parameter.
-As the transformation to comoving coordinates is detailed by many
-authors (\eg \cite{peebles,schneider,baumann}), we
-reproduce only the major steps here.
+% For ease of interpretation and ease of integration with the N-body simulations
+% used in this work, we desire equations in comoving spatial
+% coordinates, $\mathbf{x}$, related to the physical coordinates, $\mathbf{r}$, by:
+% \begin{equation}\label{eqn:comovingx}
+%   \mathbf{r} = a(t) \mathbf{x} \;.
+% \end{equation}
+% In comoving coordinates, we may decompose the velocity field $\mathbf{v}$ 
+% into the 
+% Hubble flow and a peculiar velocity: %deviation from the hubble
+%                                 %(comoving) flow
+% \begin{equation}\label{eqn:comovingv}
+%   \mathbf{v}(\mathbf{r}(t),t)=H(t)\mathbf{r}(t) +
+%   \mathbf{u}\bigg(\frac{\mathbf{r}}{a},t\bigg) \;,
+% \end{equation}
+% where $H(t) = \frac{\dot{a}}{{a}}$ is the Hubble parameter.
+% As the transformation to comoving coordinates is detailed by many
+% authors (\eg \cite{peebles,schneider,baumann}), we
+% reproduce only the major steps here.
 
-As we are changing the spatial coordinates, we must also transform 
-the derivative with respect to $t$ from
-one during which $\mathbf{r}$ is held constant to one during which
-$\mathbf{x}$ is held constant via the relation:
-% *** FIGURE OUT
-%GENERAL RULE*** - check daniel baumann's notes as im fairly sure its
-%in there
-\begin{equation}
-  \bigg(\frac{\partial}{\partial t} \bigg)_{\mathbf{r}} =
-  \bigg(\frac{\partial}{\partial t} \bigg)_{\mathbf{x}} +\bigg(
-  \frac{ \partial \mathbf{x} }{ \partial t} \bigg)_{\mathbf{r}}
-  \nabla_x \;,
-\end{equation}
-which in this case reduces to:
-\begin{equation}\label{eqn:partialconv}
-  \bigg(\frac{\partial}{\partial t}\bigg)_{\mathbf{r}} = \bigg(\frac{\partial}{\partial
-  t}\bigg)_{\mathbf{x}} - \frac{\dot{a} }{a} \mathbf{x}\cdot\nabla_x \;,
-\end{equation}
-where
-\begin{equation}
-  \nabla_{\mathbf{r}}=\frac{ \nabla_{\mathbf{x}}}{a} \;,
-\end{equation}
-from Equation \eqref{eqn:comovingx}.
-Using Equation \eqref{eqn:partialconv}, we can rewrite Equation
-\eqref{eqn:continuity} (after some manipulation) as:
-\begin{equation}\label{eqn:continuity2}
-  \frac{ \partial \rho }{ \partial t } + 3 \frac{\dot{a}}{a} \rho +
-  \frac{1}{a} \nabla \cdot ( \rho \mathbf{u} ) = 0 \;,
-\end{equation}
-where all derivatives are now with respect to comoving coordinates $(\mathbf{x},t)$.
+% As we are changing the spatial coordinates, we must also transform 
+% the derivative with respect to $t$ from
+% one during which $\mathbf{r}$ is held constant to one during which
+% $\mathbf{x}$ is held constant via the relation:
+% % *** FIGURE OUT
+% %GENERAL RULE*** - check daniel baumann's notes as im fairly sure its
+% %in there
+% \begin{equation}
+%   \bigg(\frac{\partial}{\partial t} \bigg)_{\mathbf{r}} =
+%   \bigg(\frac{\partial}{\partial t} \bigg)_{\mathbf{x}} +\bigg(
+%   \frac{ \partial \mathbf{x} }{ \partial t} \bigg)_{\mathbf{r}}
+%   \nabla_x \;,
+% \end{equation}
+% which in this case reduces to:
+% \begin{equation}\label{eqn:partialconv}
+%   \bigg(\frac{\partial}{\partial t}\bigg)_{\mathbf{r}} = \bigg(\frac{\partial}{\partial
+%   t}\bigg)_{\mathbf{x}} - \frac{\dot{a} }{a} \mathbf{x}\cdot\nabla_x \;,
+% \end{equation}
+% where
+% \begin{equation}
+%   \nabla_{\mathbf{r}}=\frac{ \nabla_{\mathbf{x}}}{a} \;,
+% \end{equation}
+% from Equation \eqref{eqn:comovingx}.
+% Using Equation \eqref{eqn:partialconv}, we can rewrite Equation
+% \eqref{eqn:continuity} (after some manipulation) as:
+% \begin{equation}\label{eqn:continuity2}
+%   \frac{ \partial \rho }{ \partial t } + 3 \frac{\dot{a}}{a} \rho +
+%   \frac{1}{a} \nabla \cdot ( \rho \mathbf{u} ) = 0 \;,
+% \end{equation}
+% where all derivatives are now with respect to comoving coordinates $(\mathbf{x},t)$.
 
-%\begin{aside}
-%\begin{equation}
-%\begin{array}{rcl} 
-%  \frac{ \partial \rho }{ \partial t } - \frac{ \dot{a}}{a} \mathbf{x}
-%  \cdot \nabla_{\mathbf{x}} \rho + \frac{1}{a} \nabla_{\mathbf{x}}
-%  \cdot ( \rho ( \dot{a} \mathbf{x} + \mathbf{u} )) &=& 0 \\[1em]
-%  \frac{ \partial \rho }{ \partial t } - \frac{ \dot{a}}{a} \mathbf{x}
-%  \cdot \nabla_{\mathbf{x}} \rho + \frac{1}{a} \nabla_{\mathbf{x}}
-%  \cdot ( \rho  \dot{a} \mathbf{x} ) + \frac{1}{a}\nabla_{\mathbf{x}}
-%  \cdot(  \rho \mathbf{u} )) &=& 0 \\[1em]
-%  \frac{ \partial \rho }{ \partial t } - \frac{ \dot{a}}{a} \mathbf{x}
-%  \cdot \nabla_{\mathbf{x}} \rho + \frac{ \dot{a}}{a} \mathbf{x} \cdot
-%  \nabla_{\mathbf{x}} \rho + 3 \frac{\dot{a}}{a} \rho + \frac{1}{a}
-%  \nabla_{\mathbf{x}} \cdot (\rho\mathbf{u}) &=& 0  
-%\end{array}
-%\end{equation}
-%\end{aside}
+% %\begin{aside}
+% %\begin{equation}
+% %\begin{array}{rcl} 
+% %  \frac{ \partial \rho }{ \partial t } - \frac{ \dot{a}}{a} \mathbf{x}
+% %  \cdot \nabla_{\mathbf{x}} \rho + \frac{1}{a} \nabla_{\mathbf{x}}
+% %  \cdot ( \rho ( \dot{a} \mathbf{x} + \mathbf{u} )) &=& 0 \\[1em]
+% %  \frac{ \partial \rho }{ \partial t } - \frac{ \dot{a}}{a} \mathbf{x}
+% %  \cdot \nabla_{\mathbf{x}} \rho + \frac{1}{a} \nabla_{\mathbf{x}}
+% %  \cdot ( \rho  \dot{a} \mathbf{x} ) + \frac{1}{a}\nabla_{\mathbf{x}}
+% %  \cdot(  \rho \mathbf{u} )) &=& 0 \\[1em]
+% %  \frac{ \partial \rho }{ \partial t } - \frac{ \dot{a}}{a} \mathbf{x}
+% %  \cdot \nabla_{\mathbf{x}} \rho + \frac{ \dot{a}}{a} \mathbf{x} \cdot
+% %  \nabla_{\mathbf{x}} \rho + 3 \frac{\dot{a}}{a} \rho + \frac{1}{a}
+% %  \nabla_{\mathbf{x}} \cdot (\rho\mathbf{u}) &=& 0  
+% %\end{array}
+% %\end{equation}
+% %\end{aside}
 
-%% This next part seemes sketchy.  Can we really just assume mattter
-%% domination? Do we need to check to see if this is a good
-%% assumption? 
-We can further simplify the continuity equation by writing the density
-as a perturbation, $\delta( \mathbf{x},t)$, around a spatially averaged
-density, $\widebar{ \rho}(t) $: $\rho(\mathbf{x},t) = (1 +
-\delta(\mathbf{x},t) ) \widebar{ \rho}(t)$.  From the continuity
-equation for the homogenous mass density, $\frac{d}{dt}(\widebar{\rho}
-a^3) = 0$, we find
-$\widebar{
-  \rho} \propto a^{-3}$,
- so that
- $\frac{ \partial 
-  \widebar{\rho} }{\partial t} = - 3 \widebar{ \rho} \frac{
-  \dot{a}}{a} $.  Using these relations, Equation \eqref{eqn:continuity2} becomes:
-\begin{equation}\label{eqn:continuity3}
-  \frac{ \partial \delta }{ \partial t } + \frac{ 1 }{a} \nabla \cdot
-  ( ( 1 + \delta ) \mathbf{ u } ) = 0 \;.
-\end{equation}
-Note that $\mathbf{u}$ is already a perturbative velocity about the Hubble flow.
-%\begin{aside}
-%\begin{equation}
-%\begin{array}{rcl} 
-%  (1 + \delta) \frac{ \partial \widebar{ \rho }  }{\partial t} + 3
-%  \frac{ \dot{a}}{a} \widebar{ \rho } ( 1 + \delta) + \frac{1}{a}
-%  \nabla \cdot( \widebar{ \rho} ( 1+ \delta) \mathbf{u} ) &=& 0\\[1em]
-%(1+\delta) \widebar{ \rho } ( -3 \frac{ \dot{a}}{a} ) + 3 \widebar{
-%  \rho } \frac{
-%  \dot{a}}{a} ( 1 + \delta) + \widebar{ \rho} \frac{1}{a} \nabla \cdot ( ( 1+ \delta )
-%  \mathbf{ u} ) &=& 0
-%\end{array}
-%\end{equation}
-%\end{aside}
-%Up until this point, this discussion has been equally valid for
-%neutrinos and CDM (as well as any other cosmological
-%fluid).  However, 
-After transforming to comoving coordinates and writing the density as
-a perturbation about the mean, Equation
-\eqref{eqn:euler2} becomes:
-\begin{equation}\label{eqn:euler3}
-  \frac{\partial (\dot{a}\mathbf{x} + \mathbf{u})}{\partial t} + 
-  \frac{\dot{a}}{a} \mathbf{u} + \frac{ \mathbf{u} \cdot \nabla
-  }{a} \mathbf{u} + \frac{ \nabla P }{a \rho } = \frac{ \nabla \Phi
-  } {a} \;.
-\end{equation}
+% %% This next part seemes sketchy.  Can we really just assume mattter
+% %% domination? Do we need to check to see if this is a good
+% %% assumption? 
+% We can further simplify the continuity equation by writing the density
+% as a perturbation, $\delta( \mathbf{x},t)$, around a spatially averaged
+% density, $\widebar{ \rho}(t) $: $\rho(\mathbf{x},t) = (1 +
+% \delta(\mathbf{x},t) ) \widebar{ \rho}(t)$.  From the continuity
+% equation for the homogenous mass density, $\frac{d}{dt}(\widebar{\rho}
+% a^3) = 0$, we find
+% $\widebar{
+%   \rho} \propto a^{-3}$,
+%  so that
+%  $\frac{ \partial 
+%   \widebar{\rho} }{\partial t} = - 3 \widebar{ \rho} \frac{
+%   \dot{a}}{a} $.  Using these relations, Equation \eqref{eqn:continuity2} becomes:
+% \begin{equation}\label{eqn:continuity3}
+%   \frac{ \partial \delta }{ \partial t } + \frac{ 1 }{a} \nabla \cdot
+%   ( ( 1 + \delta ) \mathbf{ u } ) = 0 \;.
+% \end{equation}
+% Note that $\mathbf{u}$ is already a perturbative velocity about the Hubble flow.
+% %\begin{aside}
+% %\begin{equation}
+% %\begin{array}{rcl} 
+% %  (1 + \delta) \frac{ \partial \widebar{ \rho }  }{\partial t} + 3
+% %  \frac{ \dot{a}}{a} \widebar{ \rho } ( 1 + \delta) + \frac{1}{a}
+% %  \nabla \cdot( \widebar{ \rho} ( 1+ \delta) \mathbf{u} ) &=& 0\\[1em]
+% %(1+\delta) \widebar{ \rho } ( -3 \frac{ \dot{a}}{a} ) + 3 \widebar{
+% %  \rho } \frac{
+% %  \dot{a}}{a} ( 1 + \delta) + \widebar{ \rho} \frac{1}{a} \nabla \cdot ( ( 1+ \delta )
+% %  \mathbf{ u} ) &=& 0
+% %\end{array}
+% %\end{equation}
+% %\end{aside}
+% %Up until this point, this discussion has been equally valid for
+% %neutrinos and CDM (as well as any other cosmological
+% %fluid).  However, 
+% After transforming to comoving coordinates and writing the density as
+% a perturbation about the mean, Equation
+% \eqref{eqn:euler2} becomes:
+% \begin{equation}\label{eqn:euler3}
+%   \frac{\partial (\dot{a}\mathbf{x} + \mathbf{u})}{\partial t} + 
+%   \frac{\dot{a}}{a} \mathbf{u} + \frac{ \mathbf{u} \cdot \nabla
+%   }{a} \mathbf{u} + \frac{ \nabla P }{a \rho } = \frac{ \nabla \Phi
+%   } {a} \;.
+% \end{equation}
 
-From the Poisson equation, the gravitational
-potential may be written as:
-\begin{equation}\label{eqn:phi}
-  \Phi( \mathbf{r},t) = \bigg( \frac{ 2 \pi }{3} G \widebar{ \rho} -
-  \frac{ \Lambda }{6} \bigg) | \mathbf{r} |^2 + \phi( \mathbf{x},t) = \frac{
-    \ddot{a}a}{2} |\mathbf{x}|^2 + \phi( \mathbf{x},t)  \;,
-\end{equation}
-where $\phi$ is the gravitational potential sourced by perturbations
-to the homogeneous density.
-As mentioned in Section \ref{sec:Introduction}, we assume that
-$\phi$ may be
-approximated as the gravitational potential sourced by CDM
- density perturbations only.  
-(Note that in the rest of this report, we will use the
-subscripts $c$ and $\nu$ to label attributes of CDM and
-neutrinos respectively.) $\phi_c$ may be related to the density
-perturbations, $\delta_c$, by:
-\begin{equation}\label{eqn:poisson2}
-  \nabla^2\phi_c(\mathbf{x},t) = 4 \pi G a^2 \widebar{ \rho_c }(t)
-  \delta_c(\mathbf{x},t) = \frac{ 3 H^2(t) a^2(t)}{ 2  }
-  \delta_c(\mathbf{x},t) \;.
-\end{equation} 
-This allows us to write Equation \eqref{eqn:euler3} as:
-\begin{equation}\label{euler4}
-  \frac{\partial (\dot{a}\mathbf{x} + \mathbf{u}_i)}{\partial t} + 
-  \frac{\dot{a}}{a} \mathbf{u}_i + \frac{ \mathbf{u}_i \cdot \nabla
-  }{a} \mathbf{u}_i + \frac{ \nabla P_i }{a \rho_i } = \ddot{a}\mathbf{x} + \frac{\nabla \phi_c
-  } {a} \;,
-\end{equation}
-where $i=c,\nu$ for CDM and neutrinos respectively.
+% From the Poisson equation, the gravitational
+% potential may be written as:
+% \begin{equation}\label{eqn:phi}
+%   \Phi( \mathbf{r},t) = \bigg( \frac{ 2 \pi }{3} G \widebar{ \rho} -
+%   \frac{ \Lambda }{6} \bigg) | \mathbf{r} |^2 + \phi( \mathbf{x},t) = \frac{
+%     \ddot{a}a}{2} |\mathbf{x}|^2 + \phi( \mathbf{x},t)  \;,
+% \end{equation}
+% where $\phi$ is the gravitational potential sourced by perturbations
+% to the homogeneous density.
+% As mentioned in Section \ref{sec:Introduction}, we assume that
+% $\phi$ may be
+% approximated as the gravitational potential sourced by CDM
+%  density perturbations only.  
+% (Note that in the rest of this report, we will use the
+% subscripts $c$ and $\nu$ to label attributes of CDM and
+% neutrinos respectively.) $\phi_c$ may be related to the density
+% perturbations, $\delta_c$, by:
+% \begin{equation}\label{eqn:poisson2}
+%   \nabla^2\phi_c(\mathbf{x},t) = 4 \pi G a^2 \widebar{ \rho_c }(t)
+%   \delta_c(\mathbf{x},t) = \frac{ 3 H^2(t) a^2(t)}{ 2  }
+%   \delta_c(\mathbf{x},t) \;.
+% \end{equation} 
+% This allows us to write Equation \eqref{eqn:euler3} as:
+% \begin{equation}\label{euler4}
+%   \frac{\partial (\dot{a}\mathbf{x} + \mathbf{u}_i)}{\partial t} + 
+%   \frac{\dot{a}}{a} \mathbf{u}_i + \frac{ \mathbf{u}_i \cdot \nabla
+%   }{a} \mathbf{u}_i + \frac{ \nabla P_i }{a \rho_i } = \ddot{a}\mathbf{x} + \frac{\nabla \phi_c
+%   } {a} \;,
+% \end{equation}
+% where $i=c,\nu$ for CDM and neutrinos respectively.
 
-%\begin{aside}
-%\mathbf{Aside: Relationship between the acceleration of the universe,
-%$\ddot{a}$ and the average density of the universe, $\widebar{\rho}$.}
-%
-%To understand the relationship between the acceleration and average
-%density of the universe, we must look at the acceleration of a surface
-%of a sphere due to the forces acting on that surface.  We can write
-%the acceleration of the surface of the sphere due to gravity as:
-%\begin{equation}\label{eqn:accel}
-%  \ddot{a} = - \frac{ G M_g} {a^2} = - \frac{4}{3}\pi G \bigg( \sum_i
-%  (\rho_i + 3 p_i ) \bigg) \frac{a^3}{a^2}
-%\end{equation}
-%Where a is the radius of the sphere, G is the gravitational constant,
-%and $M_g$ is the gravitational mass of the sphere.  If we consider, as
-%we have so far, that the gravitational potential is dominated by cold
-%dark matter plus a cosmological constant, then, recalling that for
-%CDM $ p_c = 0$ while a cosmological constant may act as a
-%fluid with $\rho_\Lambda = \frac{ \Lambda}{8 \pi G }$ and $p_\Lambda =
-%- \rho_\Lambda$ then we obtain the relationship:
-%\begin{equation}\label{eqn:accel2}
-%  \ddot{a} = -\frac{4}{3}\pi a G \rho_c - \frac{  \Lambda }{3} a 
-%\end{equation}
-%Which was used in to determine the relationship with the gravitational
-%potential and the scalefactor.
-%\end{aside}
-%
-%\begin{aside}
-%Now, consider a fluid which is comoving and homogeneous in some
-%gravitational field sourced by a comoving and
-%homogeneous fluid which is not necessarily the fluid of interest.  In this
-%case, $\Phi = \bigg ( \frac{ 2 \pi }{3} G \widebar{\rho_c} - \frac{
-%  \Lambda }{6} \bigg) | \mathbf{r} |^2 = \frac{ \ddot{a} a}{2} |
-%\mathbf{x}|^2 $, $\mathbf{u} = 0$, and $\dot{ \mathbf{x}} = 0$.
-%Additionally, since CDM may be considered a pressureless
-%fluid and neutrinos may be considered a fluid with a sound speed that
-%depends on time, but not position, and recalling that the sound speed
-%is given by $c_s^2 = \frac{ \delta P }{\delta \rho } = \frac{ \nabla P
-%}{ \nabla \rho}$ so that $\nabla P = c_s^2 \nabla \rho$ and thus
-%$\nabla P = 0$ in a homogeneous density field.  Therefore in both the
-%neutrino and CDM cases $\nabla P = 0$.
-%By
-%simple substitution of these relations into equation \ref{eqn:euler3},
-%one may verify that this is indeed a solution for both neutrinos and
-%CDM.  
-%\end{aside}
+% %\begin{aside}
+% %\mathbf{Aside: Relationship between the acceleration of the universe,
+% %$\ddot{a}$ and the average density of the universe, $\widebar{\rho}$.}
+% %
+% %To understand the relationship between the acceleration and average
+% %density of the universe, we must look at the acceleration of a surface
+% %of a sphere due to the forces acting on that surface.  We can write
+% %the acceleration of the surface of the sphere due to gravity as:
+% %\begin{equation}\label{eqn:accel}
+% %  \ddot{a} = - \frac{ G M_g} {a^2} = - \frac{4}{3}\pi G \bigg( \sum_i
+% %  (\rho_i + 3 p_i ) \bigg) \frac{a^3}{a^2}
+% %\end{equation}
+% %Where a is the radius of the sphere, G is the gravitational constant,
+% %and $M_g$ is the gravitational mass of the sphere.  If we consider, as
+% %we have so far, that the gravitational potential is dominated by cold
+% %dark matter plus a cosmological constant, then, recalling that for
+% %CDM $ p_c = 0$ while a cosmological constant may act as a
+% %fluid with $\rho_\Lambda = \frac{ \Lambda}{8 \pi G }$ and $p_\Lambda =
+% %- \rho_\Lambda$ then we obtain the relationship:
+% %\begin{equation}\label{eqn:accel2}
+% %  \ddot{a} = -\frac{4}{3}\pi a G \rho_c - \frac{  \Lambda }{3} a 
+% %\end{equation}
+% %Which was used in to determine the relationship with the gravitational
+% %potential and the scalefactor.
+% %\end{aside}
+% %
+% %\begin{aside}
+% %Now, consider a fluid which is comoving and homogeneous in some
+% %gravitational field sourced by a comoving and
+% %homogeneous fluid which is not necessarily the fluid of interest.  In this
+% %case, $\Phi = \bigg ( \frac{ 2 \pi }{3} G \widebar{\rho_c} - \frac{
+% %  \Lambda }{6} \bigg) | \mathbf{r} |^2 = \frac{ \ddot{a} a}{2} |
+% %\mathbf{x}|^2 $, $\mathbf{u} = 0$, and $\dot{ \mathbf{x}} = 0$.
+% %Additionally, since CDM may be considered a pressureless
+% %fluid and neutrinos may be considered a fluid with a sound speed that
+% %depends on time, but not position, and recalling that the sound speed
+% %is given by $c_s^2 = \frac{ \delta P }{\delta \rho } = \frac{ \nabla P
+% %}{ \nabla \rho}$ so that $\nabla P = c_s^2 \nabla \rho$ and thus
+% %$\nabla P = 0$ in a homogeneous density field.  Therefore in both the
+% %neutrino and CDM cases $\nabla P = 0$.
+% %By
+% %simple substitution of these relations into equation \ref{eqn:euler3},
+% %one may verify that this is indeed a solution for both neutrinos and
+% %CDM.  
+% %\end{aside}
 
-It is easy to verify that a homogeneous and isotropic distribution is
-a solution to these equations.
-We can
-expand around this solution by considering
-deviations from $\mathbf{u}_i = 0$ and from $\rho_i = \widebar{ \rho_i}$,
-again using $\rho_i = \widebar{\rho}_i ( 1 + \delta_i) $:
-% Question to self - where does the term a' x' go? Why is it zero or
-% contained in the homogeneous solution?
-\begin{equation}\label{eqn:euler5} 
-  \frac{ \partial \mathbf{u}_i}{\partial t } +  \frac{ \dot{a}}{a}
-    \mathbf{u}_i + \frac{ \mathbf{u}_i \cdot \nabla}{a} \mathbf{u}_i +
-    \frac{ \nabla P_i }{ a \widebar{\rho}_i ( 1 + \delta_i) } = \frac{ \nabla
-      \phi_c }{ a} \;.
-\end{equation} 
-%%% NEED TO FIGURE OUT:
-%%% 1) Phi relation 
-%%% 2) Neutrinos -> why do they also obey this relation, and where
-%%% does the d/dt( a' x ) term go for them.  Is it still cancelled out
-%%% by Phi even though Phi is sourced by the background dark matter?
+% It is easy to verify that a homogeneous and isotropic distribution is
+% a solution to these equations.
+% We can
+% expand around this solution by considering
+% deviations from $\mathbf{u}_i = 0$ and from $\rho_i = \widebar{ \rho_i}$,
+% again using $\rho_i = \widebar{\rho}_i ( 1 + \delta_i) $:
+% % Question to self - where does the term a' x' go? Why is it zero or
+% % contained in the homogeneous solution?
+% \begin{equation}\label{eqn:euler5} 
+%   \frac{ \partial \mathbf{u}_i}{\partial t } +  \frac{ \dot{a}}{a}
+%     \mathbf{u}_i + \frac{ \mathbf{u}_i \cdot \nabla}{a} \mathbf{u}_i +
+%     \frac{ \nabla P_i }{ a \widebar{\rho}_i ( 1 + \delta_i) } = \frac{ \nabla
+%       \phi_c }{ a} \;.
+% \end{equation} 
+% %%% NEED TO FIGURE OUT:
+% %%% 1) Phi relation 
+% %%% 2) Neutrinos -> why do they also obey this relation, and where
+% %%% does the d/dt( a' x ) term go for them.  Is it still cancelled out
+% %%% by Phi even though Phi is sourced by the background dark matter?
 
-Now that we have both the Euler and the continuity equation in
-comoving coordinates, we can further simplify the equations by
-linearizing them.  By assuming
-that any terms of second order or higher in the perturbation (\ie in
-$\delta$ or $\mathbf{u}$) are negligible, we arrive at the following forms for the
-continuity equation \eqref{eqn:continuity4} and the Euler
-equation \eqref{eqn:euler6}:
-\begin{equation}\label{eqn:continuity4}
-  \frac{ \partial \delta_i }{ \partial t } + \frac{ 1 }{a} \nabla \cdot
-  \mathbf{ u_i} = 0 \;,
-\end{equation}
-and
-\begin{equation}\label{eqn:euler6} 
-  \frac{ \partial \mathbf{u_i} }{\partial t} +
-  \frac{\dot{a}}{a}\mathbf{u_i}  + \frac{ \nabla P}{ a
-    \widebar{\rho_i} }= \frac{1}{a} \nabla \phi_c \;.
-\end{equation}
-These are the forms of the fluid equations used in this work.
+% Now that we have both the Euler and the continuity equation in
+% comoving coordinates, we can further simplify the equations by
+% linearizing them.  By assuming
+% that any terms of second order or higher in the perturbation (\ie in
+% $\delta$ or $\mathbf{u}$) are negligible, we arrive at the following forms for the
+% continuity equation \eqref{eqn:continuity4} and the Euler
+% equation \eqref{eqn:euler6}:
+% \begin{equation}\label{eqn:continuity4}
+%   \frac{ \partial \delta_i }{ \partial t } + \frac{ 1 }{a} \nabla \cdot
+%   \mathbf{ u_i} = 0 \;,
+% \end{equation}
+% and
+d% \begin{equation}\label{eqn:euler6} 
+%   \frac{ \partial \mathbf{u_i} }{\partial t} +
+%   \frac{\dot{a}}{a}\mathbf{u_i}  + \frac{ \nabla P}{ a
+%     \widebar{\rho_i} }= \frac{1}{a} \nabla \phi_c \;.
+% \end{equation}
+% These are the forms of the fluid equations used in this work.
 
 \section{Methods}   
 \label{sec:Methods}
@@ -1122,9 +1151,8 @@ $N_{eff}$ & Effective number of neutrino species &
 
 Initial conditions for the simulation were generated for CDM 
 at $z=100$ and for neutrinos at $z=10$ using the Code for
-Anisotropies in the Microwave Background (CAMB) (\cite{lewis99}, 
-\cite{lewis13}). The cosmological parameters used to generate the initial
-conditions, chosen to be in agreement with the Planck 2015 results \citep{planck15}, are tabulated in Table
+Anisotropies in the Microwave Background (CAMB) \cite{lewis99,lewis13}. The cosmological parameters used to generate the initial
+conditions, chosen to be in agreement with the Planck 2015 results \cite{planck15}, are tabulated in Table
 \ref{tbl:initialconditions}.  
 We perform two simulations with almost identical
 initial conditions: One pure $\Lambda$CDM simulation, to calculate
@@ -1136,7 +1164,7 @@ species with a mass of 0.2 eV, corresponding to a cosmology with $\sum
 m_\nu = 0.2$ eV.  
 Note that we can relate
 the physical neutrino density to the neutrino mass by
-\citep{Mangano05}:
+\cite{Mangano05}:
 \begin{equation}
   \Omega_\nu h^2 = \frac{ \sum m_\nu }{ 93.14 \text{eV}} \;.
 \end{equation}
@@ -1212,7 +1240,7 @@ global defects on matter power spectra,
 the unequal-time correlator of the defect stress-energy
 tensor preserves all of the
 information required to compute power
-spectra \citep{pen94,pen97}.  
+spectra \cite{pen94,pen97}.  
 %The unequal-time correlator may be expressed in terms of
 %the source energy momentum tensor, $\Theta_{\mu \nu}$, as:
 %\begin{equation}
@@ -1623,15 +1651,15 @@ in the near future and with higher resolution numerical simulations.
 
 In the first of three parts of this analysis, we obtain the
 CDM and neutrino 
-density power spectra from the Euler equation \eqref{eqn:euler5} and
-the continuity equation \eqref{eqn:continuity4}, derived in Section
+density power spectra from the Euler equation \eqref{eqn:euler} and
+the continuity equation \eqref{eqn:continuity}, derived in Section
 \ref{sec:Fluids}, using the $w$-vectors from the numerical simulation
 to measure the gravitational potential 
 as described in Section \ref{sec:Methods}. We therefore require a
 relation between 
 the density power and the $w$-vectors.  We start by taking the gradient of the Euler equation
-\eqref{eqn:euler5} and differentiating the continuity equation
-\eqref{eqn:continuity4} with respect to time, $t$. Combining these equations, we obtain
+\eqref{eqn:euler} and differentiating the continuity equation
+\eqref{eqn:continuity} with respect to time, $t$. Combining these equations, we obtain
 a single equation for the density contrast in Fourier space:
 %\begin{aside}
 %\begin{equation}
@@ -1677,51 +1705,114 @@ neutrinos, as they are characterized by different
 pressures in the fluid approximation.  
 As discussed above, CDM can be approximated as a
 pressureless fluid, while a finite pressure is necessary to account
-for the significant thermal motion of neutrinos.  We will
-analyze these two cases in Sections \ref{sec:densitycdm} and
-\ref{sec:densitynu} below.  
+for the significant thermal motion of neutrinos.  As mentioned in
+Section \ref{sec:neutrinos}, using a finite sound speed $c_s$ such
+that $c_s^2 = \frac{ \widebar{c_s}^2 }{a^2}$ accounts for this
+pressure. 
+%We will
+%analyze these two cases in Sections \ref{sec:densitycdm} and
+%\ref{sec:densitynu} below.  
 %Note that any
 %dependence of sound speed on time or, for example, wavenumber, may be
 %considered numerically.  However, these two dependencies lend
 %themselves well to a Green's function analysis. - Something to note
 %in the conclusions but not here
+In both of these cases, a Green's function solution to Equation
+\eqref{ eqn:densitycontrast2} exists of the form
+\begin{equation}
+  \delta_c(\mathbf{k},\tau) = \int_{-\infty}^\tau d\tau'
+  G_i(\tau,\tau') \frac{3}{2} H^2(\tau) \delta_c(\mathbf{k}, \tau'
+  )\;,
+\end{equation}
+where $i=c,\nu$ for cold dark matter and neutrinos respectively, and
+the Green's functions are 
+\begin{equation}
+  G_c(\tau,\tau') = \tau - \tau' 
+\end{equation}
+for cold dark matter and
+\begin{equation}
+  G_\nu(\tau,\tau') = j_0(k \widebar{c_s} (\tau - \tau' ) ) (\tau -
+  \tau' ) 
+\end{equation}
+for neutrinos. 
 
-\subsection{ Cold dark matter }
-\label{sec:densitycdm}
-We will treat CDM as a pressureless fluid with $\nabla
-P_c=0$ so that Equation \eqref{eqn:densitycontrast2} can be written as:
-\begin{equation}\label{eqn:densitycontrastcdm}
-  \ddot{\delta}_c(\mathbf{k},\tau) = \frac{3}{2} H^2(\tau)
-  \delta_c(\mathbf{k},\tau) \;,
+This allows one to write both the cold dark matter and neutrino power
+spectra in terms of the cold dark matter density perturbation as
+\begin{equation}
+  P_i(\tau) = < \delta_i(\tau) \delta_i^*(\tau)> = \int_{-\infty}^\tau
+  d \tau' G_i(\tau,\tau') \frac{3}{2} H^2(\tau') \int_{-\infty}^\tau d
+  \tau'' G_i(\tau,\tau'') \frac{3}{2} H^2(\tau'') < \delta_c(\tau')
+  \delta^*_c(\tau'') > \;,
 \end{equation}
-where $\dot{f}$ now indicates the derivative of $f$ with respect to
-$\tau$ and $H(\tau) = \frac{\dot{a}}{a}$.
-A Green's function solution to Equation
-\eqref{eqn:densitycontrastcdm} with $G_c(\tau,\tau') = \tau-\tau'$  exists:
-\begin{equation}\label{eqn:densitycdm}
-  \delta_c(\mathbf{k}, \tau) = \int_{-\infty}^\tau d\tau' (\tau - \tau') \frac{3}{2}
-  H^2(\tau) \delta_c(\mathbf{k},\tau')\;,
+or equivalently, in terms of the $w$-vectors as
+\begin{equation}
+  P_i(\tau) = \sum_m \bigg| \int_{-\infty}^\tau d \tau' G(\tau,\tau')
+  \frac{3}{2}H^2(\tau') w^m(\tau') \bigg|^2 \; .
 \end{equation}
-so that we may write the density power:
-\begin{align*}\label{eqn:densitypowercdm}
-  P_c(\tau) = &< \delta_c(\tau) \delta_c^*(\tau)>\\ 
-            =& \int_{-\infty}^\tau
- d\tau' (\tau-\tau') \frac{3}{2} 
-H^2(\tau') \int_{-\infty}^\tau d\tau'' (\tau-\tau'') \\ &\frac{3}{2}
-  H^2(\tau'') <\delta_c(\tau') \delta_c^*(\tau'') > \;. \numberthis
-\end{align*}
-For convenience of notation, we will not explicitly indicate the
-dependence of the power spectra, $w$-vectors, and density fields on $\mathbf{k}$
-although it is implied.
-Using Equation \eqref{eqn:unequaltime} for the unequal-time CDM
- power, we can rewrite Equation
-\eqref{eqn:densitypowercdm} as:
-\begin{equation}\label{eqn:densitypowercdm2} 
-  P_c(\tau) = \sum_m \bigg| \int_{-\infty}^\tau  d\tau' (\tau-\tau')
-  \frac{3}{2} H^2(\tau') w^m(\tau') \bigg|^2 \;.
+
+At redshifts included in the numerical simulations, these integrals
+can be calculated numerically.  However, at earlier redshifts, an
+analytical expression is required.  We use the numerical potential at
+redshifts $z=15$ and lower, as at these redshifts there are no
+artifacts of the initial particle grid in the N-body power spectra.
+It is justified to assume matter domination when calculating the early
+time integrals since at $z=15$ the universe is matter dominated.
+Under this assumption, the CDM density contrast scales linearly with
+the scalefactor.  We will also assume that the phase of the gravitational potential
+remains constant at these early times, so that we may take only the
+zeroeth order w-vector to be non-zero, and we can assume that it is
+equal to the density contrast:
+\begin{equation}\label{eqn:matterw}
+  w_M^m(k,\tau) = \begin{cases} 
+    A(k) a(\tau), & \text{if } m = 0\;, \\
+    0, & \text{otherwise} \;,
+  \end{cases}
 \end{equation}
-Therefore, by performing integrals over the $w$-vectors, we
-can reconstruct the CDM density power. 
+where $A$ is a normalization factor, calculated by normalizing
+Equation \eqref{eqn:matterw} to the numerical spectrum at $z=15$, and
+the subscript $M$ indicates that these expressions hold during matter domination.  
+%We will also use the Hubble parameter in matter domination:
+%\begin{equation} 
+%  H_M(t) = H_0 \sqrt{ \frac{ \Omega_M }{a^3(t) } } \;.
+%\end{equation}
+
+
+%\subsection{ Cold dark matter }
+%\label{sec:densitycdm}
+%We will treat CDM as a pressureless fluid with $\nabla
+%P_c=0$ so that Equation \eqref{eqn:densitycontrast2} can be written as:
+%\begin{equation}\label{eqn:densitycontrastcdm}
+ % \ddot{\delta}_c(\mathbf{k},\tau) = \frac{3}{2} H^2(\tau)
+ % \delta_c(\mathbf{k},\tau) \;,
+%\end{equation}
+%where $\dot{f}$ now indicates the derivative of $f$ with respect to
+%$\tau$ and $H(\tau) = \frac{\dot{a}}{a}$.
+%A Green's function solution to Equation
+%\eqref{eqn:densitycontrastcdm} with $G_c(\tau,\tau') = \tau-\tau'$  exists:
+%\begin{equation}\label{eqn:densitycdm}
+ % \delta_c(\mathbf{k}, \tau) = \int_{-\infty}^\tau d\tau' (\tau - \tau') \frac{3}{2}
+ % H^2(\tau) \delta_c(\mathbf{k},\tau')\;,
+%\end{equation}
+%so that we may write the density power:
+%\begin{align*}\label{eqn:densitypowercdm}
+ % P_c(\tau) = &< \delta_c(\tau) \delta_c^*(\tau)>\\ 
+  %          =& \int_{-\infty}^\tau
+ %d\tau' (\tau-\tau') \frac{3}{2} 
+%H^2(\tau') \int_{-\infty}^\tau d\tau'' (\tau-\tau'') \\ &\frac{3}{2}
+ % H^2(\tau'') <\delta_c(\tau') \delta_c^*(\tau'') > \;. \numberthis
+%\end{align*}
+%For convenience of notation, we will not explicitly indicate the
+%dependence of the power spectra, $w$-vectors, and density fields on $\mathbf{k}$
+%although it is implied.
+%Using Equation \eqref{eqn:unequaltime} for the unequal-time CDM
+% power, we can rewrite Equation
+%\eqref{eqn:densitypowercdm} as:
+%\begin{equation}\label{eqn:densitypowercdm2} 
+%  P_c(\tau) = \sum_m \bigg| \int_{-\infty}^\tau  d\tau' (\tau-\tau')
+ % \frac{3}{2} H^2(\tau') w^m(\tau') \bigg|^2 \;.
+%\end{equation}
+%Therefore, by performing integrals over the $w$-vectors, we
+%can reconstruct the CDM density power. 
 
 %This does seem redundant, as we require the CDM unequal-time
 %power spectra in order to calculate the $w$-vectors.  
@@ -1740,65 +1831,65 @@ can reconstruct the CDM density power.
 % and provides a verification of the accuracy of this semi-linear
 %method on scales when the fluid approximation of CDM holds.
 
-\subsection{ Massive neutrinos }
-\label{sec:densitynu}
-As mentioned in Section \ref{sec:NuFluid}, neutrinos may be treated
-as a fluid with a finite sound speed $c_s^2
-= \frac{\widebar{c_s}^2}{a^2}$.  Recall that the sound speed is
-related to the pressure gradient via:
-\begin{equation}\label{eqn:soundspeed}
-  c_s^2 = \frac{ \partial P }{\partial \rho } = \frac{ \nabla P
-  }{\nabla \rho} = \frac{ \nabla P }{\widebar{\rho}\nabla \delta } \;,
-\end{equation}
-so that we may rewrite Equation \eqref{eqn:densitycontrast2} as:
-%\begin{equation}\label{eqn:densitycontrastnu}
-%  \frac{ d^2 }{ d \tau^2 } \delta_\nu + a^2
-%  \frac{  \widebar{c_s}^2 }{a^2} \nabla^2
-%  \delta_\nu = \frac{3}{2} H^2(\tau) \delta_c
-%\end{equation}
-%Transforming to Fourier space, we find:
-\begin{equation}\label{eqn:densitycontrastnu2}
-  \ddot{ \delta_\nu }(\mathbf{k},\tau) + k^2 \widebar{ c_s }^2 \delta_\nu(\mathbf{k},\tau) =
-  \frac{3}{2} H^2(\tau) \delta_c(\mathbf{k},\tau)\;.
-\end{equation}
-We now change coordinates to a new time $\tau$ such that
-$\frac{d}{d\tau} = \frac{a^2}{k \widebar{c_s}} \frac{d}{d t}$.  In these
-coordinates, Equation \eqref{eqn:densitycontrastnu2} reduces to:
-\begin{equation}\label{eqn:densitycontrastnu3}
- \ddot{ \delta_\nu} + \delta_\nu = \frac{3}{2} H^2(\tau) \delta_c\;,
-\end{equation}
-where $\dot{f}$ now indicates a derivative of $f$ with respect to the new
-variable $\tau$ and $H(\tau) = \frac{\dot{a}}{a}$. 
-A Green's function solution to Equation
-\eqref{eqn:densitycontrastnu3} with
-$G_\nu(\tau,\tau')=\sin(\tau-\tau')$ exists:
-\begin{equation}\label{eqn:densitycontrastnu4}
-  \delta_\nu (\mathbf{k},\tau) = \int_{-\infty}^\tau d \tau'
-  \sin ( \tau- \tau') \frac{3}{2} H^2(\tau') \delta_c(\mathbf{k},\tau') \;.
-\end{equation}
-As we did for CDM in Section \ref{sec:densitycdm}, we can
-obtain an equation for the neutrino density power in terms of the
-$w$-vectors.  We start with:
-\begin{align*}\label{eqn:densitypowernu} 
-  P_\nu(\tau) =& < \delta_\nu(\tau) \delta_\nu^*(\tau) >\\ =&
-  \int_{-\infty}^\tau d\tau' \sin (\tau -
-    \tau')
- \frac{3}{2}
-  H^2(\tau')  \int_{-\infty }^\tau d\tau'' \sin
-   (\tau - \tau'')\\&\frac{3}{2}
-  H^2(\tau'') <\delta_c(\tau') \delta_c^*(\tau'') > \;, \numberthis
-\end{align*}
-where once again the dependence of the power, density and
-$w$-vectors on $\mathbf{k}$ is implied.
-Using Equation \eqref{eqn:unequaltime} we can write:
-\begin{equation}\label{eqn:densitypowernu2}
-  P_\nu(\tau) = \sum_m \bigg | \int_{-\infty}^\tau d \tau' \sin
-   (\tau
-  - \tau') \frac{3}{2} H^2(\tau') w^m( \tau' ) \bigg |^2\;.
-\end{equation}
-Therefore, we can calculate the neutrino power spectrum in
-the same manner as the CDM power spectrum, but with a slightly
-different Green's function.
+% \subsection{ Massive neutrinos }
+% \label{sec:densitynu}
+% As mentioned in Section \ref{sec:NuFluid}, neutrinos may be treated
+% as a fluid with a finite sound speed $c_s^2
+% = \frac{\widebar{c_s}^2}{a^2}$.  Recall that the sound speed is
+% related to the pressure gradient via:
+% \begin{equation}\label{eqn:soundspeed}
+%   c_s^2 = \frac{ \partial P }{\partial \rho } = \frac{ \nabla P
+%   }{\nabla \rho} = \frac{ \nabla P }{\widebar{\rho}\nabla \delta } \;,
+% \end{equation}
+% so that we may rewrite Equation \eqref{eqn:densitycontrast2} as:
+% %\begin{equation}\label{eqn:densitycontrastnu}
+% %  \frac{ d^2 }{ d \tau^2 } \delta_\nu + a^2
+% %  \frac{  \widebar{c_s}^2 }{a^2} \nabla^2
+% %  \delta_\nu = \frac{3}{2} H^2(\tau) \delta_c
+% %\end{equation}
+% %Transforming to Fourier space, we find:
+% \begin{equation}\label{eqn:densitycontrastnu2}
+%   \ddot{ \delta_\nu }(\mathbf{k},\tau) + k^2 \widebar{ c_s }^2 \delta_\nu(\mathbf{k},\tau) =
+%   \frac{3}{2} H^2(\tau) \delta_c(\mathbf{k},\tau)\;.
+% \end{equation}
+% We now change coordinates to a new time $\tau$ such that
+% $\frac{d}{d\tau} = \frac{a^2}{k \widebar{c_s}} \frac{d}{d t}$.  In these
+% coordinates, Equation \eqref{eqn:densitycontrastnu2} reduces to:
+% \begin{equation}\label{eqn:densitycontrastnu3}
+%  \ddot{ \delta_\nu} + \delta_\nu = \frac{3}{2} H^2(\tau) \delta_c\;,
+% \end{equation}
+% where $\dot{f}$ now indicates a derivative of $f$ with respect to the new
+% variable $\tau$ and $H(\tau) = \frac{\dot{a}}{a}$. 
+% A Green's function solution to Equation
+% \eqref{eqn:densitycontrastnu3} with
+% $G_\nu(\tau,\tau')=\sin(\tau-\tau')$ exists:
+% \begin{equation}\label{eqn:densitycontrastnu4}
+%   \delta_\nu (\mathbf{k},\tau) = \int_{-\infty}^\tau d \tau'
+%   \sin ( \tau- \tau') \frac{3}{2} H^2(\tau') \delta_c(\mathbf{k},\tau') \;.
+% \end{equation}
+% As we did for CDM in Section \ref{sec:densitycdm}, we can
+% obtain an equation for the neutrino density power in terms of the
+% $w$-vectors.  We start with:
+% \begin{align*}\label{eqn:densitypowernu} 
+%   P_\nu(\tau) =& < \delta_\nu(\tau) \delta_\nu^*(\tau) >\\ =&
+%   \int_{-\infty}^\tau d\tau' \sin (\tau -
+%     \tau')
+%  \frac{3}{2}
+%   H^2(\tau')  \int_{-\infty }^\tau d\tau'' \sin
+%    (\tau - \tau'')\\&\frac{3}{2}
+%   H^2(\tau'') <\delta_c(\tau') \delta_c^*(\tau'') > \;, \numberthis
+% \end{align*}
+% where once again the dependence of the power, density and
+% $w$-vectors on $\mathbf{k}$ is implied.
+% Using Equation \eqref{eqn:unequaltime} we can write:
+% \begin{equation}\label{eqn:densitypowernu2}
+%   P_\nu(\tau) = \sum_m \bigg | \int_{-\infty}^\tau d \tau' \sin
+%    (\tau
+%   - \tau') \frac{3}{2} H^2(\tau') w^m( \tau' ) \bigg |^2\;.
+% \end{equation}
+% Therefore, we can calculate the neutrino power spectrum in
+% the same manner as the CDM power spectrum, but with a slightly
+% different Green's function.
 
 
 %\subsection{ CDM + varying sound speed }
@@ -1806,177 +1897,179 @@ different Green's function.
 %This type of analyis is not limited to the two cases mentioned above.
 %Any 
 
-\subsection{ The matter dominated regime}
-Since the numerical data spans a finite redshift range, 
-we must find analytic expressions for the integrals in Equations 
-\eqref{eqn:densitypowercdm2} and 
-\eqref{eqn:densitypowernu2} at high redshifts.
-We use the numerical potential at redshifts $z=15$ and
-lower, as at these
-redshifts there are no artifacts of the initial particle grid in the
-N-body power spectra.  
+%\subsection{ The matter dominated regime}
+%Since the numerical data spans a finite redshift range, 
+%we must find analytic expressions for the integrals in Equations 
+%\eqref{eqn:densitypowercdm2} and 
+%\eqref{eqn:densitypowernu2} at high redshifts.
+%We use the numerical potential at redshifts $z=15$ and
+%lower, as at these
+%redshifts there are no artifacts of the initial particle grid in the
+%N-body power spectra.  
 %, the main contribution to Equations
 %\eqref{eqn:densitypowercdm2} and \eqref{eqn:densitypowernu2} from
 %redshifts $z\geq 15$ is from the matter dominated era.  
-It is justified to assume matter domination when calculating the early
-time integrals since at $z=15$ the universe
-is matter dominated $\bigg(\frac{\Omega_M a^3}{\Omega_\Lambda} \approx
-1500\bigg)$.  Under this
-assumption, the CDM density contrast scales linearly with the
-scalefactor.  We assume that the phase of the
-gravitational potential remains constant at these early times, so
-that we may take the unequal-time CDM power spectrum to be:
+%It is justified to assume matter domination when calculating the early
+%time integrals since at $z=15$ the universe
+%is matter dominated $\bigg(\frac{\Omega_M a^3}{\Omega_\Lambda} \approx
+%1500\bigg)$.  Under this
+%assumption, the CDM density contrast scales linearly with the
+%scalefactor.  We assume that the phase of the
+%gravitational potential remains constant at these early times, so
+%that we may take the unequal-time CDM power spectrum to be:
 %we will assume that only the
 %primary mode of the unequal correlators contributes so that we may
 %take the CDM power spectrum to be:
-\begin{equation}\label{eqn:earlytimespectrum}
-  P_{c,M}(k, \tau,\tau') = A^2(k) a(\tau) a(\tau') \;,
-\end{equation}
-where $A(k)$ is determined by
-normalizing the power spectrum to the numerical results at $z=15$ and
-we have used the subscript $M$ to indicate quantities in matter domination.  Note that we normalize at
-$z=15$ instead of $z=0$ in order to reduce the propagation of non-linear
-effects to high redshifts. 
-This gives the $w$-vectors:
-\begin{equation}\label{eqn:earlytimew}
-  w_M^m(k,\tau) = 
-  \begin{cases} 
-    A(k) a(\tau), & \text{if } m = 0\;, \\
-    0, & \text{otherwise} \;,
-  \end{cases}
-\end{equation}
-and we will use the Hubble parameter in
-matter domination:
-\begin{equation}\label{eqn:earlytimehubble}
-  H_M(t) = H_0 \sqrt{ \frac{\Omega_M}{a^3(t)} }\;.
-\end{equation}
-Using Equations \eqref{eqn:earlytimew} and
-\eqref{eqn:earlytimehubble} we will derive analytical expressions for
-Equations \eqref{eqn:densitypowercdm2} and \eqref{eqn:densitypowernu2},
-the semi-linear CDM and neutrino power spectra respectively, in Sections
-\ref{sec:CDMmatter} and \ref{sec:NUmatter} below.
+%\begin{equation}\label{eqn:earlytimespectrum}
+%  P_{c,M}(k, \tau,\tau') = A^2(k) a(\tau) a(\tau') \;,
+%\end{equation}
+%where $A(k)$ is determined by
+%normalizing the power spectrum to the numerical results at $z=15$ and
+%we have used the subscript $M$ to indicate quantities in matter domination.  Note that we normalize at
+%$z=15$ instead of $z=0$ in order to reduce the propagation of non-linear
+%effects to high redshifts. 
+%This gives the $w$-vectors:
+%\begin{equation}\label{eqn:earlytimew}
+ % w_M^m(k,\tau) = 
+ % \begin{cases} 
+  %  A(k) a(\tau), & \text{if } m = 0\;, \\
+%    0, & \text{otherwise} \;,
+%  \end{cases}
+%\end{equation}
+%and we will use the Hubble parameter in
+%matter domination:
+%\begin{equation}\label{eqn:earlytimehubble}
+%  H_M(t) = H_0 \sqrt{ \frac{\Omega_M}{a^3(t)} }\;.
+%\end{equation}
+%Using Equations \eqref{eqn:earlytimew} and
+%\eqref{eqn:earlytimehubble} we will derive analytical expressions for
+%Equations \eqref{eqn:densitypowercdm2} and \eqref{eqn:densitypowernu2},
+%the semi-linear CDM and neutrino power spectra respectively, in Sections
+%\ref{sec:CDMmatter} and \ref{sec:NUmatter} below.
 
-\subsubsection{Cold dark matter}\label{sec:CDMmatter}
-For CDM, the time $\tau$ is related to the proper
-time $t$ by:
-\begin{equation}
-  \frac{ d t}{ d \tau} = a^2 \;,
-\end{equation}
-so that we can write:
+% \subsubsection{Cold dark matter}\label{sec:CDMmatter}
+% For CDM, the time $\tau$ is related to the proper
+% time $t$ by:
+% \begin{equation}
+%   \frac{ d t}{ d \tau} = a^2 \;,
+% \end{equation}
+% so that we can write:
 
-\begin{align*}
-  H_M(\tau) &= \frac{1}{a} \frac{d t}{ d \tau} \frac{da}{dt}\\
-  &= a^2(\tau) H_0 \sqrt{ \frac{\Omega_M}{a^3(\tau)}} \;. \numberthis
-\end{align*}
-This gives the following relationship between $\tau$ and the
-scalefactor, $a$:
-\begin{equation}
-  \tau = \frac{-2}{H_0 \sqrt{\Omega_M} } \frac{1}{a^{1/2} } \;.
-\end{equation}
-Using these relations, we find that the integral over early times is:
-\begin{align*}\label{eqn:cdmearly}
-  I_{c,M}(k,\tau,\tau_0) &= \int_{-\infty}^{\tau_0}d\tau' (\tau-\tau') \frac{3}{2}
-              H^2(\tau') A(k) a(\tau')\\
-%          &=& \int_{-\infty}^{\tau_0} d\tau' (\tau-\tau') \frac{3}{2}
-%      a^4(\tau') H_0^2 \frac{ \Omega_M}{a^3(\tau') } A(k) a(\tau') \\[1em]
-%          &=& \frac{3}{2} H_0^2 \Omega_M A(k) \int_{-\infty}^{\tau_0} d \tau'
-%      (\tau - \tau') \bigg( \frac{-2}{ H_0 \sqrt{ \Omega_M} } \bigg)^4
-%      \frac{1}{\tau'^4} \\[1em]
-          &= \frac{24 A(k)}{H_0^2 \Omega_M} \bigg( \frac{1}{2 \tau_0^2} - \frac{
-       \tau}{3 \tau_0^2} \bigg)\;, \numberthis
-\end{align*}
-where $\tau$ is the time at which the power is being calculated and
-$\tau_0$ is the earliest time at which we use the numerical potential
-in the integration.  The subscript $M$ indicates that the integral is
-calculated under the assumption of matter domination.  In
-order to calculate the fully analytic result, we simply set
-$\tau_0 = \tau$:
-\begin{align*}
-  P_{c,M}(k,\tau) &= \bigg|\int_{-\infty}^{\tau} d\tau' (\tau - \tau')\frac{3}{2} H^2(\tau') A(k)
-  a(\tau')\bigg|^2 \\
-%&=& \bigg|A(k) \frac{ 4 }{ H_0^2 \Omega_m \tau^2}\bigg|^2\\[1em]
-& = A^2(k)
-    a^2(\tau) \;. \numberthis
-\end{align*}
-Therefore, Equation \eqref{eqn:cdmearly} reduces to the
-correct expression for the CDM power spectrum in matter
-domination. 
+% \begin{align*}
+%   H_M(\tau) &= \frac{1}{a} \frac{d t}{ d \tau} \frac{da}{dt}\\
+%   &= a^2(\tau) H_0 \sqrt{ \frac{\Omega_M}{a^3(\tau)}} \;. \numberthis
+% \end{align*}
+% This gives the following relationship between $\tau$ and the
+% scalefactor, $a$:
+% \begin{equation}
+%   \tau = \frac{-2}{H_0 \sqrt{\Omega_M} } \frac{1}{a^{1/2} } \;.
+% \end{equation}
+% Using these relations, we find that the integral over early times is:
+% \begin{align*}\label{eqn:cdmearly}
+%   I_{c,M}(k,\tau,\tau_0) &= \int_{-\infty}^{\tau_0}d\tau' (\tau-\tau') \frac{3}{2}
+%               H^2(\tau') A(k) a(\tau')\\
+% %          &=& \int_{-\infty}^{\tau_0} d\tau' (\tau-\tau') \frac{3}{2}
+% %      a^4(\tau') H_0^2 \frac{ \Omega_M}{a^3(\tau') } A(k) a(\tau') \\[1em]
+% %          &=& \frac{3}{2} H_0^2 \Omega_M A(k) \int_{-\infty}^{\tau_0} d \tau'
+% %      (\tau - \tau') \bigg( \frac{-2}{ H_0 \sqrt{ \Omega_M} } \bigg)^4
+% %      \frac{1}{\tau'^4} \\[1em]
+%           &= \frac{24 A(k)}{H_0^2 \Omega_M} \bigg( \frac{1}{2 \tau_0^2} - \frac{
+%        \tau}{3 \tau_0^2} \bigg)\;, \numberthis
+% \end{align*}
+% where $\tau$ is the time at which the power is being calculated and
+% $\tau_0$ is the earliest time at which we use the numerical potential
+% in the integration.  The subscript $M$ indicates that the integral is
+% calculated under the assumption of matter domination.  In
+% order to calculate the fully analytic result, we simply set
+% $\tau_0 = \tau$:
+% \begin{align*}
+%   P_{c,M}(k,\tau) &= \bigg|\int_{-\infty}^{\tau} d\tau' (\tau - \tau')\frac{3}{2} H^2(\tau') A(k)
+%   a(\tau')\bigg|^2 \\
+% %&=& \bigg|A(k) \frac{ 4 }{ H_0^2 \Omega_m \tau^2}\bigg|^2\\[1em]
+% & = A^2(k)
+%     a^2(\tau) \;. \numberthis
+% \end{align*}
+% Therefore, Equation \eqref{eqn:cdmearly} reduces to the
+% correct expression for the CDM power spectrum in matter
+% domination. 
 
-\subsubsection{Massive neutrinos}\label{sec:NUmatter}
-For neutrinos, the method is similar.  For the time coordinate $\tau$ in Equation
-\eqref{eqn:densitypowernu2}, we find:
-\begin{align*}
-  H_M(\tau) &= \frac{1}{a} \frac{ d}{d \tau} \frac{da}{dt} \\
-  & =  \frac{a^2(\tau)}{k\widebar{c_s}} H_0 \sqrt{ \frac{\Omega_m}{a^3(\tau)}} \numberthis
-\end{align*}
-and 
-\begin{equation}
-  \tau = \frac{ -2 k \widebar{c_s}}{ H_0 \sqrt{ \Omega_M } }
-  \frac{1}{a^{1/2}} \;. 
-\end{equation}
-Therefore, the integral over early times is:
-\begin{align*}
-  I_{\nu,M}(k,\tau, \tau_0) =& \int_{-\infty}^{\tau_0} d \tau' \sin( \tau - \tau' ) \frac{3}{2}
-  H^2(\tau') A(k) a(\tau') \\
-%            &=& \int_{-\infty}^{\tau_0} d \tau' \sin(\tau
-%                            - \tau' ) \frac{3}{2} \frac{a^4(\tau')}{k^2
-%                            \widebar{c_s}^2 } H_0^2 \frac{
-%                            \Omega_M}{a^3(\tau') } A a(\tau') \\[1em]
-%  &=& \frac{3}{2} \frac{H_0^2 \Omega_M}{k \widebar{c_s}} A(k)
-%      \int_{-\infty}^{\tau_0} d \tau' sin( \tau - \tau' ) \bigg(
-%      \frac{-2 k \widebar{ c_s } }{ H_0 \sqrt{\Omega_M} } \bigg)^4
-%      \frac{1}{\tau'^4}  \\[1em]
-   =& \frac{24 k^2 \widebar{c_s}^2 }{ H_0^2 \Omega_M} A(k)
-        \frac{1}{12 \tau_0^3} (2 \tau_0
-        \cos(\tau-\tau_0)+ \\
-  &2 \tau_0^3
-        \cos(\tau) \text{Ci}(-\tau_0)+ \\
-&
-  \pi
-        \tau_0^3 \sin(\tau)+2
-        \left(-2+\tau_0^2\right)
-        \sin(\tau-\tau_0)+ \\
-&
-                           2 \tau_0^3
-        \sin(\tau) \text{Si}(\tau_0) ) \;, \numberthis
-\end{align*}
-where Si and Ci are the sine integral and cosine integral functions,
-\begin{equation}
-  \text{Si}(x) = \int_0^x \frac{\sin(y)}{y} dy 
-\end{equation}
-and
-\begin{equation}
-  \text{Ci}(x) = -\int_x^\infty \frac{\cos(y)}{y} dy
-\end{equation}
-respectively.
-Once again, we can obtain a purely analytic
-expression for the neutrino power spectrum in the matter dominated
-regime by setting $\tau_0=\tau$.  In this case, the expression above
-reduces to:
-\begin{align*}
-P_{\nu,M}(k,\tau) =& \bigg|\int_{-\infty}^{\tau} d \tau' \sin(\tau-\tau') \frac{3}{2} H^2{\tau'}
-A(k) a(\tau' ) \bigg|^2 \\
-=& \bigg| \frac{24 k^2 \widebar{c_s}^2 A(k)}{ H_0^2 \Omega_M}
-\frac{1}{12} \bigg( \frac{2}{\tau^2} + \\
-&2 \cos( \tau ) \text{CI}( -
-\tau ) + \sin( \tau ) \big( \pi + 2 \text{SI}(\tau) \big) \bigg)
-    \bigg|^2 \;. \numberthis
-\end{align*}
+% \subsubsection{Massive neutrinos}\label{sec:NUmatter}
+% For neutrinos, the method is similar.  For the time coordinate $\tau$ in Equation
+% \eqref{eqn:densitypowernu2}, we find:
+% \begin{align*}
+%   H_M(\tau) &= \frac{1}{a} \frac{ d}{d \tau} \frac{da}{dt} \\
+%   & =  \frac{a^2(\tau)}{k\widebar{c_s}} H_0 \sqrt{ \frac{\Omega_m}{a^3(\tau)}} \numberthis
+% \end{align*}
+% and 
+% \begin{equation}
+%   \tau = \frac{ -2 k \widebar{c_s}}{ H_0 \sqrt{ \Omega_M } }
+%   \frac{1}{a^{1/2}} \;. 
+% \end{equation}
+% Therefore, the integral over early times is:
+% \begin{align*}
+%   I_{\nu,M}(k,\tau, \tau_0) =& \int_{-\infty}^{\tau_0} d \tau' \sin( \tau - \tau' ) \frac{3}{2}
+%   H^2(\tau') A(k) a(\tau') \\
+% %            &=& \int_{-\infty}^{\tau_0} d \tau' \sin(\tau
+% %                            - \tau' ) \frac{3}{2} \frac{a^4(\tau')}{k^2
+% %                            \widebar{c_s}^2 } H_0^2 \frac{
+% %                            \Omega_M}{a^3(\tau') } A a(\tau') \\[1em]
+% %  &=& \frac{3}{2} \frac{H_0^2 \Omega_M}{k \widebar{c_s}} A(k)
+% %      \int_{-\infty}^{\tau_0} d \tau' sin( \tau - \tau' ) \bigg(
+% %      \frac{-2 k \widebar{ c_s } }{ H_0 \sqrt{\Omega_M} } \bigg)^4
+% %      \frac{1}{\tau'^4}  \\[1em]
+%    =& \frac{24 k^2 \widebar{c_s}^2 }{ H_0^2 \Omega_M} A(k)
+%         \frac{1}{12 \tau_0^3} (2 \tau_0
+%         \cos(\tau-\tau_0)+ \\
+%   &2 \tau_0^3
+%         \cos(\tau) \text{Ci}(-\tau_0)+ \\
+% &
+%   \pi
+%         \tau_0^3 \sin(\tau)+2
+%         \left(-2+\tau_0^2\right)
+%         \sin(\tau-\tau_0)+ \\
+% &
+%                            2 \tau_0^3
+%         \sin(\tau) \text{Si}(\tau_0) ) \;, \numberthis
+% \end{align*}
+% where Si and Ci are the sine integral and cosine integral functions,
+% \begin{equation}
+%   \text{Si}(x) = \int_0^x \frac{\sin(y)}{y} dy 
+% \end{equation}
+% and
+% \begin{equation}
+%   \text{Ci}(x) = -\int_x^\infty \frac{\cos(y)}{y} dy
+% \end{equation}
+% respectively.
+% Once again, we can obtain a purely analytic
+% expression for the neutrino power spectrum in the matter dominated
+% regime by setting $\tau_0=\tau$.  In this case, the expression above
+% reduces to:
+% \begin{align*}
+% P_{\nu,M}(k,\tau) =& \bigg|\int_{-\infty}^{\tau} d \tau' \sin(\tau-\tau') \frac{3}{2} H^2{\tau'}
+% A(k) a(\tau' ) \bigg|^2 \\
+% =& \bigg| \frac{24 k^2 \widebar{c_s}^2 A(k)}{ H_0^2 \Omega_M}
+% \frac{1}{12} \bigg( \frac{2}{\tau^2} + \\
+% &2 \cos( \tau ) \text{CI}( -
+% \tau ) + \sin( \tau ) \big( \pi + 2 \text{SI}(\tau) \big) \bigg)
+%     \bigg|^2 \;. \numberthis
+% \end{align*}
  
 \subsection{ Density power results}
 We now have all of the information required to calculate the CDM
 and neutrino density powers.  We will break down Equations
 \eqref{eqn:densitypowercdm2} and \eqref{eqn:densitypowernu2} as follows:
 \begin{align*}\label{eqn:densbymode}
-  P_i(k,\tau) =& \bigg| I_{i,M}(k,\tau, \tau_0) +\\
+  P_i(k,\tau) =& \bigg| \int_{-\infty}^{\tau_0} d\tau' G_i(\tau,\tau')
+                 \frac{3}{2} H^2_M(\tau') w^0_M(k,\tau') +\\
   &\int_{\tau_0}^{\tau} d \tau'
   G_i(\tau-\tau') \frac{3}{2} H^2(\tau') w^0(k,\tau') \bigg |^2 +\\
 &  \sum_{m=1}^{m_{max}} \bigg| \int_{\tau_0}^\tau d\tau' G_i(\tau -
   \tau' ) \frac{3}{2} H^2 (\tau') w^m(k,\tau') \bigg |^2 \;, \numberthis
 \end{align*}
-where we use the analytic integrals $I_{i,M}$ from Equations
-\eqref{eqn:cdmearly} and \eqref{eqn:nuearly}.
-The remaining integrals were calculated numerically using a trapezoidal
+where $\tau_0$ is the time when we begin retaining the cold dark
+matter density fields from the numerical simulations.
+The matter domination integral is calculated analytically, while the
+remaining integrals are calculated numerically using a trapezoidal
 integration method after interpolating the $w$-vectors over redshift.
 
 %\subsection{ Results of the Reconstruction}
@@ -2071,7 +2164,7 @@ calculate many fluid properties via the fluid equations.
 In this section, we discuss using this method to obtain 
 the velocity divergence power
 spectrum.  From the continuity equation
-\eqref{eqn:continuity4}, we can write the velocity divergence, $\Theta_i(\mathbf{k},t)$, in terms
+\eqref{eqn:continuity}, we can write the velocity divergence, $\Theta_i(\mathbf{k},t)$, in terms
 of the density perturbation:
 \begin{equation}\label{eqn:veldivg}
   \Theta_i(\mathbf{k},t) = \nabla \cdot \mathbf{u}_i(\mathbf{k},t) = - a \frac{ \partial \delta_i(\mathbf{k},t)}{\partial
@@ -2079,171 +2172,189 @@ of the density perturbation:
     \delta_i(\mathbf{k},t) }{ \partial \tau}\;.
 \end{equation} 
 Therefore by using Equations \eqref{eqn:densitycdm} and \eqref{eqn:densitycontrastnu4} for the
-CDM and neutrino density perturbations, we can calculate the velocity divergence power for both species. 
+CDM and neutrino density perturbations, we can calculate the velocity
+divergence power for both species:
+\begin{equation}\label{eqn:velocitydivg}
+  \Theta_i(\mathbf{k},t) = \frac{1}{a^2(\tau)} \sum_m \bigg|
+  \int_{-\infty}^\tau d \tau' G_{v,i}(\tau,\tau') \frac{3}{2} H^2(\tau') w^m(k,\tau')
+  \bigg |^2
+\end{equation}
+where 
+\begin{equation}
+  G_{\Theta_\nu} = \cos(k \widebar{c_s} (\tau - \tau') )
+\end{equation}
+for neutrinos and
+\begin{equation}
+G_{\Theta_c} = 1 
+\end{equation} 
+for cold dark matter.
 In Fourier space, the velocity and the velocity divergence are closely
 related by $ \nabla \cdot \mathbf{u} = i \mathbf{k} \cdot \mathbf{u}
-$.  Therefore, we can calculate the power of the velocity magnitude from the velocity divergence power.
-The calculation of the velocity divergence power is described in more detail for both
-CDM
-and neutrinos in Sections \ref{sec:velcdm} and \ref{sec:velnu}.
+$.  Therefore, we can calculate the power of the velocity magnitude
+from the velocity divergence power.
 
-\subsection{ Cold dark matter }\label{sec:velcdm}
+Once again, at early times we require an expression for the integrals
+in Equation \eqref{eqn:velocitydivg}, which we again calculate under the
+assumption of matter domination.
 
-Using Equation \eqref{eqn:densitycdm} for the CDM density perturbation, we can expand
-Equation \eqref{eqn:veldivg} as follows:
-\begin{align*}\label{eqn:veldivgcdm}
-  \Theta_c(\mathbf{k}, \tau) & = \nabla \cdot
-                                   \mathbf{u}_c(\mathbf{k},\tau) \\
-&=-a(\tau) \frac{ \partial \tau }{ \partial t }
-                                \frac{ \partial \delta_c (\mathbf{k},\tau)}{\partial
-                                \tau} \\
-  &= -\frac{1}{a(\tau)} \frac{d}{d\tau} \int_{-\infty}^{\tau} d\tau' (\tau
-      - \tau') \frac{3}{2} H^2(\tau') \delta_c(\mathbf{k},\tau') \\
- &= - \frac{1}{a(\tau)} \int_{-\infty}^{\tau} d\tau' \frac{3}{2} H^2(\tau')
-     \delta_c(\mathbf{k},\tau')\;. \numberthis
-\end{align*} 
-We write the velocity divergence power in terms of the $w$-vectors as we did for the density power:
-\begin{align*} \label{eqn:veldivgcdm2}
-  P_{\Theta_c}( k,\tau ) =& < \Theta_c(\mathbf{k},\tau) \Theta_c^*(\mathbf{k},\tau)>  \\
-  =& \frac{1}{a^2(\tau)} \int_{-\infty}^{\tau} d\tau' \frac{3}{2}
-      H^2(\tau')\\
-& \int_{-\infty}^{\tau} d\tau'' \frac{3}{2} H^2(\tau'')
-      < \delta_c(\mathbf{k},\tau') \delta_c^*(\mathbf{k},\tau'') >\\
-  =& \frac{1}{a^2(\tau)} \sum_{m} \bigg| \int_{-\infty}^{\tau} d\tau'
-      \frac{3}{2} H^2(\tau') w^m(k, \tau') \bigg|^2\;. \numberthis
-\end{align*}
-%Using Equation \eqref{eqn:veldivgcdm2} we can calculate the velocity divergence power
-%from the $w$-vectors.  
-Note that integral in Equation
-\eqref{eqn:veldivgcdm2} is essentially a Green's function integral with
-a Green's function $G_{\Theta_c}(\tau, \tau' ) = 1$. 
 
-%Once again, this method is slightly redundant, as we have the
-%numerical CDM spectrum from the N-body simulation and can
-%attain the velocity divergence spectrum by taking numerical
-%derivatives of the spectrum.  However, especially as the continuity
-%equation contains fewer approximations than the Euler equation, this
-%once again allows us to determine how well and up until which
-%wavenumber the approximations and discretization used in this work
-%are valid.
+%\subsection{ Cold dark matter }\label{sec:velcdm}
 
-We need expressions for evaluating
-the integral in Equation \eqref{eqn:veldivgcdm2} at early times, when we
-do not have numerical data from the simulation.  As in Section
-\ref{sec:Density}, we will calculate this integral at early times under 
-the assumption of matter domination using Equations \eqref{eqn:earlytimew} and \eqref{eqn:earlytimehubble} for the
-$w$-vectors and Hubble factor respectively, resulting in:
-\begin{align*}\label{eqn:intveldivgcdmmatter}
-  I_{{\Theta_c},M}(k,\tau,\tau_0) %&=&\int_{-\infty}^{\tau_0} d\tau' \frac{3}{2} H^2(\tau')
-%               w^0(\tau',k) \\[1em]
-           &=
-  \int_{-\infty}^{\tau_0} d\tau' \frac{3}{2} a(\tau')^4 H_0^2 \Omega_M
-  A(k) a(\tau') \\
-%  &=& \frac{3}{2} H_0^2 \Omega_M A(k) \int_{-\infty}^{\tau_0} d\tau' \bigg(
-%      \frac{ -2 }{ H_0 \sqrt{\Omega_M}} \bigg)^4 \frac{1}{\tau'^4}\\[1em]
-  &= \frac{-1}{3} \frac{ 24 A(k) }{ H_0^2 \Omega_M}
-    \frac{1}{\tau_0^3}\;. \numberthis
-\end{align*}
-To obtain a purely analytic expression for the CDM velocity
-divergence power in the matter dominated era, we set $\tau_0 =
-\tau$ in Equation \eqref{eqn:intveldivgcdmmatter}:
-\begin{equation}\label{eqn:intveldivgcdmmatter2}
- I_{{\Theta_c},M}(k,\tau,\tau)  = 
-                                                                     -\frac{8
-                                                                     A(k)}{H_0^2
-                                                                     \Omega_M}
-                                                                     \frac{1}{\tau^3} \;.
-\end{equation}
-Substituting this into the Equation \eqref{eqn:veldivgcdm2} we obtain:
-\begin{equation}\label{veldivgcdmmatter}
-  P_{\Theta_c,M}(k,\tau) = \frac{1}{a^2(\tau)} \bigg| \frac{8
-    A(k)}{H_0^2 \Omega_M} \frac{1}{\tau^3} \bigg|^2 \;.
-\end{equation}
-%We expect the semi-analytical $P_{\Theta_c}(\tau,k)$ to match this
-%expression closely at low wavenumber and high redshift.
+% Using Equation \eqref{eqn:densitycdm} for the CDM density perturbation, we can expand
+% Equation \eqref{eqn:veldivg} as follows:
+% \begin{align*}\label{eqn:veldivgcdm}
+%   \Theta_c(\mathbf{k}, \tau) & = \nabla \cdot
+%                                    \mathbf{u}_c(\mathbf{k},\tau) \\
+% &=-a(\tau) \frac{ \partial \tau }{ \partial t }
+%                                 \frac{ \partial \delta_c (\mathbf{k},\tau)}{\partial
+%                                 \tau} \\
+%   &= -\frac{1}{a(\tau)} \frac{d}{d\tau} \int_{-\infty}^{\tau} d\tau' (\tau
+%       - \tau') \frac{3}{2} H^2(\tau') \delta_c(\mathbf{k},\tau') \\
+%  &= - \frac{1}{a(\tau)} \int_{-\infty}^{\tau} d\tau' \frac{3}{2} H^2(\tau')
+%      \delta_c(\mathbf{k},\tau')\;. \numberthis
+% \end{align*} 
+% We write the velocity divergence power in terms of the $w$-vectors as we did for the density power:
+% \begin{align*} \label{eqn:veldivgcdm2}
+%   P_{\Theta_c}( k,\tau ) =& < \Theta_c(\mathbf{k},\tau) \Theta_c^*(\mathbf{k},\tau)>  \\
+%   =& \frac{1}{a^2(\tau)} \int_{-\infty}^{\tau} d\tau' \frac{3}{2}
+%       H^2(\tau')\\
+% & \int_{-\infty}^{\tau} d\tau'' \frac{3}{2} H^2(\tau'')
+%       < \delta_c(\mathbf{k},\tau') \delta_c^*(\mathbf{k},\tau'') >\\
+%   =& \frac{1}{a^2(\tau)} \sum_{m} \bigg| \int_{-\infty}^{\tau} d\tau'
+%       \frac{3}{2} H^2(\tau') w^m(k, \tau') \bigg|^2\;. \numberthis
+% \end{align*}
+% %Using Equation \eqref{eqn:veldivgcdm2} we can calculate the velocity divergence power
+% %from the $w$-vectors.  
+% Note that integral in Equation
+% \eqref{eqn:veldivgcdm2} is essentially a Green's function integral with
+% a Green's function $G_{\Theta_c}(\tau, \tau' ) = 1$. 
 
-\subsection{ Massive neutrinos }\label{sec:velnu}
-Along the same lines as in Section \ref{sec:velcdm}, 
- we can
- expand Equation \eqref{eqn:veldivg} using Equation
- \eqref{eqn:densitycontrastnu4} for the neutrino density perturbation as follows:
-\begin{align*}\label{eqn:veldivgnu}
-  \Theta_\nu( \mathbf{k},\tau) =& \nabla \cdot
-                                  \mathbf{u}_\nu(\mathbf{k},\tau) \\
- =& -a(\tau) \frac{ \partial \tau}{\partial t}
-                                  \frac{ \partial \delta_c(\mathbf{k},\tau)
-                                  }{\partial \tau} \\
-  =& - \frac{k \widebar{c_s}}{a(\tau)} \frac{d}{d \tau}
-      \int_{-\infty}^{\tau} d\tau' \sin(\tau - \tau') \frac{3}{2}
-      H^2(\tau') \delta_c(\mathbf{k},\tau') \\
-  =& - \frac{ k \widebar{c_s}}{a(\tau)} \int_{-\infty}^{\tau} d\tau'
-      \cos(\tau - \tau') \frac{3}{2} H^2(\tau')
-    \delta_c(\mathbf{k},\tau') \;. \numberthis
-\end{align*}
-We can now express the neutrino velocity divergence power in terms of
-the $w$-vectors:
-\begin{align*}\label{eqn:veldivgnu2}
-  P_{\Theta_\nu}(k,\tau) =& < \Theta_\nu(\mathbf{k},\tau) \Theta^*_\nu(\mathbf{k},\tau) >  \\
-  =& \bigg( \frac{k \widebar{c_s} }{a(\tau)} \bigg)^2 \int_{-\infty}^\tau d
-      \tau' \cos( \tau-\tau') \frac{3}{2} H^2(\tau')
-      \\ &\int_{-\infty}^\tau d\tau'' \cos( \tau-\tau'') \frac{3}{2} H^2
-      (\tau'') <\delta_c(\mathbf{k},\tau')\delta^*_c(\mathbf{k},\tau'')>\\
-  =& \bigg(\frac{k \widebar{c_s}}{a(\tau)} \bigg)^2 \sum_m \bigg|
-      \int_{-\infty}^\tau d\tau' \cos( \tau-\tau') \\ 
-                          &\frac{3}{2}
-      H^2(\tau') w^m(k, \tau') \bigg|^2 \;. \numberthis
-\end{align*}
-This is analogous to a Green's function solution with
-$G_{\Theta_\nu}(\tau,\tau') = \cos(\tau-\tau')$.
+% %Once again, this method is slightly redundant, as we have the
+% %numerical CDM spectrum from the N-body simulation and can
+% %attain the velocity divergence spectrum by taking numerical
+% %derivatives of the spectrum.  However, especially as the continuity
+% %equation contains fewer approximations than the Euler equation, this
+% %once again allows us to determine how well and up until which
+% %wavenumber the approximations and discretization used in this work
+% %are valid.
 
-Once again, we require expressions for the relevant integrals at
-early times, when we lack numerical data.
-Under the assumption of 
-matter domination, using equations \eqref{eqn:earlytimew} and
-\eqref{eqn:earlytimehubble} for the $w$-vectors and the Hubble factor, 
-we obtain:
-\begin{align*}\label{eqn:veldivgnu3} 
-   I_{\Theta_\nu,M}(k,\tau,\tau_0) %&=& \int_{-\infty}^{\tau_0} d\tau' \cos(\tau-\tau') \frac{3}{2}
-%   H^2(\tau') w^0(k,\tau') \\[1em]
-               =& \int_{-\infty}^{\tau_0} d \tau'
-                             \cos(\tau-\tau') \frac{3}{2}
-                             \frac{a^4(\tau')}{k^2 \widebar{c_s}^2}
-                             H_0^2 \frac{\Omega_M}{a^3(\tau')} A(k)
-                             a(\tau') \\
-%   &=&  \frac{3}{2} \frac{ H_0^2 \Omega_M A(k)}{k^2 \widebar{c_s}^2}
-%       \int_{-\infty}^{\tau_0} d \tau' \cos(\tau-\tau') \bigg( \frac{
-%       -2 k \widebar{c_s} }{ H_0 \sqrt{ \Omega_M}} \bigg)^4\frac{1}{\tau ^{4'} }
-%   \\[1em]
-   =& \frac{24 k^2 \widebar{c_s}^2 A(k) }{H_0^2 \Omega_M} \frac{1}{12\tau_0^3}
-        \bigg( \pi \tau_0^3 \cos(\tau) +\\ & 2 ( \tau_0^2 - 2) \cos(
-        \tau-\tau_0) - \\
-& 2 \tau_0 ( \sin( \tau-\tau_0) + \tau_0^2 (
-        \text{CI}(-\tau_0) \sin(\tau) -\\ & \cos( \tau) \text{SI}( \tau_0)
-        ) ) \bigg) \numberthis
-\end{align*}
-We can find an analytic expression for the neutrino velocity
-divergence power by setting $\tau_0 = \tau$ in the above expression:
-\begin{align*} \label{eqn:veldivgnu4} 
-  I_{\Theta_\nu,M}(k,\tau,\tau)=& \frac{24 k^2 \widebar{c_s}^2 A(k)}{ H_0^2
-    \Omega_M} \frac{1}{12} \bigg( \frac{2 (\tau^2-2)}{ \tau^3} - \\ & 2
-  \text{CI}(-\tau) \sin(\tau) + \cos( \tau) ( \pi + 2 \text{SI}(\tau)
-  ) \bigg) \;. \numberthis
-\end{align*}
-Substituting this into Equation \eqref{eqn:veldivgnu2} we find an
-expression for the neutrino velocity divergence power in matter domination:
-\begin{align*}\label{eqn:veldivgnu5} 
-  P_{{\Theta_\nu,M}}(k,\tau) =& \bigg( \frac{k
-    \widebar{c_s}}{a(\tau)}\bigg)^2 \bigg| \frac{ 24 k^2 \widebar{c_s}^2
-    A(k)}{H_0^2 \Omega_M} \frac{1}{12} \bigg( \pi \tau_0^3 \cos(\tau)
-                                +\\ & 2 ( \tau_0^2 - 2) \cos(
-        \tau-\tau_0) -
- 2 \tau_0 ( \sin( \tau-\tau_0) + \\ & \tau_0^2 (
-        \text{CI}(-\tau_0) \sin(\tau) - \cos( \tau) \text{SI}( \tau_0)
-        ) ) \bigg) \bigg|^2\;. \numberthis
-\end{align*}
-%This can be compared to the semi-analytic velocity divergence power to
-%observe the discrepancies from the purely linear solution caused by
-%treating the dark matter nonlinearly.
+% We need expressions for evaluating
+% the integral in Equation \eqref{eqn:veldivgcdm2} at early times, when we
+% do not have numerical data from the simulation.  As in Section
+% \ref{sec:Density}, we will calculate this integral at early times under 
+% the assumption of matter domination using Equations \eqref{eqn:earlytimew} and \eqref{eqn:earlytimehubble} for the
+% $w$-vectors and Hubble factor respectively, resulting in:
+% \begin{align*}\label{eqn:intveldivgcdmmatter}
+%   I_{{\Theta_c},M}(k,\tau,\tau_0) %&=&\int_{-\infty}^{\tau_0} d\tau' \frac{3}{2} H^2(\tau')
+% %               w^0(\tau',k) \\[1em]
+%            &=
+%   \int_{-\infty}^{\tau_0} d\tau' \frac{3}{2} a(\tau')^4 H_0^2 \Omega_M
+%   A(k) a(\tau') \\
+% %  &=& \frac{3}{2} H_0^2 \Omega_M A(k) \int_{-\infty}^{\tau_0} d\tau' \bigg(
+% %      \frac{ -2 }{ H_0 \sqrt{\Omega_M}} \bigg)^4 \frac{1}{\tau'^4}\\[1em]
+%   &= \frac{-1}{3} \frac{ 24 A(k) }{ H_0^2 \Omega_M}
+%     \frac{1}{\tau_0^3}\;. \numberthis
+% \end{align*}
+% To obtain a purely analytic expression for the CDM velocity
+% divergence power in the matter dominated era, we set $\tau_0 =
+% \tau$ in Equation \eqref{eqn:intveldivgcdmmatter}:
+% \begin{equation}\label{eqn:intveldivgcdmmatter2}
+%  I_{{\Theta_c},M}(k,\tau,\tau)  = 
+%                                                                      -\frac{8
+%                                                                      A(k)}{H_0^2
+%                                                                      \Omega_M}
+%                                                                      \frac{1}{\tau^3} \;.
+% \end{equation}
+% Substituting this into the Equation \eqref{eqn:veldivgcdm2} we obtain:
+% \begin{equation}\label{veldivgcdmmatter}
+%   P_{\Theta_c,M}(k,\tau) = \frac{1}{a^2(\tau)} \bigg| \frac{8
+%     A(k)}{H_0^2 \Omega_M} \frac{1}{\tau^3} \bigg|^2 \;.
+% \end{equation}
+% %We expect the semi-analytical $P_{\Theta_c}(\tau,k)$ to match this
+% %expression closely at low wavenumber and high redshift.
+
+% %\subsection{ Massive neutrinos }\label{sec:velnu}
+% Along the same lines as in Section \ref{sec:velcdm}, 
+%  we can
+%  expand Equation \eqref{eqn:veldivg} using Equation
+%  \eqref{eqn:densitycontrastnu4} for the neutrino density perturbation as follows:
+% \begin{align*}\label{eqn:veldivgnu}
+%   \Theta_\nu( \mathbf{k},\tau) =& \nabla \cdot
+%                                   \mathbf{u}_\nu(\mathbf{k},\tau) \\
+%  =& -a(\tau) \frac{ \partial \tau}{\partial t}
+%                                   \frac{ \partial \delta_c(\mathbf{k},\tau)
+%                                   }{\partial \tau} \\
+%   =& - \frac{k \widebar{c_s}}{a(\tau)} \frac{d}{d \tau}
+%       \int_{-\infty}^{\tau} d\tau' \sin(\tau - \tau') \frac{3}{2}
+%       H^2(\tau') \delta_c(\mathbf{k},\tau') \\
+%   =& - \frac{ k \widebar{c_s}}{a(\tau)} \int_{-\infty}^{\tau} d\tau'
+%       \cos(\tau - \tau') \frac{3}{2} H^2(\tau')
+%     \delta_c(\mathbf{k},\tau') \;. \numberthis
+% \end{align*}
+% We can now express the neutrino velocity divergence power in terms of
+% the $w$-vectors:
+% \begin{align*}\label{eqn:veldivgnu2}
+%   P_{\Theta_\nu}(k,\tau) =& < \Theta_\nu(\mathbf{k},\tau) \Theta^*_\nu(\mathbf{k},\tau) >  \\
+%   =& \bigg( \frac{k \widebar{c_s} }{a(\tau)} \bigg)^2 \int_{-\infty}^\tau d
+%       \tau' \cos( \tau-\tau') \frac{3}{2} H^2(\tau')
+%       \\ &\int_{-\infty}^\tau d\tau'' \cos( \tau-\tau'') \frac{3}{2} H^2
+%       (\tau'') <\delta_c(\mathbf{k},\tau')\delta^*_c(\mathbf{k},\tau'')>\\
+%   =& \bigg(\frac{k \widebar{c_s}}{a(\tau)} \bigg)^2 \sum_m \bigg|
+%       \int_{-\infty}^\tau d\tau' \cos( \tau-\tau') \\ 
+%                           &\frac{3}{2}
+%       H^2(\tau') w^m(k, \tau') \bigg|^2 \;. \numberthis
+% \end{align*}
+% This is analogous to a Green's function solution with
+% $G_{\Theta_\nu}(\tau,\tau') = \cos(\tau-\tau')$.
+
+% Once again, we require expressions for the relevant integrals at
+% early times, when we lack numerical data.
+% Under the assumption of 
+% matter domination, using equations \eqref{eqn:earlytimew} and
+% \eqref{eqn:earlytimehubble} for the $w$-vectors and the Hubble factor, 
+% we obtain:
+% \begin{align*}\label{eqn:veldivgnu3} 
+%    I_{\Theta_\nu,M}(k,\tau,\tau_0) %&=& \int_{-\infty}^{\tau_0} d\tau' \cos(\tau-\tau') \frac{3}{2}
+% %   H^2(\tau') w^0(k,\tau') \\[1em]
+%                =& \int_{-\infty}^{\tau_0} d \tau'
+%                              \cos(\tau-\tau') \frac{3}{2}
+%                              \frac{a^4(\tau')}{k^2 \widebar{c_s}^2}
+%                              H_0^2 \frac{\Omega_M}{a^3(\tau')} A(k)
+%                              a(\tau') \\
+% %   &=&  \frac{3}{2} \frac{ H_0^2 \Omega_M A(k)}{k^2 \widebar{c_s}^2}
+% %       \int_{-\infty}^{\tau_0} d \tau' \cos(\tau-\tau') \bigg( \frac{
+% %       -2 k \widebar{c_s} }{ H_0 \sqrt{ \Omega_M}} \bigg)^4\frac{1}{\tau ^{4'} }
+% %   \\[1em]
+%    =& \frac{24 k^2 \widebar{c_s}^2 A(k) }{H_0^2 \Omega_M} \frac{1}{12\tau_0^3}
+%         \bigg( \pi \tau_0^3 \cos(\tau) +\\ & 2 ( \tau_0^2 - 2) \cos(
+%         \tau-\tau_0) - \\
+% & 2 \tau_0 ( \sin( \tau-\tau_0) + \tau_0^2 (
+%         \text{CI}(-\tau_0) \sin(\tau) -\\ & \cos( \tau) \text{SI}( \tau_0)
+%         ) ) \bigg) \numberthis
+% \end{align*}
+% We can find an analytic expression for the neutrino velocity
+% divergence power by setting $\tau_0 = \tau$ in the above expression:
+% \begin{align*} \label{eqn:veldivgnu4} 
+%   I_{\Theta_\nu,M}(k,\tau,\tau)=& \frac{24 k^2 \widebar{c_s}^2 A(k)}{ H_0^2
+%     \Omega_M} \frac{1}{12} \bigg( \frac{2 (\tau^2-2)}{ \tau^3} - \\ & 2
+%   \text{CI}(-\tau) \sin(\tau) + \cos( \tau) ( \pi + 2 \text{SI}(\tau)
+%   ) \bigg) \;. \numberthis
+% \end{align*}
+% Substituting this into Equation \eqref{eqn:veldivgnu2} we find an
+% expression for the neutrino velocity divergence power in matter domination:
+% \begin{align*}\label{eqn:veldivgnu5} 
+%   P_{{\Theta_\nu,M}}(k,\tau) =& \bigg( \frac{k
+%     \widebar{c_s}}{a(\tau)}\bigg)^2 \bigg| \frac{ 24 k^2 \widebar{c_s}^2
+%     A(k)}{H_0^2 \Omega_M} \frac{1}{12} \bigg( \pi \tau_0^3 \cos(\tau)
+%                                 +\\ & 2 ( \tau_0^2 - 2) \cos(
+%         \tau-\tau_0) -
+%  2 \tau_0 ( \sin( \tau-\tau_0) + \\ & \tau_0^2 (
+%         \text{CI}(-\tau_0) \sin(\tau) - \cos( \tau) \text{SI}( \tau_0)
+%         ) ) \bigg) \bigg|^2\;. \numberthis
+% \end{align*}
+% %This can be compared to the semi-analytic velocity divergence power to
+% %observe the discrepancies from the purely linear solution caused by
+% %treating the dark matter nonlinearly.
 
 \subsection{ Velocity divergence results }
 
@@ -2253,7 +2364,9 @@ Equation \eqref{eqn:veldivgcdm2} or
 \eqref{eqn:veldivgnu2} 
 respectively, we decompose the relevant integral as follows:
 \begin{align*}\label{eqn:veldecomp}
-  P_{\Theta_i}( k, \tau) =& \bigg| I_{\Theta_i,M}(k, \tau, \tau_0) +
+  P_{\Theta_i}( k, \tau) =& \bigg| \int_{-\infty}^{\tau_0} d \tau'
+                            G_{\Theta_i}(\tau-\tau') \frac{3}{2}
+                            H_M^2(\tau') w_M^0(k,\tau')  +
   \\ &
   \int_{\tau_0}^\tau d\tau' G_{\Theta_i}(\tau-\tau') \frac{3}{2} H^2(\tau')
   w^0(k,\tau') \bigg|^2 +\\
@@ -2461,6 +2574,9 @@ In this section, we investigate this technique; %and apply it to
 %include some non-linearities in the fluid equations; 
 however, we leave
 a rigorous treatment of the non-linearities to future work. 
+
+
+THIS NEEDS TO BE REWRITTEN 
 
 %Recall from
 %Section \ref{sec:Theory} that we linearized the fluid
@@ -2907,94 +3023,94 @@ University of Toronto.
 
 \appendix
 
-\section{Relating the Neutrino and Photon
-  Temperatures}\label{app:AppA}
-We can relate the cosmic neutrino background and CMB
-temperatures as follows.
-Before decoupling, neutrinos and photons were in
-thermal equilibrium.  After decoupling, both the photon and neutrino
-temperatures decreased due to the expansion of the universe: $T
-\propto a^{-1}$. However, in addition to this decrease, the temperature of the
-photon distribution was increased by the annihilation of positrons
-and electrons. As this occurred after decoupling, the neutrino
-temperature was unaffected by this period of annihilation.  
-%As the
-%neutrinos had already decoupled from the photons, they were unaffected
-%by this occurrence.  NEED TO REFERENCE THIS SHIT 
-This lead to a difference in the neutrino and
-photon temperature, which may be obtained 
- by comparing the effective number of degrees of
-freedom contributed by relativistic species in thermal equilibrium
-with photons before and after annihilation.  The
-effective number of relativistic degrees of freedom for particles in
-thermal equilibrium with photons is given by \citep{baumann3}: 
-% This is from
-% http://www.damtp.cam.ac.uk/user/db275/Cosmology/Chapter3.pdf but we
-% may need to find a different source to cite.
-\begin{equation}\label{eqn:dof}
-  g_*^{th}(T) = \sum_{i=b} g_i + \frac{7}{8} \sum_{i=f} g_i \;,
-\end{equation}
-where the species labels $b$ and $f$ refer to bosons and fermions
-respectively and $g$ is the number of degrees of freedom, $g_b=2$ and
-$g_f=4$.
-%gf = 4 because we count the antiparticles * spin states
- Using Equation \eqref{eqn:dof} we find:
-\begin{equation}
-  \frac{ g_*^{th}(T\gg T_{ann})}{g_*^{th}(T\ll T_{ann})} = \frac{ 2 + 4
-    (\frac{7}{8})}{ 2 } = \frac{11}{4} \;,
-\end{equation}
-where $T_{ann}$ is the temperature at which the heating of the photons
-due to the positron-electron annihilation occurs.  
-%Note that each species
-%has two degrees of freedom for the two spin states, and that before
-%annihilation we include photons, electrons and positrons in the
-%calculation of the effective number of relativistic degrees of
-%freedom.  
-During positron-electron annihilation, the photon
-temperature varies as $ T_\gamma \propto (g_*^{th})^{-1/3} a^{-1} $, so that after
-the heating of photons due to positron-electron annihilation the ratio
-of the cosmic photon and neutrino background temperatures is given by:
-\begin{equation}
-  \frac{T_\nu}{T_\gamma} = \bigg( \frac{g_*^{th}(  T \gg T_{ann} )}{ g_*^{th}(T
-    \ll T_{ann})}   \bigg)^{1/3} =\bigg(\frac{4}{11}\bigg)^{1/3} \;.
-\end{equation}
+% \section{Relating the Neutrino and Photon
+%   Temperatures}\label{app:AppA}
+% We can relate the cosmic neutrino background and CMB
+% temperatures as follows.
+% Before decoupling, neutrinos and photons were in
+% thermal equilibrium.  After decoupling, both the photon and neutrino
+% temperatures decreased due to the expansion of the universe: $T
+% \propto a^{-1}$. However, in addition to this decrease, the temperature of the
+% photon distribution was increased by the annihilation of positrons
+% and electrons. As this occurred after decoupling, the neutrino
+% temperature was unaffected by this period of annihilation.  
+% %As the
+% %neutrinos had already decoupled from the photons, they were unaffected
+% %by this occurrence.  NEED TO REFERENCE THIS SHIT 
+% This lead to a difference in the neutrino and
+% photon temperature, which may be obtained 
+%  by comparing the effective number of degrees of
+% freedom contributed by relativistic species in thermal equilibrium
+% with photons before and after annihilation.  The
+% effective number of relativistic degrees of freedom for particles in
+% thermal equilibrium with photons is given by \citep{baumann3}: 
+% % This is from
+% % http://www.damtp.cam.ac.uk/user/db275/Cosmology/Chapter3.pdf but we
+% % may need to find a different source to cite.
+% \begin{equation}\label{eqn:dof}
+%   g_*^{th}(T) = \sum_{i=b} g_i + \frac{7}{8} \sum_{i=f} g_i \;,
+% \end{equation}
+% where the species labels $b$ and $f$ refer to bosons and fermions
+% respectively and $g$ is the number of degrees of freedom, $g_b=2$ and
+% $g_f=4$.
+% %gf = 4 because we count the antiparticles * spin states
+%  Using Equation \eqref{eqn:dof} we find:
+% \begin{equation}
+%   \frac{ g_*^{th}(T\gg T_{ann})}{g_*^{th}(T\ll T_{ann})} = \frac{ 2 + 4
+%     (\frac{7}{8})}{ 2 } = \frac{11}{4} \;,
+% \end{equation}
+% where $T_{ann}$ is the temperature at which the heating of the photons
+% due to the positron-electron annihilation occurs.  
+% %Note that each species
+% %has two degrees of freedom for the two spin states, and that before
+% %annihilation we include photons, electrons and positrons in the
+% %calculation of the effective number of relativistic degrees of
+% %freedom.  
+% During positron-electron annihilation, the photon
+% temperature varies as $ T_\gamma \propto (g_*^{th})^{-1/3} a^{-1} $, so that after
+% the heating of photons due to positron-electron annihilation the ratio
+% of the cosmic photon and neutrino background temperatures is given by:
+% \begin{equation}
+%   \frac{T_\nu}{T_\gamma} = \bigg( \frac{g_*^{th}(  T \gg T_{ann} )}{ g_*^{th}(T
+%     \ll T_{ann})}   \bigg)^{1/3} =\bigg(\frac{4}{11}\bigg)^{1/3} \;.
+% \end{equation}
 
 
-\section{Neutrino Velocity Dispersion}\label{app:AppB}
-Recall the definition of the velocity dispersion:
-\begin{align*}\label{eqn:veldisp2}
-  \sigma_v^2 &= \frac{1}{a^2 m^2 } < q >^2\\
-  &= \frac{1}{a^2\, m^2} \frac{ \int_0^\infty q^2 dq q^2 f_0(q) }{
-      \int_0^\infty q^2 dq f_0(q) } \;.\numberthis
-\end{align*}
-Recall from Section \ref{sec:NuFluid} that neutrinos obey the
-relativistic Fermi-Dirac distribution, Equation \eqref{eqn:fermidirac} as they are relativistic at the
-time of decoupling.  Also recall that after decoupling, the neutrino
-temperature varies only due to the expansion of the universe, so that
-$aT$ remains constant and we can use the relation $a(t)T_\nu(t) = a_0T_{\nu,0}$,
-where the subscript $0$ denotes values today.  
-Using Equation \eqref{eqn:fermidirac}, 
-the integral in the denominator can be evaluated as follows:
-\begin{align*}\label{eqn:veldisp3}
-  \int_0^\infty dq q^4 f_0(q) &= \int_0^\infty dq q^4
-                                  \frac{1}{\me^{q/T_0} + 1} \\
-  &= T_{nu,0}^5 \int_0^\infty dx \frac{ x^4 }{\me^x +1 } \\
-  &= T_{nu,0}^5 \frac{45}{2} \zeta (5) \;,\numberthis
-\end{align*}
-where the substitution $x=q/T_0$ was made and $\zeta(x)$ is the
-Riemann zeta function.  The integral in the numerator evaluates to:
-\begin{align*}\label{eqn:veldisp4}
-  \int_0^{\infty} dq q^2 f_0(q) &= \int_0^\infty dq q^2
-                                    \frac{1}{\me^{q/T_0}+1}\\
- &= T_{\nu,0}^3 \int_0^\infty dx \frac{x^2}{\me^x+1}\\
- &= T_{\nu,0}^3 \frac{3}{2} \zeta(3) \;.\numberthis
-\end{align*}
-Substituting these integrals into Equation \eqref{eqn:veldisp2} we find:
-\begin{equation}\label{eqn:veldisp52}
-  \sigma_v^2(t) = \frac{1}{a^2(t)\,m^2_\nu} 15 \frac{ \zeta(5)
-  }{\zeta(3) }  T_{\nu,0}^2 \;.
-\end{equation}
-This is the relation used in the derivation of the neutrino sound
-speed in Section \ref{sec:NuFluid}.
+% \section{Neutrino Velocity Dispersion}\label{app:AppB}
+% Recall the definition of the velocity dispersion:
+% \begin{align*}\label{eqn:veldisp2}
+%   \sigma_v^2 &= \frac{1}{a^2 m^2 } < q >^2\\
+%   &= \frac{1}{a^2\, m^2} \frac{ \int_0^\infty q^2 dq q^2 f_0(q) }{
+%       \int_0^\infty q^2 dq f_0(q) } \;.\numberthis
+% \end{align*}
+% Recall from Section \ref{sec:NuFluid} that neutrinos obey the
+% relativistic Fermi-Dirac distribution, Equation \eqref{eqn:fermidirac} as they are relativistic at the
+% time of decoupling.  Also recall that after decoupling, the neutrino
+% temperature varies only due to the expansion of the universe, so that
+% $aT$ remains constant and we can use the relation $a(t)T_\nu(t) = a_0T_{\nu,0}$,
+% where the subscript $0$ denotes values today.  
+% Using Equation \eqref{eqn:fermidirac}, 
+% the integral in the denominator can be evaluated as follows:
+% \begin{align*}\label{eqn:veldisp3}
+%   \int_0^\infty dq q^4 f_0(q) &= \int_0^\infty dq q^4
+%                                   \frac{1}{\me^{q/T_0} + 1} \\
+%   &= T_{nu,0}^5 \int_0^\infty dx \frac{ x^4 }{\me^x +1 } \\
+%   &= T_{nu,0}^5 \frac{45}{2} \zeta (5) \;,\numberthis
+% \end{align*}
+% where the substitution $x=q/T_0$ was made and $\zeta(x)$ is the
+% Riemann zeta function.  The integral in the numerator evaluates to:
+% \begin{align*}\label{eqn:veldisp4}
+%   \int_0^{\infty} dq q^2 f_0(q) &= \int_0^\infty dq q^2
+%                                     \frac{1}{\me^{q/T_0}+1}\\
+%  &= T_{\nu,0}^3 \int_0^\infty dx \frac{x^2}{\me^x+1}\\
+%  &= T_{\nu,0}^3 \frac{3}{2} \zeta(3) \;.\numberthis
+% \end{align*}
+% Substituting these integrals into Equation \eqref{eqn:veldisp2} we find:
+% \begin{equation}\label{eqn:veldisp52}
+%   \sigma_v^2(t) = \frac{1}{a^2(t)\,m^2_\nu} 15 \frac{ \zeta(5)
+%   }{\zeta(3) }  T_{\nu,0}^2 \;.
+% \end{equation}
+% This is the relation used in the derivation of the neutrino sound
+% speed in Section \ref{sec:NuFluid}.
 
 \end{document}

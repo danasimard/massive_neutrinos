@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  16 SEP 2015 18:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 SEP 2015 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,11 +334,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./paper.aux
-
-LaTeX Warning: Label `eqn:euler3' multiply defined.
-
-)
+ (./paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
@@ -373,7 +369,24 @@ Package caption Info: End \AtBeginDocument code.
 \makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks26
 ) [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4]
+[2]
+
+LaTeX Warning: Reference `app:AppA' on page 3 undefined on input line 700.
+
+
+LaTeX Warning: Reference `app:AppB' on page 3 undefined on input line 703.
+
+
+LaTeX Warning: Reference `eqn:continuity' on page 3 undefined on input line 723
+.
+
+
+LaTeX Warning: Reference `eqn:euler' on page 3 undefined on input line 724.
+
+
+LaTeX Warning: Reference `eqn:poisson' on page 3 undefined on input line 724.
+
+[3]
 Missing character: There is no â in font cmr6!
 Missing character: There is no ˆ in font cmr6!
 Missing character: There is no ’ in font cmr6!
@@ -381,62 +394,113 @@ Missing character: There is no ’ in font cmr6!
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6] <Figures/density_cdm.pdf, id=47, 501.19432pt x 382.72986pt>
+[4] [5] <Figures/density_cdm.pdf, id=44, 501.19432pt x 382.72986pt>
 File: Figures/density_cdm.pdf Graphic file (type pdf)
 
 <use Figures/density_cdm.pdf>
-Package pdftex.def Info: Figures/density_cdm.pdf used on input line 1394.
+Package pdftex.def Info: Figures/density_cdm.pdf used on input line 1426.
 (pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
 
-<Figures/density_nu.pdf, id=48, 501.19432pt x 372.69237pt>
+<Figures/density_nu.pdf, id=45, 501.19432pt x 372.69237pt>
 File: Figures/density_nu.pdf Graphic file (type pdf)
 
 <use Figures/density_nu.pdf>
-Package pdftex.def Info: Figures/density_nu.pdf used on input line 1396.
+Package pdftex.def Info: Figures/density_nu.pdf used on input line 1428.
 (pdftex.def)             Requested size: 252.44751pt x 187.72192pt.
 
-Overfull \hbox (1.06165pt too wide) in paragraph at lines 1394--1397
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 1426--1429
  [][][] 
  []
 
 
 Class revtex4 Warning: Float cannot be placed.
 
-<Figures/vel_cdm.pdf, id=49, 520.34402pt x 382.72986pt>
+<Figures/vel_cdm.pdf, id=46, 520.34402pt x 382.72986pt>
 File: Figures/vel_cdm.pdf Graphic file (type pdf)
 
 <use Figures/vel_cdm.pdf>
-Package pdftex.def Info: Figures/vel_cdm.pdf used on input line 1493.
+Package pdftex.def Info: Figures/vel_cdm.pdf used on input line 1525.
 (pdftex.def)             Requested size: 252.44751pt x 185.68799pt.
 
-<Figures/vel_nu.pdf, id=50, 520.34402pt x 382.72986pt>
+<Figures/vel_nu.pdf, id=47, 520.34402pt x 382.72986pt>
 File: Figures/vel_nu.pdf Graphic file (type pdf)
 
 <use Figures/vel_nu.pdf>
-Package pdftex.def Info: Figures/vel_nu.pdf used on input line 1494.
+Package pdftex.def Info: Figures/vel_nu.pdf used on input line 1526.
 (pdftex.def)             Requested size: 252.44751pt x 185.68799pt.
 
 
 Class revtex4 Warning: Float cannot be placed.
 
-<Figures/correlators9_k0p1.pdf, id=51, 433.62pt x 289.08pt>
+<Figures/correlators9_k0p1.pdf, id=48, 433.62pt x 289.08pt>
 File: Figures/correlators9_k0p1.pdf Graphic file (type pdf)
 
 <use Figures/correlators9_k0p1.pdf>
-Package pdftex.def Info: Figures/correlators9_k0p1.pdf used on input line 1559.
+Package pdftex.def Info: Figures/correlators9_k0p1.pdf used on input line 1591.
 
 (pdftex.def)             Requested size: 252.44751pt x 168.3017pt.
 
-<Figures/correlators9_k1.pdf, id=52, 433.62pt x 289.08pt>
+<Figures/correlators9_k1.pdf, id=49, 433.62pt x 289.08pt>
 File: Figures/correlators9_k1.pdf Graphic file (type pdf)
 
 <use Figures/correlators9_k1.pdf>
-Package pdftex.def Info: Figures/correlators9_k1.pdf used on input line 1561.
+Package pdftex.def Info: Figures/correlators9_k1.pdf used on input line 1593.
 (pdftex.def)             Requested size: 252.44751pt x 168.3017pt.
 
-Overfull \hbox (1.06165pt too wide) in paragraph at lines 1559--1562
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 1591--1594
  [][][] 
  []
+
+
+Class revtex4 Warning: Float cannot be placed.
+
+[6]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 1629.
+
+
+LaTeX Warning: Reference `eqn:euler5' on page 7 undefined on input line 1658.
+
+
+LaTeX Warning: Reference `eqn:euler5' on page 7 undefined on input line 1665.
+
+
+LaTeX Warning: Reference `sec:neutrinos' on page 7 undefined on input line 1713
+.
+
+
+LaTeX Warning: Reference ` eqn:densitycontrast2' on page 7 undefined on input l
+ine 1725.
+
+
+Overfull \hbox (171.90875pt too wide) detected at line 1750
+\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 ) =\OM
+L/cmm/m/it/10 < ^^N[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 )\OML
+/cmm/m/it/10 ^^N[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\\OT1/cmr/m/n/10 ) \OML/c
+mm/m/it/10 >\OT1/cmr/m/n/10 = [][] \OML/cmm/m/it/10 d^^\[]G[]\OT1/cmr/m/n/10 (\
+OML/cmm/m/it/10 ^^\; ^^\[]\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 H[]\OT1/cmr/m/n/1
+0 (\OML/cmm/m/it/10 ^^\[]\OT1/cmr/m/n/10 ) [][] \OML/cmm/m/it/10 d^^\[]G[]\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 ^^\; ^^\[]\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 H[]\
+OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 < ^^N[
+]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ^^N[]
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 > ;
+ []
+
+
+LaTeX Warning: Reference `eqn:densitypowercdm2' on page 7 undefined on input li
+ne 2064.
+
+
+LaTeX Warning: Reference `eqn:densitypowernu2' on page 7 undefined on input lin
+e 2064.
+
+<Figures/density_cdm_0.pdf, id=53, 501.19432pt x 382.72986pt>
+File: Figures/density_cdm_0.pdf Graphic file (type pdf)
+
+<use Figures/density_cdm_0.pdf>
+Package pdftex.def Info: Figures/density_cdm_0.pdf used on input line 2083.
+(pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
 
 
 Class revtex4 Warning: Float cannot be placed.
@@ -444,122 +508,105 @@ Class revtex4 Warning: Float cannot be placed.
 [7]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 1597.
+ on input line 2102.
+
+<Figures/density_nu0p2_0_pres.pdf, id=59, 501.19432pt x 382.72986pt>
+File: Figures/density_nu0p2_0_pres.pdf Graphic file (type pdf)
+
+<use Figures/density_nu0p2_0_pres.pdf>
+Package pdftex.def Info: Figures/density_nu0p2_0_pres.pdf used on input line 21
+22.
+(pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
+
+<Figures/density_nu_0p1.pdf, id=60, 501.19432pt x 372.69237pt>
+File: Figures/density_nu_0p1.pdf Graphic file (type pdf)
+
+<use Figures/density_nu_0p1.pdf>
+Package pdftex.def Info: Figures/density_nu_0p1.pdf used on input line 2124.
+(pdftex.def)             Requested size: 252.44751pt x 187.72192pt.
+
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 2122--2125
+ [][][] 
+ []
 
 
-Overfull \hbox (0.70544pt too wide) in paragraph at lines 1790--1790
+Class revtex4 Warning: Float cannot be placed.
+
+
+LaTeX Warning: Reference `eqn:densitycdm' on page 8 undefined on input line 217
+8.
+
+
+LaTeX Warning: Reference `eqn:densitycontrastnu4' on page 8 undefined on input 
+line 2178.
+
+
+Overfull \hbox (13.32338pt too wide) detected at line 2185
+\OT1/cmr/m/n/10 ^^B[](\OT1/cmr/bx/n/10 k\OML/cmm/m/it/10 ; t\OT1/cmr/m/n/10 ) =
+ [] [] [] [][] \OML/cmm/m/it/10 d^^\[]G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^\;
+ ^^\[]\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
+^^\[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 w[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k; 
+^^\[]\OT1/cmr/m/n/10 )[][]
+ []
+
+
+LaTeX Warning: Reference `eqn:veldivgcdm2' on page 8 undefined on input line 23
+67.
+
+
+LaTeX Warning: Reference `eqn:veldivgnu2' on page 8 undefined on input line 236
+8.
+
+
+Overfull \hbox (7.13742pt too wide) in paragraph at lines 2380--2380
 [] 
  []
+
+<Figures/vel_cdm_0.pdf, id=61, 502.77837pt x 382.72986pt>
+File: Figures/vel_cdm_0.pdf Graphic file (type pdf)
+
+<use Figures/vel_cdm_0.pdf>
+Package pdftex.def Info: Figures/vel_cdm_0.pdf used on input line 2461.
+(pdftex.def)             Requested size: 252.44751pt x 192.17038pt.
+
+
+Class revtex4 Warning: Float cannot be placed.
+
+<Figures/vel_nu0p2_0_pres.pdf, id=62, 502.77837pt x 382.72986pt>
+File: Figures/vel_nu0p2_0_pres.pdf Graphic file (type pdf)
+
+<use Figures/vel_nu0p2_0_pres.pdf>
+Package pdftex.def Info: Figures/vel_nu0p2_0_pres.pdf used on input line 2511.
+(pdftex.def)             Requested size: 252.44751pt x 192.17038pt.
+
+<Figures/vel_nu0p1_0.pdf, id=63, 502.77837pt x 382.72986pt>
+File: Figures/vel_nu0p1_0.pdf Graphic file (type pdf)
+
+<use Figures/vel_nu0p1_0.pdf>
+Package pdftex.def Info: Figures/vel_nu0p1_0.pdf used on input line 2513.
+(pdftex.def)             Requested size: 252.44751pt x 192.17038pt.
+
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 2511--2514
+ [][][] 
+ []
+
+
+Class revtex4 Warning: Float cannot be placed.
 
 [8]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 1798.
-
-[9]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 1946.
+ on input line 2581.
 
 
-LaTeX Warning: Reference `eqn:nuearly' on page 10 undefined on input line 1978.
+LaTeX Warning: Reference `eqn:continuity' on page 9 undefined on input line 260
+4.
 
 
-<Figures/density_cdm_0.pdf, id=64, 501.19432pt x 382.72986pt>
-File: Figures/density_cdm_0.pdf Graphic file (type pdf)
-
-<use Figures/density_cdm_0.pdf>
-Package pdftex.def Info: Figures/density_cdm_0.pdf used on input line 1986.
-(pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
+LaTeX Warning: Reference `eqn:euler' on page 9 undefined on input line 2605.
 
 
-Class revtex4 Warning: Float cannot be placed.
-
-<Figures/density_nu0p2_0_pres.pdf, id=65, 501.19432pt x 382.72986pt>
-File: Figures/density_nu0p2_0_pres.pdf Graphic file (type pdf)
-
-<use Figures/density_nu0p2_0_pres.pdf>
-Package pdftex.def Info: Figures/density_nu0p2_0_pres.pdf used on input line 20
-25.
-(pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
-
-<Figures/density_nu_0p1.pdf, id=66, 501.19432pt x 372.69237pt>
-File: Figures/density_nu_0p1.pdf Graphic file (type pdf)
-
-<use Figures/density_nu_0p1.pdf>
-Package pdftex.def Info: Figures/density_nu_0p1.pdf used on input line 2027.
-(pdftex.def)             Requested size: 252.44751pt x 187.72192pt.
-
-Overfull \hbox (1.06165pt too wide) in paragraph at lines 2025--2028
- [][][] 
- []
-
-
-Class revtex4 Warning: Float cannot be placed.
-
-[10]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 2114.
-
-
-Overfull \hbox (4.50044pt too wide) in paragraph at lines 2182--2182
-[] 
- []
-
-
-Overfull \hbox (32.61586pt too wide) in paragraph at lines 2195--2195
-[] 
- []
-
-
-Overfull \hbox (32.44113pt too wide) in paragraph at lines 2223--2223
-[] 
- []
-
-[11]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 2255.
-
-
-Overfull \hbox (7.13742pt too wide) in paragraph at lines 2263--2263
-[] 
- []
-
-<Figures/vel_cdm_0.pdf, id=73, 502.77837pt x 382.72986pt>
-File: Figures/vel_cdm_0.pdf Graphic file (type pdf)
-
-<use Figures/vel_cdm_0.pdf>
-Package pdftex.def Info: Figures/vel_cdm_0.pdf used on input line 2344.
-(pdftex.def)             Requested size: 252.44751pt x 192.17038pt.
-
-
-Class revtex4 Warning: Float cannot be placed.
-
-<Figures/vel_nu0p2_0_pres.pdf, id=74, 502.77837pt x 382.72986pt>
-File: Figures/vel_nu0p2_0_pres.pdf Graphic file (type pdf)
-
-<use Figures/vel_nu0p2_0_pres.pdf>
-Package pdftex.def Info: Figures/vel_nu0p2_0_pres.pdf used on input line 2394.
-(pdftex.def)             Requested size: 252.44751pt x 192.17038pt.
-
-<Figures/vel_nu0p1_0.pdf, id=75, 502.77837pt x 382.72986pt>
-File: Figures/vel_nu0p1_0.pdf Graphic file (type pdf)
-
-<use Figures/vel_nu0p1_0.pdf>
-Package pdftex.def Info: Figures/vel_nu0p1_0.pdf used on input line 2396.
-(pdftex.def)             Requested size: 252.44751pt x 192.17038pt.
-
-Overfull \hbox (1.06165pt too wide) in paragraph at lines 2394--2397
- [][][] 
- []
-
-
-Class revtex4 Warning: Float cannot be placed.
-
-
-Overfull \hbox (12.02812pt too wide) detected at line 2514
+Overfull \hbox (12.02812pt too wide) detected at line 2634
 [] \OMS/cmsy/m/n/10 ^^@ []r[]\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 = \OML/cmm/m/it
 /10 a[]\OMS/cmsy/m/n/10 r\OT1/cmr/m/n/10 ((1 + \OML/cmm/m/it/10 ^^N[]\OT1/cmr/m
 /n/10 )\OMS/cmsy/m/n/10 r\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10
@@ -569,43 +616,38 @@ Overfull \hbox (12.02812pt too wide) detected at line 2514
 
  []
 
-[12]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 2585.
-
-<Figures/density_cdm_nl_0.pdf, id=79, 501.19432pt x 382.72986pt>
+<Figures/density_cdm_nl_0.pdf, id=67, 501.19432pt x 382.72986pt>
 File: Figures/density_cdm_nl_0.pdf Graphic file (type pdf)
 
 <use Figures/density_cdm_nl_0.pdf>
-Package pdftex.def Info: Figures/density_cdm_nl_0.pdf used on input line 2593.
+Package pdftex.def Info: Figures/density_cdm_nl_0.pdf used on input line 2713.
 (pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
 
-<Figures/density_nu_nl_0.pdf, id=80, 501.19432pt x 382.72986pt>
+<Figures/density_nu_nl_0.pdf, id=68, 501.19432pt x 382.72986pt>
 File: Figures/density_nu_nl_0.pdf Graphic file (type pdf)
 
 <use Figures/density_nu_nl_0.pdf>
-Package pdftex.def Info: Figures/density_nu_nl_0.pdf used on input line 2595.
+Package pdftex.def Info: Figures/density_nu_nl_0.pdf used on input line 2715.
 (pdftex.def)             Requested size: 252.44751pt x 192.77773pt.
 
-Overfull \hbox (1.06165pt too wide) in paragraph at lines 2593--2596
+Overfull \hbox (1.06165pt too wide) in paragraph at lines 2713--2716
  [][][] 
  []
 
 
 Class revtex4 Warning: Float cannot be placed.
 
-[13]
+[9]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 2877.
+ on input line 2810.
 
-(./paper.bbl) [14]
+(./paper.bbl [10]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 2934.
+ on input line 67.
 
-[15] [16 <./Figures/density_cdm.pdf> <./Figures/density_nu.pdf
+) [11] [12 <./Figures/density_cdm.pdf> <./Figures/density_nu.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/density_nu.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -617,7 +659,7 @@ pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Figures/vel_nu.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
->] [17 <./Figures/correlators9_k0p1.pdf> <./Figures/correlators9_k1.pdf
+>] [13 <./Figures/correlators9_k0p1.pdf> <./Figures/correlators9_k1.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/correlators9_k1.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -625,7 +667,7 @@ ultiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Figures/density_cdm_0.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [18 <./Figures/density_nu0p2_0_pres.pdf> <./Figures/density_nu_0p1.pdf
+>] [14 <./Figures/density_nu0p2_0_pres.pdf> <./Figures/density_nu_0p1.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/density_nu_0p1.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
@@ -633,7 +675,7 @@ ltiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Figures/vel_cdm_0.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] [19 <./Figures/vel_nu0p2_0_pres.pdf> <./Figures/vel_nu0p1_0.pdf
+>] [15 <./Figures/vel_nu0p2_0_pres.pdf> <./Figures/vel_nu0p1_0.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/vel_nu0p1_0.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
@@ -649,18 +691,15 @@ ultiple pdfs with page group included in a single page
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 6155 strings out of 493488
- 86375 string characters out of 3141326
- 221320 words of memory out of 3000000
- 9349 multiletter control sequences out of 15000+200000
+ 6116 strings out of 493488
+ 85740 string characters out of 3141326
+ 220664 words of memory out of 3000000
+ 9310 multiletter control sequences out of 15000+200000
  12179 words of font info for 44 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,13n,46p,1368b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,46p,1368b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
@@ -690,10 +729,10 @@ onts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2012/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt9.pfb>
-Output written on paper.pdf (19 pages, 692864 bytes).
+Output written on paper.pdf (15 pages, 663060 bytes).
 PDF statistics:
- 911 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
+ 898 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
