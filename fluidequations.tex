@@ -13,6 +13,14 @@
   \endgroup
 }
 
+\usepackage{mdframed}
+\newenvironment{aside}
+  {\begin{mdframed}[style=0,%
+      leftline=false,rightline=false,leftmargin=2em,rightmargin=2em,%
+          innerleftmargin=0pt,innerrightmargin=0pt,linewidth=0.75pt,%
+      skipabove=7pt,skipbelow=7pt]\small}
+  {\end{mdframed}}
+
 \begin{document}
 
 \title{Fluid equations in comoving coordinates}
@@ -124,8 +132,22 @@ Lets put this into the Euler equation and we find:
  &= - \partial_i P +\rho\frac{\ddot{a}}{a} x_i  -
    2\rho\bigg(\frac{\dot{a}}{a}\bigg)^2x_i-\rho \partial_i \phi\\
 \partial_t \rho v_i + \partial_j \rho v_i v_j &= -\partial_i P -
-                                                \rho \partial_i \rho
+                                                \rho \partial_i \phi
 \end{align*}
+
+\begin{aside}
+What happens if we set $a=1$? Then $\dot{a}=0$, $H=0$, and all of the
+super comoving variables are equal to the physical variables.  In this
+case, the Euler equation above remains unchanged, and the original
+Euler equation becomes:
+\begin{align*}
+  \partial_t \rho u_i + \partial_j \rho u_i u_j &= - \partial_i P -
+  \rho \partial_i \Phi \\
+\wt{\partial_t} \wt{\rho} \wt{v_i} + \wt{\partial_j} \wt{\rho} \wt{v_i} \wt{v_j} &= - \wt{\partial_i} \wt{P} - \wt{\rho} \wt{\partial_i} \wt{\phi}
+\end{align*}
+as expected, since the Hubble flow in this case is zero and only the
+perturbations remain. This matches the Euler equation above as expected.
+\end{aside}
 
 % Now, in order to get this in the correct form, we see that a specific relation must hold:
 % \begin{equation}
@@ -209,17 +231,20 @@ up with:
 What do we do with the third term? In k-space this becomes:
 \begin{align*}
   \nabla \cdot ( \mathbf{v} (\mathbf{v} \cdot \nabla ) + ( \mathbf{v}
-  \cdot \nabla ) \mathbf{v} ) &= \partial_i ( v_j partial_j v_i +
+  \cdot \nabla ) \mathbf{v} ) &= \partial_i ( v_j \partial_j v_i +
                                 v_i \partial_j v_j ) \\
   &= \partial_i v_j \partial_j v_i + v_j \partial_i \partial_j v_i
     + \partial_i v_i \partial_j v_j + v_i \partial_i \partial_j v_j \\
-  &= 4 k_i k_j v_i v_j \\
-  &= 4 (\mathbf{k} \cdot \mathbf{v} )^2 
+  &= k_i v_j \ast k_j v_i + v_j \ast k_i k_j v_i + k_i v_i \ast k_j
+    v_j + v_i \ast k_i k_j v_j \\
+  &= k_i v_j \ast k_j v_i + 2 v_j \ast k_i k_j v_i + k_i v_i \ast k_j
+    v_j  \\
+  &\equiv A(\mathbf{v}(\mathbf{k}),\mathbf{k})
 \end{align*} 
 
 So in k-space we have:
 \begin{equation}
-  \ddot{\delta} - 4 a^2 ( \mathbf{k} \cdot \mathbf{v} )^2 - a^2
+  \ddot{\delta} - a^2 A(\mathbf{v}(\mathbf{k}),\mathbf{k}) - a^2
   \frac{\nabla^2 P }{\rho_0} = a^2 \nabla^2 \phi + a^2 \nabla \cdot(
   \delta \nabla \phi)
 \end{equation}
@@ -237,11 +262,11 @@ In Fourier space, this means that we can write the potential:
 where $t$ is the physical time and $\tau$ is the super-conformal
 time.  We can then write the full equation:
 \begin{equation}
-  \ddot{\delta} - 4 a^2 ( \mathbf{k} \cdot \mathbf{v} )^2 - a^2
+  \ddot{\delta} - a^2 A(\mathbf{v}(\mathbf{k}),\mathbf{k}) - a^2
   \frac{\nabla^2 P }{\rho_0} = \frac{3}{2} \frac{H^2(\tau)}{k^2} \nabla \cdot((1+
   \delta) \nabla \delta_c)
 \end{equation}
-So once we have the velocity divergence, we can calculate this
-integral, although not with a Green's function?
+So with must calculate $A(\mathbf{v}(\mathbf{k}),\mathbf{k})$ in order
+to do this integral.
 
 \end{document}
