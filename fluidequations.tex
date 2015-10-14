@@ -1,0 +1,247 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{fullpage}
+\newcommand{ \wt }{\widetilde}
+\usepackage{color}
+\newcommand*{\mathcolor}{}
+\def\mathcolor#1#{\mathcoloraux{#1}}
+\newcommand*{\mathcoloraux}[3]{%
+  \protect\leavevmode
+  \begingroup
+    \color#1{#2}#3%
+  \endgroup
+}
+
+\begin{document}
+
+\title{Fluid equations in comoving coordinates}
+\author{Dana Simard}
+
+\maketitle
+
+
+Let us start with the equations in physical coordinates,
+\begin{equation}\label{eqn:physcontinuity}
+  \partial_t \rho + \partial_i (\rho u_i)  = 0 
+\end{equation}
+and 
+\begin{equation}\label{eqn:physeuler}
+   \partial_t (\rho u_i) +  \partial_j (\rho u_i u_j) = - \partial_i P - \rho \partial_i \Phi \;,
+\end{equation}
+where $\rho$ is the physical density, $u$ is the physical velocity, $P$ is the pressure and $\Phi$ is the physical gravitational potential.  Note that the indices $i$,$j$,$k$ are used for the spatial coordinates, while the time coordinate is written as $t$.  Also note we are summing over repeated indices but not worrying about whether indices are lowered or raised.  Finally the notation $\partial_i = \frac{ \partial }{\partial x_i} $ is used. 
+
+Now, we want to change to super-comoving coordinates:\\
+\begin{align*}
+ \wt{\rho} &= \rho a^3\\
+\wt{\phi} &= \phi a^2  \\
+\wt{P} &= P a^5 \\
+\wt{x_i} & = \frac{x_i}{a}  \\
+\wt{v_i} &= v_i a  \\
+ u_i &= v_i + \frac{\dot{a}}{a} x_i  \\
+u_i &= a^{-1}\wt{v_i} + \dot{a}\wt{x_i }  \\
+\end{align*}
+where $\dot{a} = \frac{da}{dt}$. 
+We will also change to super-conformal time, 
+\begin{equation} 
+  \frac{d}{dt} = \frac{1}{a^2} \frac{d}{d\wt{t}}\;.
+\end{equation} 
+This also changes the expressions for $u_i$,
+\begin{equation}
+  u_i = a^{-2} (\wt{v_I} + \frac{\dot{a}}{a} \wt{x_i} )\;,
+\end{equation}
+where now $\dot{a} = \frac{da}{d\wt{t}}$.
+Due to the change in spatial coordinates we must also transform the derivatives:
+\begin{align*}
+\wt{\partial_i } &= a \partial_i \\
+\partial_{t |x_i} &= a^{-2}\partial_{\wt{t} | \wt{x_i}} - a^{-2}\frac{\dot{a}}{a} \wt{x_i} \wt{\partial_i} \;.
+\end{align*}
+
+Since all variables are now in super-comoving and super-conformal form, I will drop the tidles from now on.
+
+For the continuity equation, this transformation is as follows:
+\begin{align*}
+\frac{1}{a^2} \partial_t \frac{\rho}{a^3} - \frac{1}{a^2} \frac{\dot{a}}{a} x_i \partial_i \frac{\rho}{a^3} + \frac{1}{a} \partial_i ( \frac{\rho}{a^2} \frac{ v_i + \frac{\dot{a}}{a} x_i}{a} ) &= 0 \\
+\frac{1}{a^5} \partial_t \rho - \frac{3}{a^5} \frac{\dot{a}}{a} \rho - \frac{1}{a^5}\frac{\dot{a}}{a} x_i \partial_i \rho + \frac{1}{a^5} \partial_i \rho v_i + \frac{1}{a^5} \frac{\dot{a}}{a} \partial_i \rho x_i &=0 \\
+\partial_t \rho + \partial_i \rho v_i - 3 \frac{\dot{a}}{a} \rho - \frac{\dot{a}}{a} x_i \partial_i \rho + \frac{\dot{a}}{a} x_i \partial_i \rho + 3 \frac{\dot{a}}{a} \rho &= 0 \\
+\partial_t \rho + \partial_i \rho v_i &= 0
+\end{align*}
+
+For the Euler equation, this transformation is:
+\begin{align*}
+  &\frac{1}{a^2} \partial_t ( \frac{\rho}{a^3} \frac{v_i +\frac{\dot{a}}{a} x_i}{a} ) 
+- \frac{1}{a^2} \frac{\dot{a}}{a} x_j \partial_j ( \frac{\rho}{a^3} \frac{ v_i + \frac{\dot{a}}{a} x_i }{a} ) 
++ \frac{1}{a} \partial_j ( \frac{\rho}{a^3} \frac{v_i + \frac{\dot{a}}{a} x_i}{a} \frac{v_j + \frac{\dot{a}}{a} x_j }{a} ) 
+= - \frac{1}{a^6} \partial_i P - \frac{\rho}{a^6} \partial_i \Phi \\
+&\partial_t \rho v_i 
+-4 \frac{\dot{a}}{a} \rho v_i 
++ \frac{\dot{a}}{a} x_i \partial_t \rho 
++ a^4 \rho \partial_t ( \frac{1}{a^4} \frac{\dot{a}}{a} x_i  ) 
+- \frac{\dot{a}}{a} x_j  \partial_j \rho v_i 
+- (\frac{\dot{a}}{a})^2 x_j \partial_j \rho x_i 
++ \partial_j \rho v_i v_j 
++ \frac{\dot{a}}{a} \partial_j \rho v_i x_j \\
+&\;\;\;\;\;+ \frac{\dot{a}}{a} \partial_j \rho v_j x_i 
++ (\frac{\dot{a}}{a} )^2 \partial_j \rho x_i x_j 
+= - \partial_i P - \rho \partial_i \Phi\\
+&\partial_t \rho v_i + \partial_j \rho v_i v_j - 4 \rho v_i \frac{\dot{a}}{a} + \frac{\dot{a}}{a} x_i \partial_t \rho + \rho \partial_t ( \frac{\dot{a}}{a} x_i ) - 4 \rho (\frac{\dot{a}}{a})^2 x_i - \frac{\dot{a}}{a} x_j \partial_j \rho v_i - ( \frac{\dot{a}}{a} )^2 x_j \partial_j \rho x_i +\\ &\;\;\;\;\;\frac{\dot{a}}{a} x_j \partial_j \rho v_i + 3 \frac{\dot{a}}{a} \rho v_i + \frac{\dot{a}}{a} x_i \partial_i \rho v_j + \frac{\dot{a}}{a} \rho v_i + 3 ( \frac{\dot{a}}{a} )^2 \rho x_i + (\frac{\dot{a}}{a})^2 x_j \partial_j \rho x_i = - \partial_i P -\rho \partial_j \Phi \;.
+\end{align*}
+Using the continuity equation, this reduces to:
+\begin{equation}
+\partial_t \rho v_i + \partial_j \rho v_i v_j + \rho \partial_t \bigg(\frac{\dot{a}}{a} x_i \bigg) - \bigg( \frac{\dot{a}}{a} \bigg)^2 \rho x_i = - \partial_i P - \rho \partial_i \Phi \;.
+\end{equation}
+
+Now, we can decompose the potential $\Phi$ into the potential due to the homogeneous solution and the potential due to the density perturbation:
+\begin{equation}
+  \Phi = -\frac{\ddot{a}a}{2} \wt{x_i}\wt{x_i} + \phi
+\end{equation}
+where once again $\wt{x_i}$ indicates that we are using comoving spatial coordinates, but everything else is in physical coordinates.  So in the super-comoving and super-conformal coordinates:
+\begin{align*} 
+  \wt{\Phi} = a^{2}\Phi &=- a^{2} \bigg( \frac{a}{2}\frac{1}{a^3} \bigg( \frac{\ddot{a}}{a}  - 2 \bigg( \frac{\dot{a}}{a}\bigg)^2\bigg)  \wt{x_i}\wt{x_i}\bigg) + \wt{\phi} \\
+  \wt{\Phi} &= -\frac{1}{2} \frac{\ddot{a}}{a}\wt{x_i}^2 +\bigg(\frac{\dot{a}}{a}\bigg)^2\wt{x_i}^2 +\wt{\phi} 
+\end{align*}
+I will again drop the distinction between the physical and comoving coordinates, and you may assume all coordinates are comoving.
+
+We actually want the gradient of the potential:
+\begin{align*}
+  \partial_i \Phi &= \partial_i \bigg( -\frac{1}{2} \frac{\ddot{a}}{a}x_j^2 +\bigg(\frac{\dot{a}}{a}\bigg)^2x_j^2 +\phi \bigg)\\
+  \partial_i \Phi &= -\frac{\ddot{a}}{a} x_i + 2 \bigg(\frac{\dot{a}}{a}  \bigg)^2 x_i + \partial_i \phi
+\end{align*}
+We also need the term:
+\begin{align*}
+ \wt{ \partial_t}\bigg( \frac{1}{a}\frac{da}{d\wt{t}} \wt{x_i} \bigg) &= a^2 \partial_t \bigg( \frac{1}{a} a^2 \frac{da}{dt} \frac{x_i}{a} \bigg)\\
+&=a^2 x_i \frac{d^2a}{dt^2} \\
+&= a^2 a \wt{x_i} \frac{1}{a^2} \frac{d}{d\wt{t}}\bigg( \frac{1}{a^2} \frac{da}{d\wt{t}} \bigg) \\
+&= \frac{\ddot{a}}{a} \wt{x_i} - 2 \bigg( \frac{\dot{a}}{a} \bigg)^2 \wt{x_i} 
+\end{align*}
+
+
+Lets put this into the Euler equation and we find:
+\begin{align*}
+\partial_t \rho v_i + \partial_j \rho v_i v_j + \rho
+  \frac{\ddot{a}}{a} \wt{x_i} - 2 \rho \bigg( \frac{\dot{a}}{a}
+  \bigg)^2 \wt{x_i}  - \bigg( \frac{\dot{a}}{a} \bigg)^2 \rho x_i 
+ &= - \partial_i P +\rho\frac{\ddot{a}}{a} x_i  -
+   2\rho\bigg(\frac{\dot{a}}{a}\bigg)^2x_i-\rho \partial_i \phi\\
+\partial_t \rho v_i + \partial_j \rho v_i v_j &= -\partial_i P -
+                                                \rho \partial_i \rho
+\end{align*}
+
+% Now, in order to get this in the correct form, we see that a specific relation must hold:
+% \begin{equation}
+%   \partial_t \bigg(\frac{\dot{a}}{a} x_i \bigg) = \bigg(\frac{\dot{a}}{a} \bigg)^2 x_i 
+% \end{equation}
+% But this seems to only hold if H is constant.  In physical coordinates, this condition is:
+% \begin{align*}
+%  a^2 \partial_t ( \dot{a} x_i ) - a \dot{a}^2 x_i &= 0 \\
+% x_i  \ddot{a}  + \dot{a} \partial_t x_i - \frac{ \dot{a}^2}{a} x_i &= 0 \\ 
+% \frac{\ddot{a}}{a} - \frac{ \dot{a}^2 }{a^2} &= 0 \\
+% H^2 + \dot{H} - H^2 &= 0 \\
+% \dot{H} &= 0 \\
+% \end{align*}
+% Assuming that the time derivative the $x_i$ is zero (is this true?) and using
+% \begin{equation}
+%   \ddot{a} = \partial_t \dot{a} = \partial_t aH = \dot{a}H + a \dot{H} \;.
+% \end{equation}
+
+% So we see that under the assumption that $\dot{H} = 0 $, the Euler equation can still be written in a conservation form in the superconformal and supercomoving coordinates:
+% \begin{equation}
+%   \partial_t \rho v_i + \partial_j \rho v_i v_j = - \partial_i P - \rho \partial_i \Phi
+% \end{equation}
+
+Now we want to obtain one equation from the Euler and continuity equations in these coordinates.  Start by taking the time derivative of the continuity equation:
+\begin{equation}
+  \partial_t^2 \rho + \partial_t \partial_i \rho v_i = 0 
+\end{equation}
+
+Taking the divergence of the Euler equation gives:
+\begin{equation}
+  \partial_i \partial_t \rho v_i + \partial_i \partial_j  \rho v_i v_j
+      = - \partial_i^2 P - \partial_i \rho \partial_i \phi 
+\end{equation}
+
+We can combine these two equations to get the single equation:
+\begin{equation} 
+  \partial_t^2 \rho - \partial_i \partial_j \rho v_i v_j =  \partial_i^2 P + \partial_i \rho \partial_i \phi
+\end{equation}
+
+Now we want to convert back into physical coordinates for $\rho$, $v$, $P$, and $\Phi$ although we will keep the conformal $x$ and the supercomoving $t$ coordinates (sorry for the continual change of notation).   We will also write the density in terms of the average density plus a perturbation, so that $\wt{\rho} = a^3 \rho_0 (1+\delta)$, $\wt{v_i} = a v_i$, $\wt{P} = a^5 P$ and $\wt{\Phi} = a^2 \Phi$.  This gives:
+\begin{equation}
+\partial_t^2 \bigg(a^3 \rho_0 (1+\delta) \bigg)
+  - \partial_i \partial_j \bigg(a^3 \rho_0 (1+\delta) a^2 v_i
+  v_j\bigg)  =  a^5 \partial_i^2 P + a^5 \partial_i \bigg(\rho_0 (1+\delta) \partial_i \phi \bigg)\;.
+\end{equation}
+We can write the first term as:
+\begin{align*}
+  \partial_t \partial_t ( a^3 \rho_0 (1+\delta) ) &= \partial_t( a^3 \rho \dot{\delta} + 3 \frac{\dot{a}}{a} a^3 \rho_0 (1+\delta) - 3 \frac{\dot{a}}{a^3} \rho_0 (1+\delta)) \\
+&= \partial_t( a^3 \rho_0 \dot{\delta})\\
+&= a^3 \rho_0 \ddot{\delta} - 3 a^3 \frac{\dot{a}}{a} \rho_0 \dot{\delta} + \frac{\dot{a}}{a} \rho_0 \dot{\delta} \\
+&= a^3 \rho_0 \ddot{\delta} 
+\end{align*}
+where we have used the continuity equation to determine that the homogenous solution density $\rho_0$ scales as $a^3$.
+
+Now we may write the entire equation as:
+\begin{equation}
+  \ddot{\delta} - a^2 \partial_i \partial_j \bigg((1+\delta) v_i v_j\bigg) =  a^2 \frac{\partial_i^2 P}{\rho_0} + a^2  \partial_i \bigg((1+\delta) \partial_i \phi \bigg)
+\end{equation}
+
+We can break this into the first, second and third order terms (in the
+perturbations):
+\begin{equation}
+  \ddot{\delta}  \mathcolor{blue}{- a^2 \partial_i \partial_j \bigg(
+    v_i v_j \bigg) }  \mathcolor{red}{-a^2 \partial_i \partial_j
+    \bigg( \delta v_i v_j \bigg) } = a^2 \frac{\partial_i^2 P
+  }{\rho_0}  + a^2 \partial_i^2 \phi  \mathcolor{blue}{+
+    a^2 \partial_i \bigg( \delta \partial_i \phi \bigg) } 
+\end{equation}
+where the first order terms are black, the second order terms are
+blue, and the third order terms are red.
+
+If we drop the third order terms and expand the second term, we end
+up with:
+\begin{equation}
+  \ddot{\delta} - a^2 \nabla \cdot ( \mathbf{v} ( \nabla \cdot
+  \mathbf{v} ) + ( \mathbf{v} \cdot \nabla ) \mathbf{v} ) - a^2
+  \frac{\nabla^2 P}{\rho_0} = a^2 \nabla^2 \phi + a^2 \nabla \cdot ( \delta
+  \nabla \phi) 
+\end{equation}
+
+What do we do with the third term? In k-space this becomes:
+\begin{align*}
+  \nabla \cdot ( \mathbf{v} (\mathbf{v} \cdot \nabla ) + ( \mathbf{v}
+  \cdot \nabla ) \mathbf{v} ) &= \partial_i ( v_j partial_j v_i +
+                                v_i \partial_j v_j ) \\
+  &= \partial_i v_j \partial_j v_i + v_j \partial_i \partial_j v_i
+    + \partial_i v_i \partial_j v_j + v_i \partial_i \partial_j v_j \\
+  &= 4 k_i k_j v_i v_j \\
+  &= 4 (\mathbf{k} \cdot \mathbf{v} )^2 
+\end{align*} 
+
+So in k-space we have:
+\begin{equation}
+  \ddot{\delta} - 4 a^2 ( \mathbf{k} \cdot \mathbf{v} )^2 - a^2
+  \frac{\nabla^2 P }{\rho_0} = a^2 \nabla^2 \phi + a^2 \nabla \cdot(
+  \delta \nabla \phi)
+\end{equation}
+
+From the Poisson equation, we have, in the matter dominated region:
+\begin{equation}
+  \nabla^2 \phi = 4 \pi G a^2 \bar{\rho}\delta = \frac{3}{2} H^2
+  a^2 \delta 
+\end{equation}
+In Fourier space, this means that we can write the potential:
+\begin{equation}
+  \phi = \frac{3}{2} \frac{H^2(t)a^2}{k^2} \delta = \frac{3}{2}
+  \frac{H^2(\tau) }{k^2 a^2} \delta 
+\end{equation}
+where $t$ is the physical time and $\tau$ is the super-conformal
+time.  We can then write the full equation:
+\begin{equation}
+  \ddot{\delta} - 4 a^2 ( \mathbf{k} \cdot \mathbf{v} )^2 - a^2
+  \frac{\nabla^2 P }{\rho_0} = \frac{3}{2} \frac{H^2(\tau)}{k^2} \nabla \cdot((1+
+  \delta) \nabla \delta_c)
+\end{equation}
+So once we have the velocity divergence, we can calculate this
+integral, although not with a Green's function?
+
+\end{document}
