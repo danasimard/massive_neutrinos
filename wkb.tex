@@ -132,6 +132,17 @@ Say we want N sample points per oscillation, where N should be about
   \mathrm{ \#\;of\;sample\;points} = N \frac{ k c_s } {2 \pi}
   (\tau(z=0)-\tau(z_0)) 
 \end{equation}
+This is equivalent to performing the interpolation in $\tau$ space
+instead of $t$ space.
 
+For the density power, this is working well, as you can see in figure
+\ref{fig:varinterp_den}.
+
+\begin{figure*}
+  \centering
+  \caption{Results of using variable interpolation when calculating
+    the neutrino density power.}\label{fig:varinterp_den}
+  \includegraphics[width=0.6\textwidth]{Figures/density_nu_variable_interpolation.pdf}
+\end{figure*}
 
 \end{document}
